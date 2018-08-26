@@ -1,0 +1,256 @@
+0	Blank	BLN
+1	Handgun	UNK
+2	Shotgun	UNK
+3	Slingshot 1	UNK
+4	Submachine Gun	UNK
+5	Rifle 1	UNK
+6	American Gun 1	UNK
+7	Masaharu Gun 1	UNK
+8	Aura Gun 1	UNK
+9	Gun 009	UNK
+10	Handgun	UNK
+11	Gun 00B	UNK
+12	Gun 00C	UNK
+13	Rifle 2	UNK
+14	Gun 014	UNK
+15	Gun 015	UNK
+16	Tkachev	Hero
+17	Governance	Hero
+18	Unmarked Pistol	UNK
+19	Tkachev II	Hero
+20	Tkachev HP	Hero
+21	Makaronov	Hero
+22	Makaronov II	Hero
+23	Governance HP	Hero
+24	Compact	Hero
+25	Eliminator	Hero
+26	Makaronov SP	Hero
+27	Compact HP	Hero
+28	Assassin	Hero
+29	Assassin SP	Hero
+30	Sand Hawk II	Hero
+31	Model Gun	Hero
+32	Levinson M31	Ryuji
+33	Levinson M31 II	Ryuji
+34	Granelli M3	Ryuji
+35	Levinson M31 HP	Ryuji
+36	Granelli M3 SP	Ryuji
+37	Heavy Shotgun	Ryuji
+38	Mad Maximum	Ryuji
+39	Fireworks	Ryuji
+40	Mad Maximum II	Ryuji
+41	Heavy Shotgun II	Ryuji
+42	Fireworks SP	Ryuji
+43	Storm Shot	Ryuji
+44	Pumpkin Bomb	Ryuji
+45	Big Sleep	Ryuji
+46	Masterkey	Ryuji
+47	Orso Nero	Ryuji
+48	Big Sleep SP	Ryuji
+49	Storm Shot II	Ryuji
+50	Fury SP	Ryuji
+51	Bianchi SBAS II	Ryuji
+52	Calamity Gun	Ryuji
+53	Orso Nero SP	Ryuji
+54	Volley Cannon II	Ryuji
+55	Smithereens	Ryuji
+56	Calamity Gun SP	Ryuji
+57	Kiraihou II	Ryuji
+58	Smithereens II	Ryuji
+59	Unmarked Shotgun	UNK
+60	Bianchi SBAS	Ryuji
+61	Nock Volley	Ryuji
+62	Hellfire	Ryuji
+63	Nock Volley SP	Ryuji
+64	Slingshot	Morgana
+65	Unmarked Sling	UNK
+66	Slingshot SP	Morgana
+67	Slingshot HP	Morgana
+68	Shrike	Morgana
+69	Upsilon	Morgana
+70	Slingbow II	Morgana
+71	Comet 3	Morgana
+72	Shrike SP	Morgana
+73	Comet 3 II	Morgana
+74	Spirit Sling	Morgana
+75	Upsilon II	Morgana
+76	Stronger	Morgana
+77	Northern Light SP	Morgana
+78	Intercept	Morgana
+79	Stronger SP	Morgana
+80	Spirit Sling HP	Morgana
+81	Pirate Killer	Morgana
+82	Mt. Liang SP	Morgana
+83	Dreamstone	Morgana
+84	Intercept II	Morgana
+85	Sling Cannon	Morgana
+86	Sling Cannon II	Morgana
+87	Pirate Killer SP	Morgana
+88	Utopia HP	Morgana
+89	Dreamstone II	Morgana
+90	Catnap	Morgana
+91	Mount Liang	Morgana
+92	Shrike II	Morgana
+93	Northern Light	Morgana
+94	Shooting Star	Morgana
+95	Star Slayer	Morgana
+96	Replica SMG	Ann
+97	Tommy Gun	Ann
+98	Unmarked SMG	UNK
+99	Trooper	Ann
+100	MP2 Prototype	Ann
+101	Flare SMG	Ann
+102	Blitz MG	Ann
+103	Sterlidge II	Ann
+104	Trooper SP	Ann
+105	MP2 Prototype II	Ann
+106	Civilian MP	Ann
+107	Hyakka Ryouran	Ann
+108	No Mercy	Ann
+109	Civilian MP II	Ann
+110	Western SMG	Ann
+111	No Mercy II	Ann
+112	Tarantula SP	Ann
+113	MP Victoria	Ann
+114	Antares	Ann
+115	Hien Renhappou	Ann
+116	Western SMG II	Ann
+117	MP Victoria EP	Ann
+118	Honoikazuchi	Ann
+119	H. Renhappou HP	Ann
+120	Phantom Killer II	Ann
+121	Honoikazuchi SP	Ann
+122	Sterlidge	Ann
+123	Brain Shot	Ann
+124	Tommy Gun II	Ann
+125	Flare SMG II	Ann
+126	Tarantula	Ann
+127	Blitz MGSP	Ann
+128	Replica AR	Yusuke
+129	Black Assault	Yusuke
+130	AR-M4	Yusuke
+131	Heavy Assault	Yusuke
+132	G1 Type	Yusuke
+133	AR-M4 II	Yusuke
+134	AR-M4 SP	Yusuke
+135	Black Assault SP	Yusuke
+136	Hero AR	Yusuke
+137	Heavy Assault II	Yusuke
+138	Blaze Assault	Yusuke
+139	Annihilator	Yusuke
+140	Tempest	Yusuke
+141	AR-X	Yusuke
+142	Hero AR II	Yusuke
+143	Cruel Carbine	Yusuke
+144	Blaze Assault SP	Yusuke
+145	Annihilator II	Yusuke
+146	Tempest II	Yusuke
+147	Cruel Carbine II	Yusuke
+148	Sharpshooter	Yusuke
+149	Ryuraihou II	Yusuke
+150	Sharpshooter II	Yusuke
+151	Hizutsu HP	Yusuke
+152	Kuzuryu Gouhou	Yusuke
+153	G1 Type SP	Yusuke
+154	Rebel Rifle	Yusuke
+155	Rebel Rifle SP	Yusuke
+156	Tempest HP	Yusuke
+157	Hizutsu	Yusuke
+158	Ryuraihou	Yusuke
+159	Heaven's Gate	Yusuke
+160	Replica Revolver	Makoto
+161	Peacemaker	Makoto
+162	P Revolver	Makoto
+163	PM Sheriff	Makoto
+164	PM Sheriff II	Makoto
+165	Ling Xing	Makoto
+166	P Revolver II	Makoto
+167	Peacemaker SP	Makoto
+168	Justness	Makoto
+169	Justness II	Makoto
+170	Evil Roulette	Makoto
+171	Wildborn SP	Makoto
+172	Artillery	Makoto
+173	Evil Roulette II	Makoto
+174	Ling Xing II	Makoto
+175	Calvary	Makoto
+176	Artillery II	Makoto
+177	Baptism SP	Makoto
+178	Orochi SP	Makoto
+179	Cavalry II	Makoto
+180	Twilight SP	Makoto
+181	Peacemaker HP	Makoto
+182	Mirrirmina	Makoto
+183	Wildborn	Makoto
+184	Baptism	Makoto
+185	Orochi	Makoto
+186	Twilight	Makoto
+187	Judge of the Dead	Makoto
+188	Fury	Ryuji
+189	Volley Cannon	Ryuji
+190	Kiraihou	Ryuji
+191	Megido Fire	Ryuji
+192	GL Replica	Haru
+193	Pawzooka	Haru
+194	Unmarked GL	UNK
+195	GL Mega	UNK
+196	GL Rep	UNK
+197	Scorcher	Haru
+198	GL Replica II	Haru
+199	Multiple GL	Haru
+200	Scorcher SP	Haru
+201	Eraser	Haru
+202	Town Burner HP	Haru
+203	Flame Ocean	Haru
+204	Eraser SP	Haru
+205	Multiple GL II	Haru
+206	Magma Bucket	Haru
+207	Magma Bucket SP	Haru
+208	Flame Ocean II	Haru
+209	Pandemonium SP	Haru
+210	Haru Reserve	UNK
+211	Haru Reserve 2	UNK
+212	Town Burner	Haru
+213	Town Burner SP	Haru
+214	Pandemonium	Haru
+215	Yagrush	Haru
+216	H. Ryouran HP	Ann
+217	Antares II	Ann
+218	Phantom Killer	Ann
+219	Wild Hunt	Ann
+220	Clemont Shot	UNK
+221	Golden Beam	Akechi
+222	Gun 222	UNK
+223	Gun 223	UNK
+224	Moebius	Akechi
+225	Moebius II	Akechi
+226	Sirius	Akechi
+227	Sirius SP	Akechi
+228	Slingbow	Morgana
+229	Star Slayer HP	Morgana
+230	Utopia	Morgana
+231	Sudarshana	Morgana
+232	Sleeper	Hero
+233	Karura II	Hero
+234	From Heaven	Hero
+235	Crimson Gun HP	Hero
+236	Riot Police SP	Hero
+237	Gravity Gun	Hero
+238	Medusan	Hero
+239	Sleeper SP	Hero
+240	R.I.Pistol	Hero
+241	Medusan II	Hero
+242	R.I.Pistol II	Hero
+243	Gravity Gun HP	Hero
+244	Nataraja	Hero
+245	Riot Police	Hero
+246	Sand Hawk	Hero
+247	Karura	Hero
+248	Crimson Gun	Hero
+249	From Heaven II	Hero
+250	Cocytus	Hero
+251	Cocytus SP	Hero
+252	Tyrant Pistol	Hero
+253	Gun 253	UNK
+254	Gun 254	UNK
+255	Gun 255	UNK

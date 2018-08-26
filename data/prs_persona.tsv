@@ -1,0 +1,351 @@
+0	S000	BLN																
+1	Metatron	Hero	89	1416292	213	53	59						54	61	60	57	42	9
+2	Beelzebub	Hero	84	1247059	85	69	63						55	60	54	56	34	16
+3	Cu Chulainn	Hero	67	729961	222	381	276						47	36	44	47	34	18
+4	Jack-o'-Lantern	Hero	2	39	10	346							2	3	3	3	2	2
+5	Jack Frost	Hero	11	4656	329	20	386						8	9	7	9	7	2
+6	Pixie	Hero	2	39	300	40							1	3	3	4	2	7
+7	Cerberus	Hero	55	441735	12	202							39	35	32	39	27	8
+8	Lilim	Hero	32	101328	21	85	352						17	23	18	25	20	16
+9	Eligor	Hero	16	13920	855	13	335						12	10	13	10	10	5
+10	Odin	Hero	82	1181040	341	254	150						53	52	54	52	42	5
+11	Hua Po	Hero	9	2582	10	90							4	10	4	8	8	13
+12	Decarabia	Hero	32	101328	11	94							21	23	19	22	18	1
+13	Mara	Hero	73	899806	15	226	375						47	46	49	45	39	17
+14	Ose	Hero	42	215013	801	276							32	24	25	31	21	1
+15	Thor	Hero	64	651175	802	202	42						44	39	43	38	35	8
+16	Unicorn	Hero	39	175534	201	355	52						20	27	25	28	24	6
+17	Uriel	Hero	81	1148454	272	243	254						50	54	49	55	42	9
+18	Sarasvati	Hero	50	343760	330	306	83						30	35	32	33	27	3
+19	Valkyrie	Hero	44	243976	801	221							33	24	28	29	25	12
+20	Yaksini	Hero	20	26570	800	266	93						14	11	13	16	13	4
+21	Ganesha	Hero	53	400935	211	206	365						39	31	37	33	26	20
+22	Anubis	Hero	37	151817	51	57	61						23	26	24	22	23	21
+23	Mot	Hero	72	870424	340	45	71						43	51	48	42	39	14
+24	Raphael	Hero	78	1052566	213	356	360						57	45	49	55	35	7
+25	Scathach	Hero	45	259260	855	34	253						29	30	28	30	25	3
+26	High Pixie	Hero	16	13920	90	30	305						8	14	10	13	10	1
+27	Barong	Hero	52	381338	388	93	42						33	35	33	37	25	5
+28	Girimehkala	Hero	44	243976	351	61	242						36	24	32	32	15	19
+29	King Frost	Hero	61	576768	22	386	202						38	39	45	33	35	5
+30	Narcissus	Hero	50	343760	81	328	34						27	36	29	35	30	7
+31	Isis	Hero	26	56358	11	301	337						15	21	16	18	15	3
+32	Lamia	Hero	26	56358	11	221	336						21	15	18	19	12	4
+33	Legion	Hero	38	163418	103	267	241						24	24	30	23	20	1
+34	Rakshasa	Hero	24	44855	211	335	383						20	15	18	17	9	12
+35	Mokoi	Hero	9	2582	80	261	335						9	5	6	10	4	14
+36	Forneus	Hero	63	625877	96	352	192						41	39	40	42	34	6
+37	Setanta	Hero	28	69553	800	275	211						20	17	19	18	17	5
+38	Titania	Hero	56	462933	75	91	376						32	40	35	38	30	4
+39	Incubus	Hero	5	460	103	84							4	6	4	5	3	16
+40	Oni	Hero	19	22912	800	224	241						17	8	16	13	10	12
+41	Lilith	Hero	60	552970	25	376	61						33	43	37	39	35	19
+42	Rangda	Hero	48	308340	272	801	242						28	34	30	33	26	2
+43	Makami	Hero	15	11535	250	328	73						13	12	8	11	8	15
+44	Parvati	Hero	56	462933	301	51	192						33	39	33	39	31	7
+45	Gabriel	Hero	77	1021274	25	45							43	51	48	54	42	15
+46	Zaou-Gongen	Hero	80	1116170	95	203	15						57	45	50	56	39	12
+47	Alice	Hero	79	1084202	355	63	907						43	59	40	57	45	14
+48	Kali	Hero	77	1021274	192	83	231						53	45	46	53	41	4
+49	Kurama Tengu	Hero	56	462933	278	236	352						34	38	34	42	27	10
+50	Oberon	Hero	66	703225	97	236	42						40	44	43	43	35	5
+51	Shiki-Ouji	Hero	21	30580	224	92	335						11	15	16	16	13	8
+52	Yamata-no-Orochi	Hero	64	651175	243	25	276						44	38	48	36	33	21
+53	Orobas	Hero	17	16601	356	13	337						11	14	15	12	6	6
+54	Hanuman	Hero	64	651175	350	366	253						43	38	40	40	38	18
+55	Archangel	Hero	16	13920	80	50	190						13	10	13	12	7	9
+56	Obariyon	Hero	8	1826	224	347							7	3	9	8	4	1
+57	Queen Mab	Hero	43	229228	87	44	383						23	35	26	30	22	2
+58	Sandalphon	Hero	75	959775	316	53	311						46	51	49	48	38	19
+59	Abaddon	Hero	74	929593	243	371	104						51	38	58	43	39	21
+60	Shiisaa	Hero	16	13920	250	261	40						13	9	12	13	8	8
+61	Sandman	Hero	24	44855	275	90	31						11	13	14	20	21	2
+62	Belial	Hero	68	757162	12	63	350						45	41	46	43	36	16
+63	Leanan Sidhe	Hero	19	22912	191	346							9	17	12	16	10	7
+64	Cybele	Hero	73	899806	59	307	311						44	48	45	51	38	3
+65	Chernobog	Hero	62	601073	272	222	61						40	37	39	38	39	14
+66	Flauros	Hero	25	50400	356	275	211						19	14	18	18	13	16
+67	Ippon-Datara	Hero	13	7596	920	260	335						11	7	14	6	8	10
+68	Orthrus	Hero	21	30580	11	812	250						16	14	14	19	7	13
+69	Succubus	Hero	7	1233	96	365							4	7	5	8	4	19
+70	Mothman	Hero	33	110444	44	942	261						21	24	16	24	21	19
+71	RESERVE	FLR																
+72	Dominion	Hero	68	757162	81	51	56						46	47	45	48	40	9
+73	Nekomata	Hero	17	16601	84	33	262						13	10	12	15	8	2
+74	Black Frost	Hero	67	729961	25	206	226						44	46	41	42	35	1
+75	Arahabaki	Hero	35	130135	95	371	938						21	23	22	24	22	10
+76	Angel	Hero	12	6009	80	300	50						7	9	9	9	9	9
+77	Skadi	Hero	55	441735	84	24	936						35	39	34	34	30	3
+78	Kikuri-Hime	Hero	40	188170	328	91	341						22	31	24	28	22	3
+79	Chi You	Hero	86	1314101	237	197	902						54	56	53	52	50	8
+80	Power	Hero	41	201328	51	337							30	26	28	25	21	9
+81	Inugami	Hero	14	9432	211	82	335						11	9	9	12	8	13
+82	Nebiros	Hero	62	601073	66	63	96						39	40	42	36	36	16
+83	RESERVE	FLR																
+84	Slime	Hero	10	3520	84	200							9	6	11	6	5	8
+85	Anzu	Hero	25	50400	31	342	387						14	18	15	21	14	6
+86	Yatagarasu	Hero	57	484660	12	355	376						35	41	30	40	32	20
+87	Yoshitsune	Hero	79	1084202	212	360	42						58	47	45	53	41	17
+88	Take-Minakata	Hero	29	76810	201	388	41						20	22	21	18	13	13
+89	Ame-no-Uzume	Hero	29	76810	21	301	43						15	22	19	20	18	7
+90	Kushinada	Hero	42	215013	266	24	306						24	30	26	28	25	7
+91	Kumbhanda	Hero	42	215013	266	111	93						29	25	27	26	26	10
+92	Ongyo-Ki	Hero	75	959775	87	946	254						56	42	47	48	39	10
+93	Kin-Ki	Hero	25	50400	230	336	830						21	13	21	15	12	8
+94	Sui-Ki	Hero	24	44855	21	263	23						16	15	15	18	15	19
+95	Fuu-Ki	Hero	23	39710	31	335	375						14	17	16	15	14	18
+96	Jatayu	Hero	32	101328	270	31	342						18	21	20	27	17	17
+97	Kaiwan	Hero	36	140724	86	191							23	26	24	22	20	18
+98	Kelpie	Hero	6	784	30	200							5	5	5	6	4	12
+99	Thoth	Hero	36	140724	74	352	92						21	28	21	24	21	5
+100	Dionysus	Hero	61	576768	95	236	192						35	41	38	40	36	1
+101	Apsaras	Hero	11	4656	20	381	365						7	11	6	10	6	3
+102	Andras	Hero	10	3520	20	346							5	9	7	10	6	16
+103	RESERVE	FLR																
+104	Koropokguru	Hero	9	2582	20	86							5	8	6	9	6	10
+105	Koppa Tengu	Hero	11	4656	224	30							7	8	8	11	6	15
+106	Regent	Hero	10	3520	23	67	76	33	57	193	13	43	10	10	10	10	10	5
+107	Queen's Necklace	Hero	15	11535	305	336	346	310	337	347	335	345	15	15	15	15	15	4
+108	Stone of Scone	Hero	20	26570	11	21	65	74	31	55	191	41	20	20	20	20	20	11
+109	Koh-i-Noor	Hero	25	50400	834	816	810	812	833	972	975	814	25	25	25	25	25	3
+110	Orlov	Hero	30	84520	24	68	77	34	58	194	14	44	30	30	30	30	30	12
+111	Emperor's Amulet	Hero	35	130135	12	22	66	75	32	56	192	42	35	35	35	35	35	13
+112	Hope Diamond	Hero	40	188170	844	847	841	805	850	802	836	831	40	40	40	40	40	14
+113	Crystal Skull	Hero	50	343760	25	69	78	35	59	195	15	45	50	50	50	50	50	1
+114	RESERVE	FLR																
+115	RESERVE	FLR																
+116	RESERVE	FLR																
+117	RESERVE	FLR																
+118	RESERVE	FLR																
+119	RESERVE	FLR																
+120	RESERVE	FLR																
+121	Mandrake	Hero	3	108	328	82							2	3	3	4	4	14
+122	Baal	Hero	75	959775	35	340	366						48	50	47	47	40	5
+123	Dakini	Hero	50	343760	277	211	221						34	32	34	28	29	4
+124	Silky	Hero	6	784	20	90							4	7	4	5	5	3
+125	Bugs	Hero	49	325780	352	206	192						35	33	30	32	24	1
+126	Black Ooze	Hero	29	76810	84	350	111						19	18	20	16	21	19
+127	Bicorn	Hero	4	241	200	345							5	3	3	5	3	10
+128	Mithras	Hero	39	175534	77	235	83						27	25	27	25	20	20
+129	Sudama	Hero	17	16601	855	205	33						9	14	12	13	10	10
+130	Kodama	Hero	11	4656	30	346							7	11	8	10	4	18
+131	Agathion	Hero	3	108	329	300	40						3	4	5	7	3	8
+132	Onmoraki	Hero	12	6009	381	60							9	12	7	10	5	19
+133	Nue	Hero	20	26570	67	261							16	10	17	14	10	19
+134	Pisaca	Hero	29	76810	265	241	111						19	21	21	17	16	14
+135	Melchizedek	Hero	60	552970	51	202							37	38	41	39	32	9
+136	Baphomet	Hero	58	506910	12	940	811						34	42	36	38	31	16
+137	Raja Naga	Hero	55	441735	388	83	42						33	37	36	35	31	15
+138	Naga	Hero	24	44855	273	250	41						15	17	15	17	15	10
+139	Garuda	Hero	52	381338	316	32	236						30	36	29	39	29	18
+140	Moloch	Hero	60	552970	85	192	111						32	45	42	31	37	13
+141	Norn	Hero	52	381338	81	32	42						30	38	33	34	28	11
+142	Belphegor	Hero	37	151817	21	810							25	27	24	23	19	17
+143	Berith	Hero	9	2582	210	336							8	6	7	8	5	6
+144	Choronzon	Hero	28	69553	103	82	241						16	19	19	18	19	2
+145	RESERVE	FLR																
+146	RESERVE	FLR																
+147	RESERVE	FLR																
+148	RESERVE	FLR																
+149	RESERVE	FLR																
+150	RESERVE	FLR																
+151	Nigi Mitama	Hero	20	26570	329	57	305						12	14	14	15	12	15
+152	Kushi Mitama	Hero	14	9432	20	30	86	305					8	12	11	9	9	12
+153	Ara Mitama	Hero	31	92689	74	206	92						20	19	20	20	21	8
+154	Saki Mitama	Hero	6	784	20	328	383						4	6	5	6	4	7
+155	RESERVE	FLR																
+156	Shiva	Hero	82	1181040	806	45	197						55	54	53	53	38	21
+157	Michael	Hero	87	1347965	348	160	25						57	54	55	56	46	21
+158	Asura	Hero	76	990339	176	53	341						52	48	51	49	35	20
+159	Mada	Hero	85	1280460	12	940	821						52	51	58	56	45	17
+160	Mother Harlot	Hero	80	1116170	25	63	907						55	48	46	49	49	4
+161	Clotho	Hero	26	56358	52	86	330						14	19	17	20	15	11
+162	Lachesis	Hero	34	120044	21	863	331						18	25	22	25	19	11
+163	Atropos	Hero	39	175534	388	380	44						23	30	22	27	22	11
+164	Ardha	Hero	84	1247059	177	203	837						54	56	55	54	40	15
+165	RESERVE	FLR																
+166	Vishnu	Hero	83	1213913	857	35	72						56	51	49	57	43	1
+167	Hariti	Hero	40	188170	327	331	41						24	29	25	26	23	4
+168	Yurlungur	Hero	42	215013	97	44	70						26	29	28	27	23	20
+169	Hecatoncheires	Hero	42	215013	831	242	335						29	25	30	25	24	13
+170	Satanael	Hero	95	1624735	69	72	227	809					63	60	57	56	56	1
+171	RESERVE	FLR																
+172	RESERVE	FLR																
+173	RESERVE	FLR																
+174	RESERVE	FLR																
+175	RESERVE	FLR																
+176	RESERVE	FLR																
+177	RESERVE	FLR																
+178	RESERVE	FLR																
+179	RESERVE	FLR																
+180	RESERVE	FLR																
+181	Orpheus	DLC	26	56358	11	704	345						17	17	17	17	17	1
+182	Thanatos	DLC	65	676960	706	69	63						43	49	41	38	31	14
+183	Izanagi	DLC	20	26570	705	335	41						14	13	13	14	13	1
+184	Magatsu-Izanagi	DLC	44	243976	113	707	71						37	35	32	25	10	17
+185	Kaguya	DLC	16	13920	801	306	708						11	15	12	11	6	19
+186	Ariadne	DLC	30	84520	856	206	709						23	19	20	17	18	11
+187	Asterius	DLC	56	462933	940	15	710						43	43	32	32	25	11
+188	Tsukiyomi	DLC	50	343760	898	103	711	254					38	32	33	37	17	19
+189	Messiah	DLC	81	1148454	203	72	712						50	50	50	50	50	21
+190	Messiah Picaro	DLC	90	1450720	244	72	712						56	56	55	55	55	21
+191	Orpheus Picaro	DLC	29	76810	704	14	350						19	19	19	19	18	1
+192	Thanatos Picaro	DLC	69	784818	706	69	63						45	51	43	40	35	14
+193	Izanagi Picaro	DLC	23	39710	705	336	41						16	15	15	16	14	1
+194	M. Izanagi Picaro	DLC	48	308340	113	707	71						40	38	35	27	11	17
+195	Kaguya Picaro	DLC	25	50400	802	306	708						17	20	19	15	11	19
+196	Ariadne Picaro	DLC	42	215013	856	206	709						36	23	29	24	21	11
+197	Asterius Picaro	DLC	62	601073	940	15	710						46	46	36	36	29	11
+198	Tsukiyomi Picaro	DLC	55	441735	898	711	254	104					41	35	36	40	20	19
+199	Satanael	DUP																
+200	UNK	DUP																
+201	Arsene	Hero	1	0	64								2	2	2	3	1	1
+202	Captain Kidd	Ryuji																
+203	Zorro	Morgana																
+204	Carmen	Ann																
+205	Goemon	Yusuke																
+206	Johanna	Makoto																
+207	Milady	Haru																
+208	Necronomicon	Futaba																
+209	Robin Hood	Akechi																
+210	Loki	DUP																
+211	Satanael	DUP																
+212	Seiten Taisei	Ryuji																
+213	Mercurius	Morgana																
+214	Hecate	Ann																
+215	Kamu Susano-o	Yusuke																
+216	Anat	Makoto																
+217	Astarte	Haru																
+218	Prometheus	Futaba																
+219	Loki	Akechi																
+220	Arsene	DUP																
+221	Captain Kidd	DUP																
+222	Zorro	DUP																
+223	Carmen	DUP																
+224	Goemon	DUP																
+225	Johanna	DUP																
+226	Milady	DUP																
+227	Necronomicon	DUP																
+228	Robin Hood	DUP																
+229	RESERVE	FLR																
+230	Lucifer	DUP																
+231	Seiten Taisei	DUP																
+232	Mercurius	DUP																
+233	Hecate	DUP																
+234	Kamu Susano-o	DUP																
+235	Anat	DUP																
+236	Astarte	DUP																
+237	Prometheus	DUP																
+238	Loki	DUP																
+239	RESERVE	FLR																
+240	RESERVE	FLR																
+241	RESERVE	FLR																
+242	RESERVE	FLR																
+243	RESERVE	FLR																
+244	RESERVE	FLR																
+245	RESERVE	FLR																
+246	RESERVE	FLR																
+247	RESERVE	FLR																
+248	RESERVE	FLR																
+249	RESERVE	FLR																
+250	RESERVE	FLR																
+251	RESERVE	FLR																
+252	Satan	Hero	92	1520008	237	121							62	59	55	52	55	21
+253	Lucifer	Hero	93	1554832	130	131	832						61	59	59	56	51	18
+254	Kohryu	Hero	76	990339	195	307	197						43	51	50	53	38	6
+255	Okuninushi	Hero	44	243976	194	340	253						30	28	29	28	24	5
+256	Norn	DUP																
+257	RESERVE	FLR																
+258	RESERVE	FLR																
+259	Futsunushi	Hero	76	990339	857	340	254						54	48	47	49	37	2
+260	RESERVE	FLR																
+261	Seth	Hero	51	362279	12	342	226						32	35	30	35	28	17
+262	Ishtar	Hero	85	1280460	883	307	311						48	59	49	58	48	7
+263	RESERVE	FLR																
+264	Surt	Hero	59	529682	12	385	202						37	40	39	35	33	2
+265	Siegfried	Hero	69	784818	802	342	202						51	37	47	48	31	12
+266	Lakshmi	Hero	69	784818	22	302	91						40	47	43	46	38	11
+267	RESERVE	FLR																
+268	RESERVE	FLR																
+269	Ex-Belphegor	INV																
+270	RESERVE	FLR																
+271	Garuda	DUP																
+272	Fortuna	Hero	46	275081	34	342	372						23	32	29	34	27	11
+273	Suzaku	Hero	19	22912	73	96	345						11	14	10	18	11	20
+274	Seiryu	Hero	62	601073	22	302	341						38	41	43	37	34	15
+275	Genbu	Hero	7	1233	20	346							5	6	7	6	4	15
+276	Byakko	Hero	49	325780	801	24	242						32	32	31	32	27	15
+277	Bishamonten	Hero	67	729961	302	75							49	37	42	45	35	6
+278	Koumokuten	Hero	49	325780	201	831	366						37	32	34	31	25	10
+279	Jikokuten	Hero	25	50400	273	843	346						19	12	19	17	15	15
+280	Zouchouten	Hero	31	92689	211	41							22	19	24	18	17	12
+281	Hell Biker	Hero	39	175534	11	61	846						26	27	24	30	17	14
+282	Daisoujou	Hero	42	215013	58	104							22	33	24	25	29	6
+283	Trumpeter	Hero	59	529682	95	278	78						33	42	40	38	31	21
+284	White Rider	Hero	39	175534	84	276	225						24	24	25	26	25	8
+285	Matador	Hero	19	22912	930	190	337						12	13	12	16	11	14
+286	Pale Rider	Hero	53	400935	95	268	66						34	34	33	39	26	14
+287	Horus	Hero	49	325780	301	56	70						30	32	32	35	25	20
+288	RESERVE	FLR																
+289	Attis	Hero	82	1181040	15	318	343						56	50	48	51	48	13
+290	RESERVE	FLR																
+291	RESERVE	FLR																
+292	Sraosha	Hero	80	1116170	906	56	53						47	56	45	56	43	18
+293	Berith	DUP																
+294	RESERVE	FLR																
+295	Mitra	Hero	33	110444	301	55	52						19	26	19	24	18	15
+296	Phoenix	Hero	22	34956	265	74							14	15	15	18	11	6
+297	Principality	Hero	29	76810	87	58	372						17	19	18	21	19	9
+298	Neko Shogun	Hero	30	84520	301	342	191						19	20	19	21	18	18
+299	Vasuki	Hero	68	757162	97	53	225						41	46	45	42	37	13
+300	Ananta	Hero	43	229228	843	382	77						24	30	31	26	25	18
+301	Throne	Hero	71	841458	906	837	53						42	49	47	46	36	9
+302	RESERVE	FLR																
+303	Quetzalcoatl	Hero	63	625877	273	32	34						38	42	41	41	34	20
+304	Red Rider	Hero	41	201328	194	396	221						26	27	25	29	23	17
+305	Black Rider	Hero	59	529682	270	69	63						38	43	37	45	30	17
+306	RESERVE	FLR																
+307	Ex-Moloch	INV																
+308	Pazuzu	Hero	43	229228	68	61	83						29	30	27	26	24	16
+309	RESERVE	FLR																
+310	Slime	DUP																
+311	Jack-o'-Lantern	DUP																
+312	Agathion	DUP																
+313	Mandrake	DUP																
+314	Shiisaa	DUP																
+315	Jack Frost	DUP																
+316	Sudama	DUP																
+317	Onmoraki	DUP																
+318	Bugs	DUP																
+319	Pixie	DUP																
+320	Pixie	DUP																
+321	Ardha	DUP																
+322	RESERVE	FLR																
+323	RESERVE	FLR																
+324	RESERVE	FLR																
+325	RESERVE	FLR																
+326	RESERVE	FLR																
+327	RESERVE	FLR																
+328	RESERVE	FLR																
+329	RESERVE	FLR																
+330	RESERVE	FLR																
+331	RESERVE	FLR																
+332	RESERVE	FLR																
+333	RESERVE	FLR																
+334	RESERVE	FLR																
+335	RESERVE	FLR																
+336	RESERVE	FLR																
+337	RESERVE	FLR																
+338	RESERVE	FLR																
+339	RESERVE	FLR																
+340	RESERVE	FLR																
+341	RESERVE	FLR																
+342	RESERVE	FLR																
+343	RESERVE	FLR																
+344	RESERVE	FLR																
+345	RESERVE	FLR																
+346	RESERVE	FLR																
+347	RESERVE	FLR																
+348	RESERVE	FLR																
+349	RESERVE	FLR																
+350	RESERVE	FLR																

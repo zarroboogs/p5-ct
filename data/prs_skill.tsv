@@ -1,0 +1,1000 @@
+0	Attack	BLN
+1	BLANK	FLR
+2	BLANK	FLR
+3	BLANK	FLR
+4	BLANK	FLR
+5	BLANK	FLR
+6	BLANK	FLR
+7	BLANK	FLR
+8	BLANK	FLR
+9	BLANK	FLR
+10	Agi	VAL
+11	Agilao	VAL
+12	Agidyne	VAL
+13	Maragi	VAL
+14	Maragion	VAL
+15	Maragidyne	VAL
+16	Agi	DUP
+17	Maragi	DUP
+18	BLANK	FLR
+19	BLANK	FLR
+20	Bufu	VAL
+21	Bufula	VAL
+22	Bufudyne	VAL
+23	Mabufu	VAL
+24	Mabufula	VAL
+25	Mabufudyne	VAL
+26	Bufu	DUP
+27	Mabufu	DUP
+28	BLANK	FLR
+29	BLANK	FLR
+30	Garu	VAL
+31	Garula	VAL
+32	Garudyne	VAL
+33	Magaru	VAL
+34	Magarula	VAL
+35	Magarudyne	VAL
+36	Garu	DUP
+37	BLANK	FLR
+38	BLANK	FLR
+39	BLANK	FLR
+40	Zio	VAL
+41	Zionga	VAL
+42	Ziodyne	VAL
+43	Mazio	VAL
+44	Mazionga	VAL
+45	Maziodyne	VAL
+46	Zio	DUP
+47	Mazio	DUP
+48	BLANK	FLR
+49	BLANK	FLR
+50	Hama	VAL
+51	Hamaon	VAL
+52	Mahama	VAL
+53	Mahamaon	VAL
+54	Kouha	VAL
+55	Kouga	VAL
+56	Kougaon	VAL
+57	Makouha	VAL
+58	Makouga	VAL
+59	Makougaon	VAL
+60	Mudo	VAL
+61	Mudoon	VAL
+62	Mamudo	VAL
+63	Mamudoon	VAL
+64	Eiha	VAL
+65	Eiga	VAL
+66	Eigaon	VAL
+67	Maeiha	VAL
+68	Maeiga	VAL
+69	Maeigaon	VAL
+70	Megido	VAL
+71	Megidola	VAL
+72	Megidolaon	VAL
+73	Frei	VAL
+74	Freila	VAL
+75	Freidyne	VAL
+76	Mafrei	VAL
+77	Mafreila	VAL
+78	Mafreidyne	VAL
+79	BLANK	FLR
+80	Dazzler	VAL
+81	Nocturnal Flash	VAL
+82	Pulinpa	VAL
+83	Tentarafoo	VAL
+84	Evil Touch	VAL
+85	Evil Smile	VAL
+86	Makajama	VAL
+87	Makajamaon	VAL
+88	Famine's Breath	INV
+89	Famine's Scream	INV
+90	Dormina	VAL
+91	Lullaby	VAL
+92	Taunt	VAL
+93	Wage War	VAL
+94	Ominous Words	VAL
+95	Abysmal Surge	VAL
+96	Marin Karin	VAL
+97	Brain Jack	VAL
+98	Trapped Rat	INV
+99	BLANK	FLR
+100	Self-destruct	INV
+101	Self-destruct	DUP
+102	Self-destruct	DUP
+103	Life Drain	VAL
+104	Spirit Drain	VAL
+105	Life Leech	INV
+106	Spirit Leech	INV
+107	Spirit Drain	DUP
+108	BLANK	FLR
+109	BLANK	FLR
+110	Foul Breath	VAL
+111	Stagnant Air	VAL
+112	Reverse Rub	INV
+113	Ghastly Wail	VAL
+114	BLANK	FLR
+115	BLANK	FLR
+116	BLANK	FLR
+117	BLANK	FLR
+118	BLANK	FLR
+119	BLANK	FLR
+120	Inferno	VAL
+121	Blazing Hell	VAL
+122	Low Burn	INV
+123	Mid Burn	INV
+124	High Burn	INV
+125	Low Freeze	INV
+126	Mid Freeze	INV
+127	High Freeze	INV
+128	Low Shock	INV
+129	Mid Shock	INV
+130	Diamond Dust	VAL
+131	Ice Age	VAL
+132	High Shock	INV
+133	Low Dizzy	INV
+134	Mid Dizzy	INV
+135	High Dizzy	INV
+136	Low Confuse	INV
+137	Mid Confuse	INV
+138	High Confuse	INV
+139	Low Fear	INV
+140	Panta Rhei	VAL
+141	Vacuum Wave	VAL
+142	Mid Fear	INV
+143	High Fear	INV
+144	Low Forget	INV
+145	Mid Forget	INV
+146	High Forget	INV
+147	Low Brainwash	INV
+148	Mid Brainwash	INV
+149	High Brainwash	INV
+150	Thunder Reign	VAL
+151	Wild Thunder	VAL
+152	Low Sleep	INV
+153	Mid Sleep	INV
+154	High Sleep	INV
+155	Low Rage	INV
+156	Mid Rage	INV
+157	High Rage	INV
+158	Low Despair	INV
+159	Mid Despair	INV
+160	Divine Judgment	VAL
+161	Samsara	VAL
+162	High Despair	INV
+163	Low All Ail	INV
+164	Mid All Ail	INV
+165	High All Ail	INV
+166	BLANK	FLR
+167	BLANK	FLR
+168	BLANK	FLR
+169	BLANK	FLR
+170	Demonic Decree	VAL
+171	Die For Me!	VAL
+172	BLANK	FLR
+173	BLANK	FLR
+174	BLANK	FLR
+175	BLANK	FLR
+176	Atomic Flare	VAL
+177	Cosmic Flare	VAL
+178	BLANK	FLR
+179	BLANK	FLR
+180	Black Viper	VAL
+181	Morning Star	VAL
+182	BLANK	FLR
+183	BLANK	FLR
+184	BLANK	FLR
+185	BLANK	FLR
+186	BLANK	FLR
+187	BLANK	FLR
+188	BLANK	FLR
+189	BLANK	FLR
+190	Psi	VAL
+191	Psio	VAL
+192	Psiodyne	VAL
+193	Mapsi	VAL
+194	Mapsio	VAL
+195	Mapsiodyne	VAL
+196	BLANK	FLR
+197	Psycho Force	VAL
+198	Psycho Blast	VAL
+199	BLANK	FLR
+200	Lunge	VAL
+201	Assault Dive	VAL
+202	Megaton Raid	VAL
+203	God's Hand	VAL
+204	Lunge	DUP
+205	Lucky Punch	VAL
+206	Miracle Punch	VAL
+207	BLANK	FLR
+208	BLANK	FLR
+209	BLANK	FLR
+210	Cleave	VAL
+211	Giant Slice	VAL
+212	Brave Blade	VAL
+213	Sword Dance	VAL
+214	BLANK	FLR
+215	Hassou Tobi	VAL
+216	Ayamur	VAL
+217	BLANK	FLR
+218	BLANK	FLR
+219	BLANK	FLR
+220	Cornered Fang	VAL
+221	Rising Slash	VAL
+222	Deadly Fury	VAL
+223	BLANK	FLR
+224	Snap	VAL
+225	Triple Down	VAL
+226	One-shot Kill	VAL
+227	Riot Gun	VAL
+228	BLANK	FLR
+229	BLANK	FLR
+230	Vajra Blast	VAL
+231	Vorpal Blade	VAL
+232	BLANK	FLR
+233	BLANK	FLR
+234	BLANK	FLR
+235	Vicious Strike	VAL
+236	Heat Wave	VAL
+237	Gigantomachia	VAL
+238	BLANK	FLR
+239	BLANK	FLR
+240	BLANK	FLR
+241	Rampage	VAL
+242	Swift Strike	VAL
+243	Deathbound	VAL
+244	Agneyastra	VAL
+245	BLANK	FLR
+246	BLANK	FLR
+247	Rising Slash	DUP
+248	Deadly Fury	DUP
+249	BLANK	FLR
+250	Double Fangs	VAL
+251	BLANK	FLR
+252	BLANK	FLR
+253	Tempest Slash	VAL
+254	Myriad Slashes	VAL
+255	BLANK	FLR
+256	BLANK	FLR
+257	BLANK	FLR
+258	BLANK	FLR
+259	BLANK	FLR
+260	Sledgehammer	VAL
+261	Skull Cracker	VAL
+262	Terror Claw	VAL
+263	Headbutt	VAL
+264	Stomach Blow	INV
+265	Dream Needle	VAL
+266	Hysterical Slap	VAL
+267	Negative Pile	VAL
+268	Brain Shake	VAL
+269	BLANK	FLR
+270	Flash Bomb	VAL
+271	Mind Slice	VAL
+272	Bloodbath	VAL
+273	Memory Blow	VAL
+274	Insatiable Strike	INV
+275	Dormin Rush	VAL
+276	Oni-Kagura	VAL
+277	Bad Beat	VAL
+278	Brain Buster	VAL
+279	BLANK	FLR
+280	Handgun	INV
+281	Shotgun	INV
+282	Slingshot	INV
+283	Machine Gun	INV
+284	Assault Rifle	INV
+285	Revolver	INV
+286	Grenade Launcher	INV
+287	Laser Gun	INV
+288	BLANK	FLR
+289	BLANK	FLR
+290	BLANK	FLR
+291	BLANK	FLR
+292	BLANK	FLR
+293	BLANK	FLR
+294	BLANK	FLR
+295	BLANK	FLR
+296	BLANK	FLR
+297	BLANK	FLR
+298	BLANK	FLR
+299	Attack	DUP
+300	Dia	VAL
+301	Diarama	VAL
+302	Diarahan	VAL
+303	BLANK	FLR
+304	BLANK	FLR
+305	Media	VAL
+306	Mediarama	VAL
+307	Mediarahan	VAL
+308	BLANK	FLR
+309	BLANK	FLR
+310	Recarm	VAL
+311	Samarecarm	VAL
+312	Recarmdra	INV
+313	BLANK	FLR
+314	BLANK	FLR
+315	Amrita Drop	VAL
+316	Amrita Shower	VAL
+317	BLANK	FLR
+318	Salvation	VAL
+319	BLANK	FLR
+320	BLANK	FLR
+321	BLANK	FLR
+322	BLANK	FLR
+323	BLANK	FLR
+324	BLANK	FLR
+325	Patra	VAL
+326	BLANK	FLR
+327	Energy Shower	VAL
+328	Energy Drop	VAL
+329	Baisudi	VAL
+330	Me Patra	VAL
+331	Mabaisudi	VAL
+332	BLANK	FLR
+333	BLANK	FLR
+334	BLANK	FLR
+335	Tarukaja	VAL
+336	Rakukaja	VAL
+337	Sukukaja	VAL
+338	Heat Riser	VAL
+339	BLANK	FLR
+340	Matarukaja	VAL
+341	Marakukaja	VAL
+342	Masukukaja	VAL
+343	Thermopylae	VAL
+344	BLANK	FLR
+345	Tarunda	VAL
+346	Rakunda	VAL
+347	Sukunda	VAL
+348	Debilitate	VAL
+349	BLANK	FLR
+350	Matarunda	VAL
+351	Marakunda	VAL
+352	Masukunda	VAL
+353	BLANK	FLR
+354	BLANK	FLR
+355	Dekunda	VAL
+356	Dekaja	VAL
+357	BLANK	FLR
+358	BLANK	FLR
+359	BLANK	FLR
+360	Charge	VAL
+361	Concentrate	VAL
+362	BLANK	FLR
+363	BLANK	FLR
+364	BLANK	FLR
+365	Rebellion	VAL
+366	Revolution	VAL
+367	BLANK	FLR
+368	BLANK	FLR
+369	BLANK	FLR
+370	Tetrakarn	VAL
+371	Makarakarn	VAL
+372	Tetraja	VAL
+373	BLANK	FLR
+374	BLANK	FLR
+375	Tetra Break	VAL
+376	Makara Break	VAL
+377	BLANK	FLR
+378	BLANK	FLR
+379	BLANK	FLR
+380	Fire Wall	VAL
+381	Ice Wall	VAL
+382	Elec Wall	VAL
+383	Wind Wall	VAL
+384	BLANK	FLR
+385	Fire Break	VAL
+386	Ice Break	VAL
+387	Wind Break	VAL
+388	Elec Break	VAL
+389	BLANK	FLR
+390	Trafuri	INV
+391	Traesto	INV
+392	BLANK	FLR
+393	Nuke Wall	VAL
+394	Psy Wall	VAL
+395	Nuke Break	VAL
+396	Psy Break	VAL
+397	BLANK	FLR
+398	BLANK	FLR
+399	BLANK	FLR
+400	All-out Lv 1	INV
+401	All-out Lv 2	INV
+402	All-out Lv 3	INV
+403	Emergency Escape	INV
+404	Attack	DUP
+405	Down Shot	INV
+406	Summon	INV
+407	Call for Backup	INV
+408	Outlaw Attack	INV
+409	Barrage	INV
+410	Follow Crush	INV
+411	Follow Claw	INV
+412	Follow Whip	INV
+413	Follow Blade	INV
+414	Follow Knuckle	INV
+415	Follow Axe	INV
+416	Follow Saber	INV
+417	Dispose Item	INV
+418	Heal Enemy	INV
+419	Death (Despair)	INV
+420	Ally1 Follow-Up	INV
+421	Ally2 Follow-Up	INV
+422	Ally3 Follow-Up	INV
+423	Ally4 Follow-Up	INV
+424	Ally5 Follow-Up	INV
+425	Ally6 Follow-Up	INV
+426	Ally7 Follow-Up	INV
+427	Power Up Enemy	INV
+428	Power Up Enemy	DUP
+429	Power Up Enemy	DUP
+430	Steal Info	INV
+431	Sup Matarukaja	INV
+432	Sup Marakukaja	INV
+433	Sup Masukukaja	INV
+434	Sup All Kaja	INV
+435	Sup Charge	INV
+436	Sup HP +30%	INV
+437	Sup SP +10%	INV
+438	Sup Escape Route	INV
+439	Sup Third Eye	INV
+440	Subrecover HP	FUT
+441	Subrecover SP	FUT
+442	Analysis	INV
+443	Deep Analysis	INV
+444	Full Analysis	INV
+445	All-Out Attack	INV
+446	Dust Flurry	INV
+447	Tongue Whip	INV
+448	Whip Strike	INV
+449	Lustful Slurp	INV
+450	Libido Boost	INV
+451	Golden Knife	INV
+452	Lick	INV
+453	Gold Medal Spike	INV
+454	Volleyball Assault	INV
+455	Maelstrom	INV
+456	Flame Dance	INV
+457	Silent Snowscape	INV
+458	Thunderclap	INV
+459	Maeiga	DUP
+460	Hunger All	INV
+461	Ocular Vulcan	INV
+462	Missile Party	INV
+463	Fear Gas	INV
+464	Super VIP Form	INV
+465	March of the Piggy	INV
+466	Sphinx Swipe	INV
+467	Wing Blast	INV
+468	Rapid Ascent	INV
+469	Sphinx Dive	INV
+470	Dreadful Scream	INV
+471	Bite	INV
+472	Restore	INV
+473	The Artist's Grace	INV
+474	Work Order	INV
+475	Sacrifice Order	INV
+476	Selfless Devotion	INV
+477	Penalty	INV
+478	Coin Attack	INV
+479	Severing Slash	INV
+480	Gatling Gun	INV
+481	Berserker Dance	INV
+482	Roulette HP	INV
+483	Roulette SP	DUP
+484	Roulette Money	DUP
+485	Roulette Aid 1	DUP
+486	Roulette Aid 2	DUP
+487	Roulette Aid 3	DUP
+488	Beast King's Wrath	INV
+489	Hunting Stance	INV
+490	Arm of Destruction	INV
+491	Gryphon's Breath	INV
+492	Royal Wing Beam	INV
+493	Cannon Fire	INV
+494	Cannon Barrage	INV
+495	Unholy Convergence	INV
+496	Pyramid Blast	INV
+497	Tyrant's Fist	INV
+498	Tyrant's Glare	INV
+499	Tyrant's Wave	INV
+500	Fig Seed	INV
+501	Medicine	INV
+502	Ointment	INV
+503	Antibiotic Gel	INV
+504	Life Stone	INV
+505	Bead	INV
+506	Value Medicine	INV
+507	Medical Kit	INV
+508	Maka Leaf	INV
+509	Bead Chain	INV
+510	Soul Drop	INV
+511	Snuff Soul	INV
+512	Chewing Soul	INV
+513	Soul Food	INV
+514	Revival Bead	INV
+515	Balm of Life	INV
+516	Royel Jelly	INV
+517	Organic Herb	INV
+518	Disclose	INV
+519	Tranquilizer	INV
+520	Kopi Luwak	INV
+521	Goho-M	INV
+522	Vanish Ball	INV
+523	Soma	INV
+524	Amrita Soda	INV
+525	Hiranya	INV
+526	Muscle Drink	INV
+527	Odd Morsel	INV
+528	Rancid Gravy	INV
+529	Plume of Dusk	INV
+530	Magic Mirror	INV
+531	Physical Mirror	INV
+532	Universe Ring	INV
+533	Sleipnir	INV
+534	Obsidian Mirror	INV
+535	Purifying Water	INV
+536	Purifying Salt	INV
+537	Firecracker	INV
+538	San-zun Tama	INV
+539	Ice Cube	INV
+540	Dry Ice	INV
+541	Pinwheel	INV
+542	Yashichi	INV
+543	Ball Lightning	INV
+544	Tesla Coil	INV
+545	Smart Bomb	INV
+546	Segami Rice	INV
+547	Curse Paper	INV
+548	Flame Magatama	INV
+549	Wind Magatama	INV
+550	Freeze Magatama	INV
+551	Bolt Magatama	INV
+552	Homunculus	INV
+553	Removal Potion	INV
+554	Kouga Ball	INV
+555	Makouha Ball	INV
+556	Eiga Ball	INV
+557	Maeiga Ball	INV
+558	Psio Ball	INV
+559	Mapsi Ball	INV
+560	Freila Ball	INV
+561	Mafrei Ball	INV
+562	Nuke Magatama	INV
+563	Psy Magatama	INV
+564	Bless Magatama	INV
+565	Curse Magatama	INV
+566	Cooking	INV
+567	Snack	INV
+568	Shoes 1	INV
+569	Shoes 2	INV
+570	Shoes 3	INV
+571	Juice Bar 1	INV
+572	Juice Bar 2	INV
+573	Juice Bar 3	INV
+574	Juice Bar 4	INV
+575	Energy Drink 1	INV
+576	Energy Drink 2	INV
+577	Energy Drink 3	INV
+578	Soda 1	INV
+579	Soda 2	INV
+580	Soda 3	INV
+581	Soda 4	INV
+582	Ration 1	INV
+583	Ration 2	INV
+584	Ration 3	INV
+585	Drug Store 1	INV
+586	Drug Store 2	INV
+587	Drug Store 3	INV
+588	Drug Store 4	INV
+589	Drug Store 5	INV
+590	Drug Store 6	INV
+591	Drug Store 7	INV
+592	Drug Store 8	INV
+593	Drug Store 9	INV
+594	Drug Store 10	INV
+595	Drug Store 11	INV
+596	Drug Store 12	INV
+597	Coffee 1	INV
+598	Coffee 2	INV
+599	BLANK	FLR
+600	Twins Down Attack	INV
+601	Caro Rod	INV
+602	Caro Attack	INV
+603	Megidolaon	DUP
+604	Rays of Control	INV
+605	Rays of Control	DUP
+606	Rays of Control	DUP
+607	Rays of Control	DUP
+608	Arrow of Light	INV
+609	Diffraction Arrow	INV
+610	Light Edge	INV
+611	Gathering Light	INV
+612	Eternal Light	INV
+613	Holy Change	INV
+614	Distortion Wave	INV
+615	Tough Law	INV
+616	Frail Law	INV
+617	New Creation	INV
+618	Distortion Surge	INV
+619	Arrow of Light	DUP
+620	Manifest Sword	INV
+621	Manifest Gun	INV
+622	Manifest Bell	INV
+623	Sword of Judgment	INV
+624	Capital Punishment	INV
+625	Manifest Book	INV
+626	Distorted Lust	INV
+627	Gospel	INV
+628	Distorted Wrath	INV
+629	Distorted Vanity	INV
+630	Song of Salvation	INV
+631	Wrath of God	INV
+632	Distorted Gluttony	INV
+633	Distorted Envy	INV
+634	Song of Placation	INV
+635	Divine Apex	INV
+636	Rays of Control	DUP
+637	Distorted Avarice	INV
+638	Will of the People	INV
+639	Rays of Control	DUP
+640	Moral Support	INV
+641	Active Support	INV
+642	Mental Hack	INV
+643	Emergency Shift	INV
+644	Final Guard	INV
+645	Position Hack	FUT
+646	High Analyze	INV
+647	Treasure Skimmer	FUT
+648	Subrecover HP EX	FUT
+649	Subrecover SP EX	FUT
+650	BLANK	FLR
+651	BLANK	FLR
+652	BLANK	FLR
+653	BLANK	FLR
+654	Big Bang Order	INV
+655	Roulette Time	INV
+656	Trip-Upper	INV
+657	Lust Sphere	INV
+658	Down Shot 2	INV
+659	Down Shot 3	INV
+660	Down Shot 4	INV
+661	Electro Attack	INV
+662	Sinful Shell	INV
+663	Follow Black	INV
+664	BLANK	FLR
+665	Madara-Megido	INV
+666	Curry Raku	INV
+667	Enemy Benefit	INV
+668	Diarahan	DUP
+669	Curry Suku	INV
+670	Decoy Ball	INV
+671	Super Decoy Ball	INV
+672	Metabolic Wave	INV
+673	Laevateinn	INV
+674	Desperation	INV
+675	Call of Chaos	INV
+676	Big Bang Challenge	INV
+677	Grail Light 2	INV
+678	Megidola	DUP
+679	Rage Transmission	INV
+680	Hundred Slaps	INV
+681	Distorted Pride	INV
+682	Divine Punishment	INV
+683	Will of the People	DUP
+684	Wind Cutter	INV
+685	Shoot Up	INV
+686	Executive Punch	INV
+687	Megidolaon	DUP
+688	Vorpal Blade	DUP
+689	Megidolaon	DUP
+690	Big Bang Burger	INV
+691	Earth Burger	INV
+692	Mars Burger	INV
+693	Moon Burger	INV
+694	Saturn Burger	INV
+695	Justine Attack	INV
+696	Caroline Attack	INV
+697	Curry Makara	INV
+698	Curry Tetra	INV
+699	Curry Endure	INV
+700	Curry Charge	INV
+701	Curry Concentrate	INV
+702	Curry Heat Riser	INV
+703	BLANK	FLR
+704	Cadenza	DLC
+705	Cross Slash	DLC
+706	Door of Hades	DLC
+707	Magatsu Mandala	DLC
+708	Shining Arrows	DLC
+709	Beast Weaver	DLC
+710	Titanomachia	DLC
+711	Abyssal Wings	DLC
+712	Oratario	DLC
+713	BLANK	FLR
+714	BLANK	FLR
+715	BLANK	FLR
+716	BLANK	FLR
+717	BLANK	FLR
+718	BLANK	FLR
+719	BLANK	FLR
+720	Megido	DUP
+721	Megidola	DUP
+722	Megidolaon	DUP
+723	Slam	INV
+724	Megaton Raid	DUP
+725	One-shot Kill	DUP
+726	Inferno	DUP
+727	Diamond Dust	DUP
+728	BLANK	FLR
+729	BLANK	FLR
+730	Curry 1	INV
+731	Curry 2	INV
+732	Reviv-All	INV
+733	Reviv-All Z	INV
+734	BLANK	FLR
+735	BLANK	FLR
+736	Wild Talk	INV
+737	Baton Pass	INV
+738	Punk Talk	INV
+739	Pickpocket	INV
+740	Harisen Recovery	INV
+741	Protect	INV
+742	Girl Talk	INV
+743	Crocodile Tears	INV
+744	Sexy Technique	INV
+745	Detective Talk	INV
+746	Artist Talk	INV
+747	Negotiating	INV
+748	Fundraising	INV
+749	Manipulation	INV
+750	Mind Control	INV
+751	Charisma Speech	INV
+752	Brainiac Talk	INV
+753	Sabaki	INV
+754	Kakoi Kuzushi	INV
+755	Touryou	INV
+756	Togo System	INV
+757	Bullet Hail	INV
+758	Warning Shot	INV
+759	Celeb Talk	INV
+760	Kitty Talk	INV
+761	BLANK	FLR
+762	BLANK	FLR
+763	BLANK	FLR
+764	BLANK	FLR
+765	BLANK	FLR
+766	BLANK	FLR
+767	BLANK	FLR
+768	Brave Blade	DUP
+769	Assault Dive	DUP
+770	Terror Claw	DUP
+771	Bufudyne	DUP
+772	Psiodyne	DUP
+773	Mazionga	DUP
+774	Maziodyne	DUP
+775	Maeiga	DUP
+776	Maeigaon	DUP
+777	BLANK	FLR
+778	BLANK	FLR
+779	BLANK	FLR
+780	BLANK	FLR
+781	BLANK	FLR
+782	BLANK	FLR
+783	BLANK	FLR
+784	BLANK	FLR
+785	BLANK	FLR
+786	BLANK	FLR
+787	BLANK	FLR
+788	BLANK	FLR
+789	BLANK	FLR
+790	BLANK	FLR
+791	BLANK	FLR
+792	BLANK	FLR
+793	BLANK	FLR
+794	BLANK	FLR
+795	BLANK	FLR
+796	BLANK	FLR
+797	BLANK	FLR
+798	BLANK	FLR
+799	BLANK	FLR
+800	Counter	VAL
+801	Counterstrike	VAL
+802	High Counter	VAL
+803	BLANK	FLR
+804	BLANK	FLR
+805	Endure	VAL
+806	Enduring Soul	VAL
+807	BLANK	FLR
+808	BLANK	FLR
+809	Survival Trick	VAL
+810	Dodge Fire	VAL
+811	Evade Fire	VAL
+812	Dodge Ice	VAL
+813	Evade Ice	VAL
+814	Dodge Wind	VAL
+815	Evade Wind	VAL
+816	Dodge Elec	VAL
+817	Evade Elec	VAL
+818	Dodge Phys	VAL
+819	Evade Phys	VAL
+820	Fire Boost	VAL
+821	Fire Amp	VAL
+822	Ice Boost	VAL
+823	Ice Amp	VAL
+824	Wind Boost	VAL
+825	Wind Amp	VAL
+826	Elec Boost	VAL
+827	Elec Amp	VAL
+828	Angelic Grace	VAL
+829	Divine Grace	VAL
+830	Regenerate 1	VAL
+831	Regenerate 2	VAL
+832	Regenerate 3	VAL
+833	Dodge Bless	VAL
+834	Dodge Curse	VAL
+835	Invigorate 1	VAL
+836	Invigorate 2	VAL
+837	Invigorate 3	VAL
+838	Evade Bless	VAL
+839	Evade Curse	VAL
+840	Attack Master	VAL
+841	Auto-Mataru	VAL
+842	BLANK	FLR
+843	Defense Master	VAL
+844	Auto-Maraku	VAL
+845	BLANK	FLR
+846	Speed Master	VAL
+847	Auto-Masuku	VAL
+848	BLANK	FLR
+849	BLANK	FLR
+850	Fast Heal	VAL
+851	Insta-Heal	VAL
+852	Arms Master	VAL
+853	Spell Master	VAL
+854	BLANK	FLR
+855	Sharp Student	VAL
+856	Apt Pupil	VAL
+857	Ali Dance	VAL
+858	Firm Stance	VAL
+859	BLANK	FLR
+860	Life Aid	VAL
+861	Victory Cry	VAL
+862	Growth 1	VAL
+863	Growth 2	VAL
+864	Growth 3	VAL
+865	Unshaken Will	VAL
+866	BLANK	FLR
+867	Baton Pass	DUP
+868	Soul Touch	VAL
+869	Kakoi Kuzushi	DUP
+870	Resist Fire	LCK
+871	Null Fire	VAL
+872	Repel Fire	VAL
+873	Drain Fire	VAL
+874	BLANK	FLR
+875	Resist Ice	LCK
+876	Null Ice	LCK
+877	Repel Ice	VAL
+878	Drain Ice	VAL
+879	BLANK	FLR
+880	Resist Wind	LCK
+881	Null Wind	VAL
+882	Repel Wind	UNO
+883	Drain Wind	VAL
+884	BLANK	FLR
+885	Resist Elec	LCK
+886	Null Elec	VAL
+887	Repel Elec	VAL
+888	Drain Elec	UNO
+889	BLANK	FLR
+890	Resist Bless	VAL
+891	Null Bless	VAL
+892	Repel Bless	UNO
+893	Drain Bless	VAL
+894	BLANK	FLR
+895	Resist Curse	LCK
+896	Null Curse	VAL
+897	Repel Curse	VAL
+898	Drain Curse	VAL
+899	BLANK	FLR
+900	Resist Phys	LCK
+901	Null Phys	VAL
+902	Repel Phys	VAL
+903	Drain Phys	VAL
+904	BLANK	FLR
+905	Ailment Boost	VAL
+906	Hama Boost	VAL
+907	Mudo Boost	VAL
+908	BLANK	FLR
+909	BLANK	FLR
+910	Dizzy Boost	VAL
+911	Confuse Boost	VAL
+912	Fear Boost	VAL
+913	Forget Boost	VAL
+914	Sleep Boost	VAL
+915	Rage Boost	VAL
+916	Despair Boost	VAL
+917	BLANK	FLR
+918	Brainwash Boost	VAL
+919	BLANK	FLR
+920	Resist Dizzy	VAL
+921	Resist Confuse	VAL
+922	Resist Fear	VAL
+923	Resist Forget	VAL
+924	Resist Sleep	VAL
+925	Resist Rage	LCK
+926	Resist Despair	VAL
+927	BLANK	FLR
+928	Resist Brainwash	VAL
+929	BLANK	FLR
+930	Null Dizzy	VAL
+931	Null Confuse	LCK
+932	Null Fear	VAL
+933	Null Forget	VAL
+934	Null Sleep	VAL
+935	Null Rage	VAL
+936	Null Despair	VAL
+937	BLANK	FLR
+938	Null Brainwash	VAL
+939	BLANK	FLR
+940	Burn Boost	VAL
+941	Freeze Boost	VAL
+942	Shock Boost	VAL
+943	BLANK	FLR
+944	Fortified Moxy	VAL
+945	Adverse Resolve	VAL
+946	Last Stand	INV
+947	Heat Up	VAL
+948	BLANK	FLR
+949	Touch n' Go	VAL
+950	Climate Decorum	VAL
+951	Ambient Aid	VAL
+952	RESERVE	FLR
+953	Snipe	VAL
+954	Cripple	VAL
+955	Trigger Happy	VAL
+956	Resist Nuke	LCK
+957	Null Nuke	VAL
+958	Repel Nuke	VAL
+959	Drain Nuke	VAL
+960	RESERVE	FLR
+961	Resist Psy	VAL
+962	Null Psy	LCK
+963	Repel Psy	UNO
+964	Drain Psy	VAL
+965	RESERVE	FLR
+966	Nuke Boost	VAL
+967	Nuke Amp	VAL
+968	RESERVE	FLR
+969	Psy Boost	VAL
+970	Psy Amp	VAL
+971	RESERVE	FLR
+972	Dodge Nuke	VAL
+973	Evade Nuke	VAL
+974	RESERVE	FLR
+975	Dodge Psy	VAL
+976	Evade Psy	VAL
+977	RESERVE	FLR
+978	Bless Boost	VAL
+979	Bless Amp	VAL
+980	RESERVE	FLR
+981	Curse Boost	VAL
+982	Curse Amp	VAL
+983	RESERVE	FLR
+984	Magic Ability	NET
+985	Fortify Spirit	VAL
+986	Almighty Boost	NET
+987	Almighty Amp	NET
+988	Zenith Defense	INV
+989	Soul Chain	NET
+990	Vanity Copy	INV
+991	Gluttonous Snuff	INV
+992	Sloth Defense	INV
+993	BLANK	FLR
+994	BLANK	FLR
+995	BLANK	FLR
+996	BLANK	FLR
+997	BLANK	FLR
+998	BLANK	FLR
+999	BLANK	FLR

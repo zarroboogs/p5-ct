@@ -1,0 +1,256 @@
+0	Blank	BLN
+1	Hip Glasses	VAL
+2	Suspenders	VAL
+3	Fanny Pack	VAL
+4	Hairpin	VAL
+5	Silver Key Ring	VAL
+6	Black Tights	VAL
+7	Dotted Tights	VAL
+8	Headphones	VAL
+9	Black Necktie	VAL
+10	Worn Rosary	UNK
+11	Breath Sash	VAL
+12	Stamina Sash	VAL
+13	Vitality Sash	VAL
+14	Spirit Sash	UNK
+15	Vigor Sash	VAL
+16	Grit Sash	UNK
+17	Chakra Choker	VAL
+18	Mind Choker	VAL
+19	Soul Choker	VAL
+20	Aura Choker	UNK
+21	Spirit Choker	VAL
+22	Divine Choker	UNK
+23	Red Band	VAL
+24	Blue Band	VAL
+25	Green Band	VAL
+26	Yellow Band	VAL
+27	Fire Bangle	UNK
+28	Ice Bangle	UNK
+29	Wind Bangle	UNK
+30	Elec Bangle	UNK
+31	Star Bracelet	VAL
+32	Circular Band	VAL
+33	White Band	VAL
+34	Black Band	VAL
+35	Nuclear Band	UNK
+36	Kinetic Bangle	UNK
+37	Holy Bangle	UNK
+38	Grudge Bangle	UNK
+39	Anger Bandana	VAL
+40	Secret Hood	UNK
+41	Stone Cap	UNK
+42	Air Mino	UNK
+43	Extra Mag 1	UNK
+44	Extra Mag 2	UNK
+45	Extra Mag 3	UNK
+46	Wood Clappers	VAL
+47	Hot Water Pouch	VAL
+48	Rubber Gloves	VAL
+49	Shield Goggles	VAL
+50	Calming Mask	VAL
+51	Wild Clogs	VAL
+52	Notebook	VAL
+53	Hunger Gem	VAL
+54	Sleep Gem	VAL
+55	Rage Gem	VAL
+56	Despair Gem	VAL
+57	Towser's Belt	UNK
+58	Brain Guard	VAL
+59	Burn Charm	UNK
+60	Freeze Charm	UNK
+61	Shock Charm	VAL
+62	Dizzy Charm	UNK
+63	Confuse Charm	UNK
+64	Fear Charm	UNK
+65	Forget Charm	UNK
+66	Hunger Charm	VAL
+67	Sleep Charm	UNK
+68	Rage Charm	UNK
+69	Despair Charm	VAL
+70	Brainwash Charm	UNK
+71	Zero-Day Pass	UNK
+72	Revenge Mirror	VAL
+73	Reprisal Mirror	UNK
+74	Retribution Mirror	VAL
+75	Power Anklet	VAL
+76	Muscle Anklet	VAL
+77	Soldier Anklet	UNK
+78	Berserk Anklet	VAL
+79	Hercules Anklet	VAL
+80	Atlas Anklet	VAL
+81	Magic Amulet	VAL
+82	Witch Amulet	VAL
+83	Druid Amulet	VAL
+84	Rune Amulet	VAL
+85	Wizard Amulet	VAL
+86	Shaman Amulet	UNK
+87	Strength Belt	VAL
+88	Protect Belt	UNK
+89	Fortress Belt	VAL
+90	Armada Belt	VAL
+91	Gigas Belt	VAL
+92	Gaia Belt	VAL
+93	Army Socks	VAL
+94	Wing Socks	UNK
+95	Purebred Socks	UNK
+96	Cheetah Socks	VAL
+97	Sonic Socks	VAL
+98	Skanda Socks	VAL
+99	Lucky Charm	VAL
+100	Zodiac Charm	VAL
+101	Feng Shui Charm	VAL
+102	Bagua Charm	UNK
+103	Guard Charm	UNK
+104	Tyche Charm	VAL
+105	Knight Crest	VAL
+106	Hero Crest	UNK
+107	Girard Medal	UNK
+108	Olivier Medal	UNK
+109	Roland Medal	VAL
+110	Caesar Medal	UNK
+111	Rakshasa Belt	VAL
+112	Vajra Belt	VAL
+113	Skanda Belt	VAL
+114	Spirit Belt	VAL
+115	Willful Belt	VAL
+116	Hachiman Belt	VAL
+117	Crimson Ring	VAL
+118	Ignis Ring	VAL
+119	Atar Ring	UNK
+120	Ice Ring	VAL
+121	Aurora Ring	UNK
+122	Poli'ahu Ring	UNK
+123	Elec Ring	VAL
+124	Blitz Ring	VAL
+125	Indra Ring	UNK
+126	Wind Ring	VAL
+127	Gale Ring	UNK
+128	Kukulkan Ring	UNK
+129	Atom Ring	VAL
+130	Shelter Ring	VAL
+131	Aegis Ring	UNK
+132	Psychic Ring	VAL
+133	Parapsy Ring	VAL
+134	Akashic Ring	UNK
+135	Shoten Ring	VAL
+136	Heaven Ring	VAL
+137	Nirvana Ring	VAL
+138	Midnight Ring	VAL
+139	Fallen Ring	UNK
+140	Druj Ring	VAL
+141	Resist Ring	VAL
+142	Dispel Ring	VAL
+143	Banish Ring	UNK
+144	Bold Eyepatch	VAL
+145	Hero Eyepatch	VAL
+146	Epic Eyepatch	UNK
+147	Fire Mask	VAL
+148	Flame Cape	VAL
+149	Blaze Cape	UNK
+150	Ice Mask	VAL
+151	Hail Cape	VAL
+152	Blizzard Cape	UNK
+153	Elec Mask	VAL
+154	Thunder Cape	VAL
+155	Blizzard Cape	UNK
+156	Wind Mask	VAL
+157	Gale Cape	VAL
+158	Tempest Cape	UNK
+159	Heat Mask	VAL
+160	Heatwave Cape	UNK
+161	Nuclear Cape	UNK
+162	Psychic Mask	VAL
+163	TK Cape	UNK
+164	Abhijna Cape	UNK
+165	Hamaya Mask	VAL
+166	Royal Cape	UNK
+167	Holy Cape	VAL
+168	Protect Mask	VAL
+169	Mystic Mask	UNK
+170	Grudge Mask	UNK
+171	Magic Rosary	VAL
+172	Wizard Rosary	UNK
+173	Makyou Rosary	UNK
+174	Expedite Ring	VAL
+175	Petra Genetrix	VAL
+176	Khamrai Tao	VAL
+177	Hua Khon	VAL
+178	Daffodils	VAL
+179	Legion's Jail	VAL
+180	Thunder Band	VAL
+181	Shackles	VAL
+182	Vayu's Wrath	UNK
+183	Regent	VAL
+184	Queen's Necklace	VAL
+185	Stone of Scone	VAL
+186	Koh-i-Noor	VAL
+187	Orlov	VAL
+188	Emperor's Amulet	VAL
+189	Hope Diamond	VAL
+190	Crystal Skull	VAL
+191	0x0BF	FLR
+192	Miyuki's Earring	UNK
+193	Harumi's Earring	UNK
+194	Marronnier's Earring	UNK
+195	Thief Mask	VAL
+196	Black Rock	VAL
+197	0x0C5	FLR
+198	Vulcan Band	UNK
+199	Neptune Band	UNK
+200	Aquilo Band	UNK
+201	Jupiter Band	UNK
+202	Janus Band	UNK
+203	Minerva Band	UNK
+204	Venus Band	UNK
+205	Pluto Band	UNK
+206	Hades Harp	DLC*
+207	Menehune Dolls	HAW
+208	Hawaiian Ring	HAW
+209	Forneus Badge	VAL
+210	Train Badge	VAL
+211	PI Badge	VAL
+212	Punch Badge	VAL
+213	Betting Badge	VAL
+214	Golf Badge	VAL
+215	Tough Belt	VAL
+216	Dandy Mirror	VAL
+217	Leblanc Charm	VAL
+218	Boss Undies	VAL
+219	2nd Mate Badge	VAL
+220	1st Mate Badge	VAL
+221	Captain Badge	VAL
+222	Regen Patch 1	VAL
+223	Regen Patch 2	VAL
+224	Regen Patch 3	VAL
+225	SP Adhesive 1	VAL
+226	SP Adhesive 2	VAL
+227	SP Adhesive 3	VAL
+228	Hot Compress	VAL
+229	Grudge Gauze	VAL
+230	Thought Gauze	VAL
+231	Savage Band	UNK
+232	Omnipotent Orb	VAL
+233	Divine Pillar	VAL
+234	Darkness Ring	DLC*
+235	White Headband	DLC*
+236	Attachment Pearl	VAL
+237	Black Headband	DLC*
+238	Red Yarn Ball	DLC*
+239	Thunder Horns	DLC*
+240	Black Moon	DLC*
+241	Holy Stone	UNK
+242	Team Glasses	VAL
+243	SEES Armband	VAL
+244	Sevens Emblem	VAL
+245	Hermelin Badge	VAL
+246	Arm PC	VAL
+247	Midnight Bandana	VAL
+248	Evoker	VAL
+249	Honu Charm	HAW
+250	Tiki Keychain	HAW
+251	Beast Headphones	UNK
+252	Babel Headphones	UNK
+253	Lambs' Pillow	VAL
+254	Gauntlet	VAL
+255	Kuzunoha Tubes	VAL

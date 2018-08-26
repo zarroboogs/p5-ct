@@ -1,0 +1,256 @@
+0	BLANK	BLN
+1	Coward's Orb	UNK
+2	Selfish Ornament	UNK
+3	4th Girl's Talc	UNK
+4	Notched Heart	UNK
+5	Light Iron	UNK
+6	Thick Hide	UNK
+7	Glossy Clasp	UNK
+8	Electric Rock	UNK
+9	Magic Cross	UNK
+10	Brave Lumber	UNK
+11	Divine Bark	UNK
+12	Thought Cross	UNK
+13	Supple Metal	UNK
+14	Smooth Fabric	UNK
+15	Smart Clasp	UNK
+16	Living Metal	UNK
+17	Big Incisor	UNK
+18	Glory Staff	UNK
+19	Blessed Trumpet	UNK
+20	Victor Laurel	UNK
+21	Porcelain Teacup	UNK
+22	Silver Cutlery	VAL
+23	Strange Lantern	VAL
+24	Nude Candle Stand	VAL
+25	Shackles	UNK
+26	Locked Collar	UNK
+27	Dull Sword	VAL
+28	Holey Helmet	VAL
+29	Crushed Shield	VAL
+30	Rusted Handcuffs	UNK
+31	Chipped Glass	UNK
+32	Ukiyo-e	UNK
+33	Ink Wash Art	UNK
+34	Hanging Scroll	UNK
+35	Picture Scroll	UNK
+36	Hannya Mask	UNK
+37	Animal Brush	UNK
+38	Fine Washi	UNK
+39	Loose Sash	UNK
+40	Cracked Vase	UNK
+41	Sooty Kettle	VAL
+42	Unsigned Mug	VAL
+43	Plastic Frame	VAL
+44	Crappy Portrait	VAL
+45	Bad Sculpture	VAL
+46	Gold Coin	UNK
+47	Stock Certificate	UNK
+48	Amber Stamp	UNK
+49	Precious Bill	UNK
+50	Rare Coin	VAL
+51	Old Coin	VAL
+52	Leather Case	VAL
+53	Safe Dial	VAL
+54	Money Counter	VAL
+55	Office Calculator	VAL
+56	Inkless Pen	UNK
+57	Unopenable Lock	VAL
+58	Worn Stamp	UNK
+59	Tattered Wallet	VAL
+60	Jewel Mummy	UNK
+61	Gold Uraeus	UNK
+62	Canopic Jar	UNK
+63	Bastet Statue	UNK
+64	Scarab Charm	UNK
+65	Mummy Mask	UNK
+66	Scratched Sword	VAL
+67	Rusted Ankh	VAL
+68	Torn Papyrus	VAL
+69	Ra Mural	UNK
+70	Sekhmet Mural	VAL
+71	Sarcophagus Bit	VAL
+72	Bent Staff	VAL
+73	Pillar Piece	UNK
+74	Moon Stone	UNK
+75	Rare Metal	UNK
+76	Sage Astrolabe	UNK
+77	UFO Drone	UNK
+78	Blade Flashlight	UNK
+79	Rainbow Diode	UNK
+80	Spaceship Stick	UNK
+81	Robot Arm	VAL
+82	Radar Antenna	VAL
+83	Broken Telescope	VAL
+84	Space Food	UNK
+85	Punctured PCB	VAL
+86	Dead Solar Panel	VAL
+87	Warped Wheel	VAL
+88	Luxury Watch	UNK
+89	Gold Earrings	UNK
+90	Damascene Cane	UNK
+91	Silver Monocle	UNK
+92	Ivory Dice	UNK
+93	Dealer Ring	UNK
+94	Magician Bowtie	UNK
+95	Pro Dart	UNK
+96	Card Shuffler	VAL
+97	Dice Shaker	VAL
+98	Gray Cufflinks	VAL
+99	Faded Silk Hat	UNK
+100	Smoked Cigar	VAL
+101	Incomplete Deck	VAL
+102	Coral Pendant	UNK
+103	Pearl Necklace	UNK
+104	Ebony Box	UNK
+105	Marble Chessboard	UNK
+106	Tortoise Hairpin	UNK
+107	Cameo Brooch	UNK
+108	Raden Plate	UNK
+109	Peacock Fan	VAL
+110	Bronze Compass	VAL
+111	Brass Pocket Watch	VAL
+112	Music Box	UNK
+113	Old Kaleidoscope	VAL
+114	Mirror Ball	VAL
+115	Masquerade Mask	VAL
+116	Pure Diamond	UNK
+117	Dignity Ruby	UNK
+118	Sublime Sapphire	UNK
+119	Stable Emerald	UNK
+120	Proper Turquoise	UNK
+121	Brave Aquamarine	UNK
+122	Harmony Amethyst	UNK
+123	Intelligent Onyx	UNK
+124	Wealth Pearl	UNK
+125	Delight Opal	UNK
+126	Charity Agate	UNK
+127	Enduring Jade	UNK
+128	Friendship Topaz	UNK
+129	Truth Garnet	UNK
+130	Grooved Gold	VAL
+131	Hole Gold	VAL
+132	Thin Gold	VAL
+133	Grooved Silver	VAL
+134	Hole Silver	VAL
+135	Thin Silver	VAL
+136	Grooved Copper	VAL
+137	Hole Copper	VAL
+138	Thin Copper	VAL
+139	Onyx	VAL
+140	Pearl	VAL
+141	Amethyst	VAL
+142	Turquoise	VAL
+143	Opal	VAL
+144	Topaz	VAL
+145	Garnet	VAL
+146	Aquamarine	VAL
+147	Ruby	VAL
+148	Emerald	VAL
+149	Sapphire	VAL
+150	Diamond	VAL
+151	RESERVE	FLR
+152	RESERVE	FLR
+153	RESERVE	FLR
+154	RESERVE	FLR
+155	RESERVE	FLR
+156	RESERVE	FLR
+157	RESERVE	FLR
+158	RESERVE	FLR
+159	RESERVE	FLR
+160	Old Milk Bottle	UNK
+161	Bee Earrings	UNK
+162	Scorpion Statue	UNK
+163	Turtle Statue	UNK
+164	Rotary Phone	UNK
+165	Silk Bundle	UNK
+166	RESERVE	FLR
+167	RESERVE	FLR
+168	RESERVE	FLR
+169	RESERVE	FLR
+170	RESERVE	FLR
+171	RESERVE	FLR
+172	RESERVE	FLR
+173	RESERVE	FLR
+174	RESERVE	FLR
+175	RESERVE	FLR
+176	RESERVE	FLR
+177	RESERVE	FLR
+178	RESERVE	FLR
+179	RESERVE	FLR
+180	RESERVE	FLR
+181	RESERVE	FLR
+182	RESERVE	FLR
+183	RESERVE	FLR
+184	RESERVE	FLR
+185	RESERVE	FLR
+186	RESERVE	FLR
+187	RESERVE	FLR
+188	RESERVE	FLR
+189	RESERVE	FLR
+190	RESERVE	FLR
+191	RESERVE	FLR
+192	RESERVE	FLR
+193	RESERVE	FLR
+194	RESERVE	FLR
+195	RESERVE	FLR
+196	RESERVE	FLR
+197	RESERVE	FLR
+198	RESERVE	FLR
+199	RESERVE	FLR
+200	RESERVE	FLR
+201	RESERVE	FLR
+202	RESERVE	FLR
+203	RESERVE	FLR
+204	RESERVE	FLR
+205	RESERVE	FLR
+206	RESERVE	FLR
+207	RESERVE	FLR
+208	RESERVE	FLR
+209	RESERVE	FLR
+210	RESERVE	FLR
+211	RESERVE	FLR
+212	RESERVE	FLR
+213	RESERVE	FLR
+214	RESERVE	FLR
+215	RESERVE	FLR
+216	RESERVE	FLR
+217	RESERVE	FLR
+218	RESERVE	FLR
+219	RESERVE	FLR
+220	RESERVE	FLR
+221	RESERVE	FLR
+222	RESERVE	FLR
+223	RESERVE	FLR
+224	RESERVE	FLR
+225	RESERVE	FLR
+226	RESERVE	FLR
+227	RESERVE	FLR
+228	RESERVE	FLR
+229	RESERVE	FLR
+230	RESERVE	FLR
+231	RESERVE	FLR
+232	RESERVE	FLR
+233	RESERVE	FLR
+234	RESERVE	FLR
+235	RESERVE	FLR
+236	RESERVE	FLR
+237	RESERVE	FLR
+238	RESERVE	FLR
+239	RESERVE	FLR
+240	RESERVE	FLR
+241	RESERVE	FLR
+242	RESERVE	FLR
+243	RESERVE	FLR
+244	RESERVE	FLR
+245	RESERVE	FLR
+246	RESERVE	FLR
+247	RESERVE	FLR
+248	RESERVE	FLR
+249	RESERVE	FLR
+250	RESERVE	FLR
+251	RESERVE	FLR
+252	RESERVE	FLR
+253	RESERVE	FLR
+254	RESERVE	FLR
+255	RESERVE	FLR

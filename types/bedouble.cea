@@ -1,0 +1,104 @@
+
+alloc(TypeName,256)
+alloc(ByteSize,4)
+alloc(ConvertRoutine,1024)
+alloc(ConvertBackRoutine,1024)
+alloc(UsesFloat,4)
+alloc(PreferedAlignment,4)
+alloc(TEMPVAL,8)
+
+TypeName:
+db 'Double Big Endian',0
+ByteSize:
+dd 08
+UsesFloat:
+dd 01
+PreferedAlignment:
+dd 04
+TEMPVAL:
+dq 00
+
+ConvertRoutine:
+[32-bit]
+push ebp
+mov ebp,esp
+//[ebp+8]=input
+//example:
+mov eax,[ebp+8] //place the address that contains the bytes into eax
+mov eax,[eax]
+bswap eax
+mov [TEMPVAL+4],eax
+
+mov eax,[ebp+8] //place the address that contains the bytes into eax
+mov eax,[eax+4]
+bswap eax
+mov [TEMPVAL],eax
+
+finit
+fld qword ptr [TEMPVAL]
+fstp dword ptr [TEMPVAL]
+mov eax,[TEMPVAL]
+
+pop ebp
+ret 4
+[/32-bit]
+
+[64-bit]
+//rcx=address of input
+mov rcx,[rcx] //rcx now contains the bytes 'input' pointed to
+bswap rcx
+mov [TEMPVAL],rcx
+
+finit
+fld qword ptr [TEMPVAL]
+fstp dword ptr [TEMPVAL]
+mov eax,[TEMPVAL]
+
+ret
+[/64-bit]
+
+ConvertBackRoutine:
+[32-bit]
+push ebp
+mov ebp,esp
+//[ebp+8]=input
+//[ebp+c]=address of output
+//example:
+push eax
+push ebx
+mov ebx,[ebp+c] //load the address into ebx
+
+finit
+fld dword ptr [ebp+8]
+fstp qword ptr [TEMPVAL]
+
+mov eax,[TEMPVAL+4]
+bswap eax
+mov [ebx],eax //write the value into the address
+
+mov eax,[TEMPVAL]
+bswap eax
+mov [ebx+4],eax //write the value into the address
+
+pop ebx
+pop eax
+
+pop ebp
+ret 8
+[/32-bit]
+
+[64-bit]
+//ecx=input
+//rdx=address of output
+mov [TEMPVAL],ecx
+
+finit
+fld dword ptr [TEMPVAL]
+fstp qword ptr [TEMPVAL]
+
+mov rax,[TEMPVAL]
+bswap rax
+
+mov [rdx],rax //place the integer the 8 bytes pointed to by rdx
+ret
+[/64-bit]

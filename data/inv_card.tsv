@@ -1,0 +1,387 @@
+0	Blank	BLN
+1	Agi	VAL
+2	Agilao	VAL
+3	Agidyne	VAL
+4	Maragi	VAL
+5	Maragion	VAL
+6	Maragidyne	VAL
+7	Bufu	VAL
+8	Bufula	VAL
+9	Bufudyne	VAL
+10	Mabufu	VAL
+11	Mabufula	VAL
+12	Mabufudyne	VAL
+13	Garu	VAL
+14	Garula	VAL
+15	Garudyne	VAL
+16	Magaru	VAL
+17	Magarula	VAL
+18	Magarudyne	VAL
+19	Zio	VAL
+20	Zionga	VAL
+21	Ziodyne	VAL
+22	Mazio	VAL
+23	Mazionga	VAL
+24	Maziodyne	VAL
+25	Hama	VAL
+26	Hamaon	VAL
+27	Mahama	VAL
+28	Mahamaon	VAL
+29	Kouha	VAL
+30	Kouga	VAL
+31	Kougaon	VAL
+32	Makouha	VAL
+33	Makouga	VAL
+34	Makougaon	VAL
+35	Mudo	VAL
+36	Mudoon	VAL
+37	Mamudo	VAL
+38	Mamudoon	VAL
+39	Eiha	VAL
+40	Eiga	VAL
+41	Eigaon	VAL
+42	Maeiha	VAL
+43	Maeiga	VAL
+44	Maeigaon	VAL
+45	Megido	VAL
+46	Megidola	VAL
+47	Megidolaon	VAL
+48	Frei	VAL
+49	Freila	VAL
+50	Freidyne	VAL
+51	Mafrei	VAL
+52	Mafreila	VAL
+53	Mafreidyne	VAL
+54	Dazzler	VAL
+55	Nocturnal Flash	VAL
+56	Pulinpa	VAL
+57	Tentarafoo	VAL
+58	Evil Touch	VAL
+59	Evil Smile	VAL
+60	Makajama	VAL
+61	Makajamaon	VAL
+62	Famine's Breath	INV
+63	Famine's Scream	INV
+64	Dormina	VAL
+65	Lullaby	VAL
+66	Taunt	VAL
+67	Wage War	VAL
+68	Ominous Words	VAL
+69	Abysmal Surge	VAL
+70	Marin Karin	VAL
+71	Brain Jack	VAL
+72	Trapped Rat	INV
+73	Self-destruct	INV
+74	Self-destruct	INV
+75	Self-destruct	INV
+76	Life Drain	VAL
+77	Spirit Drain	VAL
+78	Life Leech	INV
+79	Spirit Leech	INV
+80	Foul Breath	VAL
+81	Stagnant Air	VAL
+82	Ghastly Wail	VAL
+83	Inferno	UNO
+84	Blazing Hell	UNO
+85	Diamond Dust	UNO
+86	Ice Age	UNO
+87	Panta Rhei	UNO
+88	Vacuum Wave	UNO
+89	Thunder Reign	UNO
+90	Wild Thunder	UNO
+91	Divine Judgment	UNO
+92	Samsara	UNO
+93	Demonic Decree	UNO
+94	Die For Me!	UNO
+95	Atomic Flare	UNO
+96	Cosmic Flare	UNO
+97	Black Viper	UNO
+98	Morning Star	UNO
+99	Psi	VAL
+100	Psio	VAL
+101	Psiodyne	VAL
+102	Mapsi	VAL
+103	Mapsio	VAL
+104	Mapsiodyne	VAL
+105	Psycho Force	UNO
+106	Psycho Blast	UNO
+107	Lunge	VAL
+108	Assault Dive	VAL
+109	Megaton Raid	VAL
+110	God's Hand	VAL
+111	Lucky Punch	VAL
+112	Miracle Punch	VAL
+113	Cleave	VAL
+114	Giant Slice	VAL
+115	Brave Blade	VAL
+116	Sword Dance	VAL
+117	Hassou Tobi	UNO
+118	Ayamur	UNO
+119	Cornered Fang	VAL
+120	Rising Slash	VAL
+121	Deadly Fury	VAL
+122	Snap	VAL
+123	Triple Down	VAL
+124	One-shot Kill	VAL
+125	Riot Gun	VAL
+126	Vajra Blast	VAL
+127	Vorpal Blade	VAL
+128	Vicious Strike	VAL
+129	Heat Wave	VAL
+130	Gigantomachia	DLC
+131	Rampage	VAL
+132	Swift Strike	VAL
+133	Deathbound	VAL
+134	Agneyastra	VAL
+135	Double Fangs	VAL
+136	Tempest Slash	VAL
+137	Myriad Slashes	VAL
+138	Sledgehammer	VAL
+139	Skull Cracker	VAL
+140	Terror Claw	VAL
+141	Headbutt	VAL
+142	Stomach Blow	INV
+143	Dream Needle	VAL
+144	Hysterical Slap	VAL
+145	Negative Pile	VAL
+146	Brain Shake	VAL
+147	Flash Bomb	VAL
+148	Mind Slice	VAL
+149	Bloodbath	VAL
+150	Memory Blow	VAL
+151	Insatiable Strike	INV
+152	Dormin Rush	VAL
+153	Oni-Kagura	VAL
+154	Bad Beat	VAL
+155	Brain Buster	VAL
+156	Dia	VAL
+157	Diarama	VAL
+158	Diarahan	VAL
+159	Media	VAL
+160	Mediarama	VAL
+161	Mediarahan	VAL
+162	Recarm	VAL
+163	Samarecarm	VAL
+164	Recarmdra	INV
+165	Amrita Drop	VAL
+166	Amrita Shower	VAL
+167	Mabaisudi	VAL
+168	Salvation	VAL
+169	Patra	VAL
+170	Energy Shower	VAL
+171	Energy Drop	VAL
+172	Baisudi	VAL
+173	Me Patra	VAL
+174	Tarukaja	VAL
+175	Rakukaja	VAL
+176	Sukukaja	VAL
+177	Heat Riser	VAL
+178	Matarukaja	VAL
+179	Marakukaja	VAL
+180	Masukukaja	VAL
+181	Thermopylae	VAL
+182	Tarunda	VAL
+183	Rakunda	VAL
+184	Sukunda	VAL
+185	Debilitate	VAL
+186	Matarunda	VAL
+187	Marakunda	VAL
+188	Masukunda	VAL
+189	Dekunda	VAL
+190	Dekaja	VAL
+191	Charge	VAL
+192	Concentrate	VAL
+193	Rebellion	VAL
+194	Revolution	VAL
+195	Tetrakarn	VAL
+196	Makarakarn	VAL
+197	Tetraja	VAL
+198	Tetra Break	VAL
+199	Makara Break	VAL
+200	Fire Wall	VAL
+201	Ice Wall	VAL
+202	Elec Wall	VAL
+203	Wind Wall	VAL
+204	Fire Break	VAL
+205	Ice Break	VAL
+206	Wind Break	VAL
+207	Elec Break	VAL
+208	BLANK	FLR
+209	BLANK	FLR
+210	Nuke Wall	VAL
+211	Psy Wall	VAL
+212	Nuke Break	VAL
+213	Psy Break	VAL
+214	Counter	VAL
+215	Counterstrike	VAL
+216	High Counter	VAL
+217	Endure	VAL
+218	Enduring Soul	VAL
+219	Dodge Bless	UNO
+220	Dodge Curse	UNO
+221	Survival Trick	VAL
+222	Dodge Fire	UNO
+223	Evade Fire	UNO
+224	Dodge Ice	UNO
+225	Evade Ice	UNO
+226	Dodge Wind	UNO
+227	Evade Wind	UNO
+228	Dodge Elec	UNO
+229	Evade Elec	UNO
+230	Dodge Phys	UNO
+231	Evade Phys	UNO
+232	Fire Boost	VAL
+233	Fire Amp	VAL
+234	Ice Boost	VAL
+235	Ice Amp	VAL
+236	Wind Boost	VAL
+237	Wind Amp	VAL
+238	Elec Boost	VAL
+239	Elec Amp	VAL
+240	Angelic Grace	VAL
+241	Divine Grace	VAL
+242	Regenerate 1	VAL
+243	Regenerate 2	VAL
+244	Regenerate 3	VAL
+245	Invigorate 1	VAL
+246	Invigorate 2	VAL
+247	Invigorate 3	VAL
+248	Attack Master	UNO
+249	Auto-Mataru	DLC
+250	Defense Master	UNO
+251	Auto-Maraku	UNO
+252	Speed Master	UNO
+253	Auto-Masuku	UNO
+254	Fast Heal	VAL
+255	Insta-Heal	DLC
+256	Arms Master	VAL
+257	Spell Master	DLC
+258	Sharp Student	VAL
+259	Apt Pupil	VAL
+260	Ali Dance	UNO
+261	Firm Stance	UNO
+262	Life Aid	VAL
+263	Victory Cry	UNO
+264	Growth 1	VAL
+265	Growth 2	VAL
+266	Growth 3	VAL
+267	Unshaken Will	VAL
+268	Evade Bless	UNO
+269	Evade Curse	UNO
+270	BLANK	FLR
+271	Resist Fire	UNO
+272	Null Fire	UNO
+273	Repel Fire	UNO
+274	Drain Fire	UNO
+275	Resist Ice	UNO
+276	Null Ice	UNO
+277	Repel Ice	UNO
+278	Drain Ice	UNO
+279	Resist Wind	UNO
+280	Null Wind	UNO
+281	Repel Wind	UNO
+282	Drain Wind	UNO
+283	Resist Elec	UNO
+284	Null Elec	UNO
+285	Repel Elec	UNO
+286	Drain Elec	UNO
+287	Resist Bless	UNO
+288	Null Bless	UNO
+289	Repel Bless	UNO
+290	Drain Bless	UNO
+291	Resist Curse	UNO
+292	Null Curse	UNO
+293	Repel Curse	UNO
+294	Drain Curse	UNO
+295	Resist Phys	UNO
+296	Null Phys	VAL
+297	Repel Phys	UNO
+298	Drain Phys	UNO
+299	Ailment Boost	VAL
+300	Hama Boost	VAL
+301	Mudo Boost	VAL
+302	Dizzy Boost	VAL
+303	Confuse Boost	VAL
+304	Fear Boost	VAL
+305	Forget Boost	VAL
+306	Sleep Boost	VAL
+307	Rage Boost	VAL
+308	Despair Boost	VAL
+309	BLANK	FLR
+310	Brainwash Boost	VAL
+311	Resist Dizzy	UNO
+312	Resist Confuse	UNO
+313	Resist Fear	UNO
+314	Resist Forget	UNO
+315	Resist Sleep	UNO
+316	Resist Rage	UNO
+317	Resist Despair	UNO
+318	BLANK	FLR
+319	Resist Brainwash	UNO
+320	Null Dizzy	UNO
+321	Null Confuse	UNO
+322	Null Fear	UNO
+323	Null Forget	UNO
+324	Null Sleep	UNO
+325	Null Rage	UNO
+326	Null Despair	UNO
+327	Null Brainwash	UNO
+328	Burn Boost	VAL
+329	Freeze Boost	VAL
+330	Shock Boost	VAL
+331	Fortified Moxy	VAL
+332	Adverse Resolve	VAL
+333	Last Stand	INV
+334	Heat Up	UNO
+335	BLANK	FLR
+336	Touch n' Go	VAL
+337	Climate Decorum	UNO
+338	Ambient Aid	VAL
+339	Snipe	VAL
+340	Cripple	VAL
+341	Trigger Happy	VAL
+342	Resist Nuke	UNO
+343	Null Nuke	UNO
+344	Repel Nuke	UNO
+345	Drain Nuke	UNO
+346	Resist Psy	UNO
+347	Null Psy	UNO
+348	Repel Psy	UNO
+349	Drain Psy	UNO
+350	Nuke Boost	VAL
+351	Nuke Amp	VAL
+352	Psy Boost	VAL
+353	Psy Amp	VAL
+354	Dodge Nuke	UNO
+355	Evade Nuke	UNO
+356	Dodge Psy	UNO
+357	Evade Psy	UNO
+358	Bless Boost	VAL
+359	Bless Amp	VAL
+360	Curse Boost	VAL
+361	Curse Amp	VAL
+362	Magic Ability	VAL
+363	Fortify Spirit	UNO
+364	Almighty Boost	VAL
+365	Almighty Amp	VAL
+366	Zenith Defense	INV
+367	Soul Chain	UNO
+368	BLANK	FLR
+369	BLANK	FLR
+370	BLANK	FLR
+371	BLANK	FLR
+372	BLANK	FLR
+373	BLANK	FLR
+374	BLANK	FLR
+375	BLANK	FLR
+376	BLANK	FLR
+377	BLANK	FLR
+378	BLANK	FLR
+379	BLANK	FLR
+380	BLANK	FLR
+381	BLANK	FLR
+382	BLANK	FLR
+383	BLANK	FLR
+384	BLANK	FLR
+385	BLANK	FLR
+386	Blank Card	VAL

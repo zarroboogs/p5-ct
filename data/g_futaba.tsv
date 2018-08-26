@@ -1,0 +1,786 @@
+1	You're surrounded! Three enemies!
+2	Watch out! Strong enemies, and they've got you surrounded!
+3	You're surrounded by weaklings! What, did they sneak up on you?
+4	Ugh... We don't have time for this!
+5	Four Shadows, and they've got the drop on you!
+6	They ambushed us! It's four tough enemies!
+7	Four enemies! You're surrounded, but they're pretty weak!
+8	Just get around them! Gah, you're surrounded!
+9	You're cornered... Just try to survive, OK?
+10	There are five strong ones around you! We need some kinda miracle!
+11	Don't worry! You're surrounded, but they're all kinda pathetic.
+12	Awww, how'd this happen!? We don't have time for a big brawl!
+13	Now's our chance! Beat 'em up!
+14	We've got them surrounded. Now whoop 'em!
+15	Surprise attack: successful! Now just don't lose.
+16	You've got them surrounded! Now smash 'em!
+17	We've got the advantage! Don't rush this!
+18	We've rounded them up! Now take 'em out!
+19	As long as we got them surrounded, we might as well beat them!
+20	You know, you could always run!
+21	This chump is down! Let's get 'em!
+22	Scatter them!
+23	Finish 'em off!
+24	Whoa, this Shadow looks strong!
+25	Is that a rare one!? Don't let it get away!
+26	One enemy! Everyone do your best!
+27	It's strong, but there's just one! Don't get sloppy now!
+28	One enemy, and it's weak! This'll be a slaughter!
+29	Just one enemy. Beat it and move on!
+30	Two foes. You can take this nice and easy.
+31	Two enemies! They're strong, so watch out!
+32	Enemies! Don't worry, though. They're no big deal.
+33	Two enemies! We can't waste time on these guys!
+34	There's three Shadows. Good luck!
+35	Three enemies, and they're all pretty strong. Be careful!
+36	Three enemies. They're weak, but don't let your guard down!
+37	We don't have time to fight three whole enemies! What do we do!?
+38	Four enemies! There's a lot of 'em... C'mon, do something!
+39	Four enemies, and they're strong! This really sucks...!
+40	Four enemies! They're pretty pathetic, but stay on guard!
+41	There's four enemies. You should probably just run!
+42	Five enemies! You guys are outnumbered. Be careful!
+43	Five strong Shadows... Brace yourselves, guys!
+44	Five Shadows! They're weak, but don't relax yet!
+45	Five of them!? We don't have time for this!
+46	Do they have some treasure?
+47	Hiding something from us?
+48	Hrm! I smell treasure...
+49	We've got casualties! This is bad!
+50	Joker!? No... Answer me!
+51	No...! Hey, Joker! Joker... you have to wake up...!
+52	Joker, why!? This isn't happening...
+53	Skull's out! Someone help him!
+54	Mona got knocked out! Someone give him some support!
+55	Panther's down! She needs treatment!
+56	Fox got taken out! Medic!
+57	Queen's been taken out! You gotta cover for her!
+58	Noir's been defeated! Can someone heal her?
+59	Crow's down! We need backup here!
+60	No! Come on, wake up!
+61	Everyone, are you OK? Focus on healing up!
+62	Joker, are you all right!?
+63	Skull's in trouble!
+64	Mona's health is low!
+65	Watch Panther's health!
+66	Fox is swaying!
+67	Queen's in danger!
+68	Noir doesn't have much health left!
+69	Crow's life is in danger!
+70	Your health is low! Watch out!
+71	J-Just hold on and push through! We can come back from this!
+72	Joker got knocked down!
+73	Skull fell down! Hang in there!
+74	Mona's down! Ooohh, not good!
+75	Panther's on the ground! Are you OK?
+76	Fox got knocked down! Come on, stay together!
+77	Queen's on the ground! You can't fail now!
+78	Noir! Are you OK?
+79	Crow got knocked down! He needs cover!
+80	Ah, you got knocked down!
+81	Whoooaaa... That was awesome!
+82	Nice, Joker! Just at the last second!
+83	Skull's pretty good!
+84	That was awesome, Mona!
+85	And Panther dodges with grace!
+86	Nice moves, Fox!
+87	All right, Queen!
+88	Noir dodged the enemy's attack!
+89	Crow's got some moves!
+90	Ooh, nice dodge!
+91	An enemy ran off! Four left!
+92	Enemy escaped! Three remaining!
+93	Ooh, an enemy ditched! That leaves two!
+94	One enemy ran, so that leaves just one!
+95	They ran away... and then there were none!
+96	Joker, your attack's down!
+97	Skull, your attack has dropped!
+98	Mona's offense has been lowered!
+99	Panther, your attack power's lowered!
+100	Fox, your offense is down!
+101	Queen, your attack's been lowered!
+102	Noir, your offense's been decreased!
+103	Crow's offense is lowered!
+104	Your attack's lowered!
+105	Joker, your defense's decreased!
+106	Skull's defense is down!
+107	Mona's defense has dropped!
+108	Panther, your defense has dropped!
+109	Fox, your defense's been lowered!
+110	Queen, your defense's been lowered!
+111	Noir, you have lower defense right now!
+112	Crow's defense is low right now!
+113	Your defense has dropped! Be careful!
+114	Joker's speed has been lowered!
+115	Uh-oh! Skull's agility is down!
+116	Mona, your speed is lowered!
+117	Your speed's decreased, Panther!
+118	Fox's speed has dropped!
+119	Queen, your agility's been lowered!
+120	Noir! Don't forget your  speed's been lowered!
+121	Crow's agility is currently down!
+122	Noir, don't forget your speed's been lowered!
+123	Five left! Take'em down one at a time!
+124	Five enemies! They still outnumber us...!
+125	Four remaining! Hang in there!
+126	There's four enemies left! Stand your ground!
+127	Three enemies remaining! You can do it!
+128	There's still three enemies. Keep it up!
+129	Two enemies left. Don't mess this up!
+130	That makes two! Don't lose!
+131	One enemy remaining! Just a little more!
+132	Last one! Get 'em!
+133	Everyone's health is really low! Can someone heal!?
+134	Joker, your health is low! Watch out!
+135	Skull, are you OK? Keep an eye on your health.
+136	Mona's in trouble! He's hurt bad!
+137	Panther's in bad shape! Watch out!
+138	Fox's health is really low! You have to be careful!
+139	Queen's in trouble! It looks bad!
+140	Ah! Noir's health! She needs help!
+141	Crow doesn't have much health left! Someone heal him!
+142	Your health is dangerously low! Hurry up and heal!
+143	Joker's burning! That's going to keep hurting!
+144	Skull's on fire! Don't move around or you'll make it worse!
+145	Mona's burning! Put it out, or it'll keep hurting him!
+146	Panther's on fire! Hurry up and put it out!
+147	Fox is on fire! The flames are wearing him down!
+148	Queen's burning! W-We gotta put it out!
+149	Noir's on fire! She can't take much more of this!
+150	Crow's burning! He'll lose health!
+151	You're burning! The pain's going to keep coming!
+152	Joker's frozen! Someone help him, or he can't move!
+153	Skull's on ice! He can't move!
+154	Mona's frozen! He can't move!
+155	Panther's frozen! She won't be able to move!
+156	Fox is frozen solid! He can't make any moves!
+157	Queen's on ice! This isn't good... She can't move!
+158	Noir's frozen! She can't move like that!
+159	Crow's frozen. He can't move!
+160	Noir's frozen! She can't move like that!
+161	Joker's electrified! His body's seizing up!
+162	Skull's been shocked! He can't move as well now!
+163	Mona's been shocked! He won't be able to move that well!
+164	Panther's been shocked! She might not be able to move!
+165	Fox's been shocked! Just tough it out for now!
+166	Queen's been shocked! There's something wrong with her movement!
+167	She's been shocked, and she can't move! Someone help Noir!
+168	Crow's been shocked and can't move! Just hold on!
+169	Agh, you've been shocked! You might not be able to move!
+170	Joker, you're dizzy! It's gonna be hard to hit it with anything!
+171	Skull's dizzy! He might not be able to land a hit!
+172	Mona's dizzy! His accuracy is down!
+173	Panther's accuracy is down... She's too dizzy! Watch out!
+174	Fox is dizzy! His attacks are going to miss a lot more!
+175	Queen's dizzy! Her attacks won't connect!
+176	Noir! Your accuracy's down from your dizzy spell!
+177	Crow's completely dizzy! His accuracy is low!
+178	You're dizzy! Your attacks might not connect!
+179	Joker's confused! He's going rogue!
+180	Skull's confused!? Hey, don't flail around like that!
+181	Mona's confused! Hey, stop doing your own thing!
+182	Panther's confused right now! C-Calm down!
+183	Fox is confused! He's not listening to you!
+184	Queen, you're confused! Don't do anything drastic!
+185	Noir's confused! Just calm down and we can talk this out!
+186	Crow's confused! You have to think before you act!
+187	Calm down! You're confused!
+188	Joker's afraid!
+189	Skull's all shaken up! He might just run for it!
+190	Mona's scared! He might make a break for it!
+191	Panther's really scared! Please, don't run!
+192	Fox is terrified! He might run any second!
+193	Queen's trembling! Just... don't run!
+194	Noir's scared! Don't run away now!
+195	Crow's shaking! Come on, don't run away!
+196	Hey, don't run away! You don't have to be scared!
+197	Joker's forgotten everything! He can't summon his Persona!
+198	Skull's memory is gone! He can't call his Persona!
+199	Mona's lost his memory! He can't summon his Persona!
+200	Panther can't remember anything! Her Persona's unusable!
+201	Fox's forgotten how to call his Persona!
+202	Queen's lost her memory! Her Persona's been sealed!
+203	Noir's forgetting everything! Be careful; she can't use her Persona!
+204	Crow's memory is gone! He can't summon his Persona!
+205	You lost your memory!? Don't you remember your Persona?
+206	Joker's hungry! He's powered down!
+207	Skull's really hungry! He doesn't have the energy to hit hard!
+208	Mona's really hungry! His attack is a lot lower!
+209	Panther's starving! She can't use her full strength!
+210	Fox has hit a wall! His offense is way down!
+211	Queen needs food! Her offense is really low!
+212	Noir's weaker than before... It's 'cause she's hungry!
+213	Crow's really hungry! He's not at full strength anymore!
+214	You're too hungry to fight! Your power's down!
+215	Joker's fast asleep! He can't defend himself!
+216	Skull's sleeping! He's in danger!
+217	Is Mona sleeping!? Hey, you have to wake up!
+218	Panther's asleep! If she takes a hit now, it'll hurt!
+219	Fox has fallen asleep! Wake up; you're defenseless!
+220	Queen's fallen asleep...! She's defenseless!
+221	Noir's asleep! If she takes a hit now...!
+222	Crow's sleeping! He's in danger!
+223	Hey, no sleeping on the job! Wake up already!
+224	Joker's angry!? He's taking unnecessary risks!
+225	Skull's really mad... Hey, listen to me!
+226	Mona's completely lost it! You gotta calm down!
+227	Panther's upset!? She won't listen to me!
+228	Fox is angry... Calm down! Listen!
+229	Queen's mad... and really scary! Please, calm down!
+230	Noir looks really angry! She's not listening to anyone!
+231	Crow's ticked off!? Hey, listen to me!
+232	Don't lose your cool! Just calm down!
+233	Joker's losing hope! We have to be there for him!
+234	Skull's in despair! Leaving him like that is asking for trouble!
+235	Mona's losing heart! Any damage will affect his body AND mind!
+236	Panther's depressed! She needs to get back in the fight!
+237	Fox's despairing! He'll be in danger like that!
+238	Queen's in anguish! W-We have to do something...
+239	The despair's getting to Noir! We need to save her!
+240	Crow's desperate! It's dangerous leaving him like that!
+241	You need to deal with the despair! It's bad to just ignore it!
+242	Joker's been brainwashed! He can't tell friend from foe!
+243	Skull's brainwashed! He thinks we're the enemies!
+244	Mona's been brainwashed! We're the good guys!
+245	Panther's brainwashed!? She doesn't know who's who!
+246	Fox's brainwashed! The bad guys are over there!
+247	Queen's been brainwashed! Come on, we're on your side!
+248	Noir's brainwashed! She can't tell who's her team!
+249	Crow's brainwashed! He's mixed up who's who!
+250	You're brainwashed!? W-We're not your enemies!
+251	Joker's a mouse! He's cuter, but he can't do anything!
+252	Skull's a mouse! Just keep running!
+253	Whoa! You're a cat  AND a mouse!? Crazy!
+254	Panther's a mouse! You're helpless... Just run!
+255	Fox got turned into a mouse! Just run!
+256	Queen's become a mouse! The only thing you can do is run!
+257	Noir's a mouse! She can't do anything! Run!
+258	Crow's been mousified! All he can do is run!
+259	You can't do anything as a mouse! Just run away!
+260	OK, time for a comeback!
+261	Skull's back in action! Payback time!
+262	Mona's back up!
+263	Panther got back up! Start the counterattack!
+264	Fox! It's time for revenge!
+265	Queen's back! Make 'em pay!
+266	Time to make up for that little slip!
+267	Crow's up again! It's payback time!
+268	Aw yeah! Now it's payback time!
+269	We've got the advantage! Let's win this!
+270	We can beat them in an instant!
+271	This doesn't look good! Be careful!
+272	They've still got the advantage... Just hold out!
+273	A Baton Pass'll help you hit the enemy's weakness!
+274	You'll be able to knock the enemy down if you pass the baton!
+275	It's Baton Pass time!
+276	Now's your chance! Pass the baton!
+277	Pass that baton! Go for a knockdown!
+278	Ooh, awesome!
+279	Nice!
+280	Huh! Not too shabby!
+281	Whoa... You did that with style!
+282	Ooh, nice attack!
+283	My Futaba sense is tingling! Let me handle this!
+284	They got you, huh? Guess it's my turn to shine!
+285	Leave this to me!
+286	I can handle this! You guys regroup!
+287	I've got this! Persona!
+288	Activating emergency shift!
+289	Member swap complete!
+290	Good luck!
+291	And done!
+292	Enemies defeated! All right, Joker!
+293	Shadows annihilated! Skull's got this!
+294	Nice job, Mona!
+295	Yeah, Panther! You got them all!
+296	Enemies: annihilated! You're pretty good, Fox!
+297	Wiped out! Good work, Queen!
+298	That's all of them! You did great, Noir!
+299	You obliterated them! Nice job, Crow!
+300	No more enemy signals. Good job, guys!
+301	Amazing, Joker! That's four Shadows gone!
+302	Nice one, Skull! That's four less to deal with!
+303	Nice one, Mona! You got four of 'em!
+304	Panther beat four enemies with just one skill!
+305	That was great, Fox! Four enemies off the list!
+306	Queen, you're so awesome! Four enemies taken care of!
+307	Noir defeated four Shadows!
+308	Crow, that was incredible! Four enemies down!
+309	You took down four with one move! Impressive!
+310	Three enemies wiped out! That was great, Joker!
+311	That's three more down! Keep hitting them, Skull!
+312	Three Shadows defeated! Looking good, Mona!
+313	That's three less to worry about! You're on a roll, Panther!
+314	Three foes defeated! Nice one, Fox!
+315	Queen got three of them! So cool!
+316	That's three outta the fight! Keep it coming, Noir!
+317	Three more down! Nice going, Crow!
+318	OK, that's three less! Awesome!
+319	Lookin' good! Joker beat two enemies!
+320	You got 'em, Skull! That's two down!
+321	Two foes gone for good! Keep the pressure up, Mona!
+322	Woo, Panther! Two enemies defeated!
+323	Fox took out two of them! Go get 'em!
+324	Wow! You got two of them, Queen!
+325	Noir, keep that up! Two enemies down!
+326	Great job, Crow! Two enemies out of the way!
+327	Two enemies gone! Looking good!
+328	Nice! Joker took one out!
+329	One enemy gone! Do it again, Skull!
+330	Mona took out a Shadow! Good stuff!
+331	One enemy shot down! Panther's rockin' it!
+332	One enemy crushed! Keep that up, Fox!
+333	One enemy defeated! Go get 'em, Queen!
+334	Noir crushed it! Keep that up!
+335	One enemy taken out! Good one, Crow!
+336	OK, scratch one enemy!
+337	Ooh! Joker, you're looking cool!
+338	Skull, you sure showed me!
+339	Not bad, Mona!
+340	Amazing, Panther!
+341	You did it, Fox!
+342	That's our Queen!
+343	Oooh! Not bad, Noir!
+344	Crow! Looking good!
+345	Now! Surround 'em!
+346	Four enemies knocked down! Joker's awesome!
+347	Four enemies knocked down! Skull's got the right idea!
+348	Four enemies on the floor! Lookin' good, Mona!
+349	Four enemies knocked flat! Awww yesss, Panther!
+350	Whoaaa, Fox knocked down four enemies at once!
+351	Queen, that was insane! That's four enemies fallen flat!
+352	Four enemies hit the floor! Noir, you're doing great!
+353	Four enemies knocked down! Excellent work, Crow!
+354	Four enemies knocked down! Pretty good.
+355	Three enemies on the floor! Nice, Joker!
+356	Three enemies grounded! Keep it up, Skull!
+357	Three foes floored! Awesome, Mona!
+358	Three Shadows knocked down! But Panther's not done yet, right?
+359	Three enemies got knocked down! Nice one, Fox!
+360	Queen knocked down three Shadows! Let 'em have it!
+361	That's three enemies knocked down! Way to go, Noir!
+362	Three enemies knocked down! That's Crow for you!
+363	Three enemies downed! You're looking good!
+364	Two enemies floored! Not bad, Joker!
+365	Two Shadows downed! Skull, that was on the money!
+366	Mona, good job! Two enemies toppled!
+367	That's two enemies knocked down! Panther, niiiiice!
+368	Two enemies on the ground! Smooth one, Fox!
+369	Queen floored two opponents! She's amazing!
+370	Two Shadows knocked down! Go for broke, Noir!
+371	Two enemies downed! Crow, keep it up!
+372	Two enemies floored! That's the ticket!
+373	Knocked 'em right off their feet! Nice, Joker!
+374	That's one knocked down! Let 'em have it, Skull!
+375	One enemy on the floor! Bona fide Monafied!
+376	Panther knocked one down! Looking good!
+377	You got 'em, Fox! One enemy hit the ground!
+378	That's one downed! Go Queen, go!
+379	Floored 'em! Keep it coming, Noir!
+380	And there it goes! Good one, Crow!
+381	OK! You knocked one down!
+382	Nice one, Joker! You hit its weakness!
+383	Right in the weak spot! Looking good, Skull!
+384	That was their weak point! Keep up the pressure, Mona!
+385	You got through their defenses! Keep going, Panther!
+386	Got their weakness! You're on a roll, Fox!
+387	Nice one, Queen! You hit their weak point!
+388	You got 'em, Noir! Right in the weak spot!
+389	Direct hit to their weakness! Nice work, Crow!
+390	You got their weak spot!
+391	Sha-boom! Joker, that was awesome!
+392	Nice hit! Skull's at the top of his game!
+393	Clean and stylish, Mona!
+394	There we go! Ten out of ten, Panther!
+395	Fox, that was an awesome hit!
+396	A smash hit! Queen, you're so cool!
+397	Now that's a hit! Keep that up, Noir!
+398	A critical hit! Nice one, Crow!
+399	Nice crit!
+400	Joker, you missed!?
+401	Skull, what're you doing!?
+402	Mona! AIM!
+403	Eyes up, Panther!
+404	Fox! You gotta aim!
+405	C'mon, Queen!
+406	Noir! You gotta hit them!
+407	Crow, you gotta watch them!
+408	Ah! Your attack missed!
+409	Skull, where're you going!?
+410	Mona ran away! Hey!
+411	Panther! Where are you going!?
+412	Hey, Fox! Don't run!
+413	Queen, don't run off!
+414	Wait, Noir! You're not supposed to run!
+415	Crow!? Where are you going!?
+416	Huh? Hey! Don't run!
+417	Huh!? No, don't! Awww...
+418	Wait, what about the treasure!?
+419	Hey! What are you doing?
+420	Got the info!
+421	Shadow analysis... done!
+422	Sending data now!
+423	All right, get 'em!
+424	Beat 'em all at once!
+425	Time for a beatdown!
+426	Go! Power up!
+427	This one! Defense up!
+428	Here I go! Speeeed up!
+429	Here come the buffs!
+430	Super move! Ultraaaa Charge!
+431	Support's on the way!
+432	I'll do something about this!
+433	If you're gonna run, now's your chance!
+434	There's no openings! You can't get through them!
+435	Just... hold on a sec! I know I can find SOMEthing...
+436	Now! Run!
+437	OK, I'm looking for a way out!
+438	Don't rush me! I'm trying to find you an escape route!
+439	It's no use... There's nowhere to run...
+440	Beat 'em up!
+441	They're done for!
+442	All-out attack!
+443	Ooh! You can hit their weakness!
+444	This is your chance! Hit 'em where it hurts!
+445	Hey, you can go for its weak spot!
+446	Do you have something to hit their weakness...? Welp, guess not!
+447	You don't have any skills that'll hit its weak spot.
+448	Doesn't look like you can go for its weakness...
+449	There's an enemy that's scared! Now might be the perfect time...
+450	Guns! You gotta use your guns!
+451	Pass the baton and knock 'em down!
+452	This should do it!
+453	Gunshots are really good here!
+454	You can hit its weakness with Physical attacks!
+455	Physical attacks should do the trick!
+456	You've got good moves, but maybe we should check for weaknesses first!
+457	I dunno its weak point... It's trial-and-error time!
+458	If I knew their affinity...! Just look for their weakness!
+459	Hey, that one's got some treasure!
+460	That enemy's got some loot of its own! Don't let it get away!
+461	Hey, a rare drop!
+462	Good work, everyone!
+463	Just like I thought!
+464	OK! Let's move on!
+465	We got 'em, but we don't want to waste too much time.
+466	All enemies defeated! You're still good to go, right?
+467	Phew, that's a relief. Let's stay out of combat!
+468	0
+469	0
+470	0
+471	No... Hey, wake up! Please!
+472	No, get up! Joker! Jokerrrrrrr!
+473	Get up! It's not over yet! ...Jokerrrrr!
+474	No, Joker... You can't lose to this guy...
+475	You're joking, right? We've come so far... Please... get up!
+476	No... You can't die... JOKEEERRRR!
+477	Joker, no! Don't give up!
+478	0
+479	0
+480	0
+481	I'll provide backup. So... let's stop  this thing.
+482	His employees are shielding him... Let's break through and punch him right in the face!
+483	There's a penalty for not spinning the roulette. What should we do?
+484	His new Persona's power is unknown... Everyone, stay on guard!
+485	Risking our lives to stop rotten adults... That's why we're phantom thieves!
+486	This guy's behind everything... but we're all together! We can win!
+487	They're kids, but... they've got the power levels of a final boss!
+488	0
+489	0
+490	0
+491	0
+492	0
+493	0
+494	She's not coming yet! You're still OK!
+495	She's here! Approaching fast!
+496	He's trying to self-destruct!? Beat him now, or shield yourself!
+497	Joker! T-Time's up...!
+498	She's way more powerful than before! Don't underestimate her!
+499	The enemy's power is rapidly increasing!
+500	What did Akechi do!? The enemy's power is rising!
+501	Something big's about to hit!
+502	The enemy's offense is going way up! Focus on defense for now!
+503	Power's increasing by the second! It's some kind of super move!
+504	The enemy's charging... It's going to be a big one!
+505	You're held down by chains! You can't move like that!
+506	And they're Persona-users too!? Who ARE these girls!?
+507	So powerful...! It's over if your weakness is hit.
+508	Comparing power levels... No threat. Get 'em, Joker!
+509	Everyone else, head to positions! Use Route B!
+510	OK, pull out before their backup gets here.
+511	0
+512	0
+513	Guns out! Blast 'em off their feet!
+514	Everyone, hang in  there! Focus on the  enemy in front of you!
+515	Run toward the ballista!
+516	Change direction! Aim the tip at her!
+517	Adjust vertical alignment!
+518	All right, fire!
+519	I can't... lose... here!
+520	If we lose... the world...
+521	I need... to stand...
+522	I can't move...
+523	Are we... finished...?
+524	Is this... the end...?
+525	This wasn't... supposed to... happen...
+526	Huh? Who're these kids...?
+527	Awww... Those little costumes look perfect! They're so cute! Can I take them home with--
+528	Wait... What!?
+529	Whoa... for real!? These power levels...!
+530	Watch out! Those two are... monsters!
+531	The countdown's starting again... Take him down before it finishes!
+532	Ngh...! The countdown is already halfway finished!
+533	The countdown's getting low... Hurry up, there's not much time left!
+534	0
+535	0
+536	0
+537	0
+538	0
+539	0
+540	0
+541	0
+542	0
+543	0
+544	0
+545	0
+546	0
+547	0
+548	0
+549	0
+550	0
+551	0
+552	0
+553	0
+554	0
+555	0
+556	0
+557	0
+558	Nooo!
+559	Look out!
+560	Joker, you should answer it this way!
+561	The answer it's looking for is... this one!
+562	This is what it wants to hear!
+563	Necronomicon!
+564	Necronomicon, intercept!
+565	Prometheus!
+566	Prometheus, interfere!
+567	This one's strong! Be careful!
+568	Physical strikes will hit it hard! It's strong, but you can do it!
+569	It's powerful, but weak to gunfire! You can handle this!
+570	Fire is its weak point! It's powerful; hang in there!
+571	This guy's weak to Ice! It's tough, but not unbeatable!
+572	It's weak to Wind! Good luck!
+573	Don't worry, just use Electricity attacks and you'll be fine!
+574	Bless attacks'll do it! The bigger they are, the harder they fall!
+575	It's strong, but Curse attacks should get through! You can do it!
+576	Nukes are its weakness! It's strong, but you can take it!
+577	Weak to... Psychokinesis! It's tough, but it's beatable!
+578	This one's strong, and Physical attacks don't work!
+579	No guns here! This one's gonna be tough!
+580	It's a tough one! Don't use Fire attacks!
+581	Don't use any Ice skills! Be careful here!
+582	Avoid using Wind, and don't let your guard down!
+583	This guy's strong! Electricity won't do a thing!
+584	This Shadow's strong! Bless skills won't work at all!
+585	Curse moves won't work, so be careful! It's a major threat!
+586	It's strong, and Nuclear skills won't work. Keep your eyes open!
+587	This one's powerful... And Psychokinetic stuff is useless!
+588	All right, you can do it! This fight is ours!
+589	It's weak to Physical hits! Knock 'em out!
+590	Ooh, it's weak to gunfire! Ready... Aim...!
+591	Weak to Fire! You can beat this guy!
+592	Its weak point is Ice! Should be no problem!
+593	Wind skills are effective! You can beat 'em!
+594	Electricity should stop it! Go get 'em!
+595	This guy's nothing special. It's weak to Bless attacks!
+596	Curse skills oughta do it! Show 'em who's boss!
+597	This one's weak to Nuclear!
+598	Psychokinesis will mess this guy up!
+599	Physical attacks won't work!
+600	Gunshots will be ineffective!
+601	Fire attacks are a no-go, so watch it!
+602	FYI, it's strong against Ice!
+603	Wind's not gonna work! Try something else!
+604	No Electric attacks! Try something else!
+605	Watch out! Bless skills won't work here!
+606	Listen up! Don't use Curse moves!
+607	Nukes won't work on this enemy!
+608	Psychokinesis won't hurt this Shadow!
+609	This guy's a joke! You could do this in your sleep!
+610	Ooh, this one's easy. Just hit 'em with Physical strikes!
+611	It can't take gunshots! Fill 'em with lead!
+612	It's weak against Fire! Toasty!
+613	It's weak to Ice! Turn 'em into a popsicle!
+614	Wind works here! Let's clean 'em up!
+615	Electricity's what you want. Fry their circuits.
+616	Bless skills should work. Evil, begone!
+617	Curses should help! Give 'em a one-way ticket to hell!
+618	It can't take nuclear damage! Let's finish this off!
+619	Psychokinesis works. Show 'em whatcha got.
+620	It's a weakling, but Physical attacks won't work!
+621	Guns won't work! But it's a total loser!
+622	Fire won't help here... Ugh, but it's so pathetic!
+623	Ice won't work? Wow, but it looks really weak.
+624	Don't use Wind attacks! Otherwise, you're good!
+625	This guy sucks. Oh, but don't use anything Electric.
+626	Bless stuff won't work. Try something else!
+627	Don't use Curse skills...! But really, it's totally weak.
+628	Nuclear stuff won't work. Just use something else.
+629	Psychokinesis is out, but you've got nothing to worry about!
+630	Not bad!
+631	You're amazing as always, Joker!
+632	You didn't have that one yet, Joker!
+633	That's another mask for you, Joker!
+634	0
+635	0
+636	0
+637	0
+638	A Baton Pass'll help you hit the enemy's weakness!
+639	You'll be able to knock the enemy down if you pass the baton!
+640	It's Baton Pass time!
+641	Now's your chance! Pass the baton!
+642	Pass that baton! Go for a knockdown!
+643	Watch out, the enemy's coming!
+644	The enemy's gonna attack! Make sure you heal yourself!
+645	Watch yourself! The Shadow's gonna make its move soon!
+646	Whoa, it's about to attack! Check your health!
+647	You need to heal before the enemy attacks!
+648	The enemy's on fire! Stoke the flames with a Wind attack!
+649	An enemy's frozen! Shatter it with a Physical attack!
+650	The enemy's electrocuted! Go smack 'em, but don't get shocked yourself!
+651	It's asleep! Go, go, go!
+652	One of 'em is dizzy! Knock that jerk down!
+653	0
+654	0
+655	0
+656	0
+657	0
+658	0
+659	0
+660	0
+661	0
+662	0
+663	0
+664	0
+665	0
+666	0
+667	0
+668	0
+669	0
+670	0
+671	0
+672	0
+673	0
+674	0
+675	0
+676	0
+677	0
+678	0
+679	0
+680	0
+681	0
+682	0
+683	0
+684	0
+685	0
+686	0
+687	0
+688	0
+689	0
+690	0
+691	0
+692	0
+693	0
+694	0
+695	0
+696	0
+697	0
+698	0
+699	0
+700	0
+701	0
+702	0
+703	0
+704	0
+705	0
+706	0
+707	0
+708	0
+709	0
+710	0
+711	0
+712	0
+713	0
+714	0
+715	0
+716	There's an enemy out to get us! Be careful!
+717	The security level is higher! We've got a tough enemy ahead!
+718	That dark enemy's powered up! Watch out!
+719	That dark one's a super-strong version! Don't underestimate it!
+720	That one's powered up! If you're gonna try to beat it, be careful!
+721	They're totally on to us! Things are dangerous right now!
+722	They're on full alert! Maybe we shouldn't be fighting!
+723	Security's on the lookout for you! Don't fight them head on!
+724	They're on total lockdown! If we try and fight, this'll never end!
+725	This isn't good! They've got eyes on us!
+726	There's an enemy on high alert! Look out for that darker one!
+727	That dark enemy's stronger than the usual guys!
+728	There's a powerful enemy on the field! Watch out!
+729	One of the enemies is really tough! It's out to get you guys!
+730	Watch out for the darker Shadow! It's no ordinary enemy!
+731	They've already gone! Switch with someone else!
+732	If you're gonna pass it, pass it to someone who hasn't had a turn!
+733	0
+734	It's no good! You can't talk to it!
+735	We can't talk right now!
+736	The enemies recovered. Look out!
+737	Aww, it's better now. Don't let your guard down!
+738	Everyone's in danger!
+739	I won't let you!
+740	Leave it to me!
+741	Time for my power...!
+742	Amazing, Joker!
+743	Ooooh, that was cool...
+744	All right! On to the next!
+745	Not done yet!
+746	Next up! Get them!
+747	A second Baton Pass! Nice!
+748	Everyone's had a shot! Nice combos!
+749	Everyone passed the baton! That was perfect!
+750	The Baton Pass powered you up!
+751	OK, that pass brought your power even higher!
+752	Handed it off again! You're powering up!
+753	A two-pass combo! Your power's going up!
+754	Everyone passed the baton! You're at max power; go get 'em!
+755	Everyone's had the baton! Your power is through the roof!
+756	Nice!
+757	Ooh! Free stuff.
+758	I guess you know how to keep people talking!
+759	You got extra? You're pretty good with words.
+760	That guy's trying to run! Watch out!
+761	It'll be bad if we let it escape! Move quickly!
+762	Oh, it got away... Security's gonna be tight now...
+763	Not good! It's going to put everyone on alert!
+764	It's a surge of lust! The fantasies are blocking everything out!
+765	Oh no! The lust effect might keep you from moving!
+766	Wrath!? No! You gotta  listen to me!
+767	It's a surge of wrath!  You hafta try to calm down!
+768	It's a surge of envy! It's trying to make you fight each other...
+769	You're filled with envy!? Hey! Don't go against each other!
+770	A surge of gluttony? Persona summoning might  take more effort...
+771	Gluttony! Watch out when  you use your Personas! 
+772	If you attack now, you'll be countered! Be careful!
+773	Pride...! Don't attack, or you'll get countered instantly!
+774	Hey! You need to  focus on the battle!
+775	Hey! Now's not the time to get distracted!
+776	Hey! Calm down! We're on your side!
+777	Hey! We can't afford to fight amongst ourselves!
+778	I told you not to attack!
+779	Oh no... A counterattack!
+780	We're breaking through them! Follow Joker's lead!
+781	Oooh! An instant win. Sounds like free cash!
+782	That punk!
+783	Be careful!
+784	This weakling...!
+785	It's powerful. If you're gonna try to beat it, be careful!
+786	It's powerful.  Don't underestimate it!
