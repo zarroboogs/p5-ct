@@ -1,5 +1,5 @@
 
-# Persona 5 Cheat Table [RPSC3]
+# [RPSC3] Persona 5 Cheat Table
 
 A cheat table for Persona 5, a game developed by Atlus.
 
