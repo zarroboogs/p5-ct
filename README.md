@@ -176,7 +176,7 @@ E(x) = floor( C * x ^ 3 + 10 ) * ( 1 - floor( 1 / x ) )
 
 `C` is the base level coefficient:
 
-* for party member, `C` is always `1.4`.
+* for party members, `C` is always `1.4`.
 * for personas, `C` depends on the persona's base level `b` and is calculated using:
 
 ![coeff](img/coeff.png)
@@ -302,4 +302,4 @@ C(b) = -0.019 * b + 3.7
 * `DUP` - Duplicate skill
 * `FLR` - Filler
 * `VAL` - Obtainable skill
-* `INV` - Invalid persona
+* `INV` - Invalid skill
