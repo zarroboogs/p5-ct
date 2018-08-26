@@ -56,16 +56,6 @@ Click the checkbox to unlock or lock a persona in the compendium.
 
 __WARNING:__ Locking a persona and then unlocking it would reset all persona stats.
 
-#### Data Structures
-
-Useful data structures in MemoryRecord form.
-
-The _Address_ fields function as offsets, so values (if any) can be ignored.
-
-#### Lists
-
-Various drop-down lists referenced in the table.
-
 #### Party Stats
 
 Edit stats relating to party members:
