@@ -28,35 +28,37 @@ __NOTE__: The table is mostly dynamically generated, due to some limitations ope
 1. Open RPCS3 and launch `Persona 5`.
 2. Open Cheat Engine and load the cheat table.
 
-### Table Contents
+---
 
-#### Internal Stuff
+## Table Contents
+
+### Internal Stuff
 
 Internal table records.
 
-#### Tools
+### Tools
 
 Miscellaneous utilities.
 
-##### Experience Calculator
+#### Experience Calculator
 
 By entering a value in the level field, you can get the _minimal required experience_ to reach that level for a given persona or party member.
 
 See [Experience](#experience) for calculation details.
 
-##### Name Changer
+#### Name Changer
 
 Using this tool, you can change the Hero's first and last name, as well as your group name.
 
 This tool limits you to the available characters for names in the English release of the game as the game might crash when using an invalid character.
 
-##### Compendium Unlocker
+#### Compendium Unlocker
 
 Click the checkbox to unlock or lock a persona in the compendium.
 
 __WARNING:__ Locking a persona and then unlocking it would reset all persona stats.
 
-#### Party Stats
+### Party Stats
 
 Edit stats relating to party members:
 
@@ -80,29 +82,29 @@ Edit stats relating to party members:
 * _Bullets:_ Should be obvious.
 * _HP Gain, SP Gain_: The HP and SP gained from training. Normally can only be increased by the Hero, however you can set these manually for other party members and their HP and SP will increase accordingly.
 
-#### Inventory
+### Inventory
 
 Items are grouped in the table as they are grouped in the game's memory.
 
 Entries are tagged, see [Tags](#tags) for more details.
 
-#### General
+### General
 
 Contains various game stats that didn't fit in any other category: Money, Romance, Batting, Training, Fishing and Palace stats.
 
-#### Trophy Counters
+### Trophy Counters
 
 Various trophy counters that track when a trophy is unlocked.
 
 __This is particulary helpful to track the progress of the "Passionate Listener" trophy.__ Contrary to popular belief, this trophy only tracks lines spoken _during combat_ using _either navigator_.
 
-#### Compendium
+### Compendium
 
 Allows you to edit persona records in the compendium.
 
 You can also unlock or lock persona records using the [Compendium Unlocker](#compendium-unlocker).
 
-#### Time
+### Time
 
 Allows you to edit time related values.
 
@@ -110,13 +112,13 @@ To repeat a day's first timeslot, during an event, set `Time of Day` to `3`.
 
 To repeat a day's second timeslot, during an event, set `Time of Day` to `5`.
 
-#### Confidants
+### Confidants
 
 Allows you to edit both the confidant’s current rank and the confidant's affinity (determines whether the confidant will rank up the next time you meet with them).
 
 Changing a confidant's rank via the table is not recommended, instead change the affinity and then initiate a rank up in game.
 
-#### Social Stats
+### Social Stats
 
 Edit the Hero's Knowledge, Charm, etc.
 
@@ -134,15 +136,17 @@ Numbers in parentheses indicate how many points are needed to level up a stat pe
 * 2 notes - 3 points.
 * 3 notes - 5 points.
 
-#### Enemies
+### Enemies
 
 When in battle, enable this record to view enemy stats.
 
 This record does not auto-update, so you'd have to toggle the record to see newly summoned enemies.
 
-### Notes
+---
 
-#### Persona Stats
+## Notes
+
+### Persona Stats
 
 The sum of persona stats, depending on level `x` is defined using:
 
@@ -150,7 +154,7 @@ The sum of persona stats, depending on level `x` is defined using:
 S(x) = x * 3 + 7 ( = St + Ma + En + Ag + Lu )
 ```
 
-#### Experience
+### Experience
 
 The in-game relationship between a party member or persona's experience `E` and level `x` can be described using:
 
@@ -179,9 +183,9 @@ C(b) = -0.019 \times b + 3.7
 C(b) = -0.019 * b + 3.7
 ```
 
-#### Tags
+### Tags
 
-##### Accessory
+#### Accessory
 
 * `BLN` - Blank
 * `FLR` - Filler
@@ -190,33 +194,33 @@ C(b) = -0.019 * b + 3.7
 * `VAL` - Obtainable item
 * `HAW` - Hawaii gift
 
-##### Melee
+#### Melee
 
 * `BLN` - Blank
 * `FLR` - Filler
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
 
-##### Outfit
+#### Outfit
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
 
-##### Protector
+#### Protector
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `<TYPE>` - Can be equipped by...
 * `DLC*` - Obtained from DLC
 
-##### Ranged
+#### Ranged
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
 
-##### Skill Cards
+#### Skill Cards
 
 * `VAL` - Obtainable item
 * `BLN` - Blank
@@ -225,7 +229,7 @@ C(b) = -0.019 * b + 3.7
 * `FLR` - Filler
 * `UNO` - Valid but unobtainable
 
-##### Key & Palace
+#### Key & Palace
 
 * `BLN` - Blank
 * `FLR` - Filler
@@ -237,7 +241,7 @@ C(b) = -0.019 * b + 3.7
 * `CNF` - Confidant gift
 * `PAL` - Palace item
 
-##### Consumables & Essentials
+#### Consumables & Essentials
 
 * `BLN` - Blank
 * `FLR` - Filler
@@ -258,21 +262,21 @@ C(b) = -0.019 * b + 3.7
 * `DMG` - Damage dealing item
 * `FES` - Festival gift
 
-##### Treasure
+#### Treasure
 
 * `BLN` - Blank
 * `VAL` - Obtainable item
 * `UNK` - Unknown if valid
 * `FLR` - Filler
 
-##### Arcana
+#### Arcana
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `FLR` - Filler
 * `VAL` - Valid arcana
 
-##### Persona
+#### Persona
 
 * `BLN` - Blank
 * `INV` - Invalid persona
@@ -281,7 +285,7 @@ C(b) = -0.019 * b + 3.7
 * `FLR` - Filler
 * `<ALLY_NAME>` - Valid persona, carried by...
 
-##### Skills
+#### Skills
 
 * `BLN` - Blank
 * `NET` - Network fusion skill
