@@ -297,3 +297,4 @@ C(b) = -0.019 * b + 3.7
 * `FLR` - Filler
 * `VAL` - Obtainable skill
 * `INV` - Invalid skill
+* `<PERSONA>` - Skill unique to this persona

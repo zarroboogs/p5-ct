@@ -159,7 +159,7 @@
 158	Low Despair	INV
 159	Mid Despair	INV
 160	Divine Judgment	VAL
-161	Samsara	VAL
+161	Samsara	VAL|Daisoujou
 162	High Despair	INV
 163	Low All Ail	INV
 164	Mid All Ail	INV
@@ -169,7 +169,7 @@
 168	BLANK	FLR
 169	BLANK	FLR
 170	Demonic Decree	VAL
-171	Die For Me!	VAL
+171	Die For Me!	VAL|Alice
 172	BLANK	FLR
 173	BLANK	FLR
 174	BLANK	FLR
@@ -179,7 +179,7 @@
 178	BLANK	FLR
 179	BLANK	FLR
 180	Black Viper	VAL
-181	Morning Star	VAL
+181	Morning Star	VAL|Lucifer
 182	BLANK	FLR
 183	BLANK	FLR
 184	BLANK	FLR
@@ -213,8 +213,8 @@
 212	Brave Blade	VAL
 213	Sword Dance	VAL
 214	BLANK	FLR
-215	Hassou Tobi	VAL
-216	Ayamur	VAL
+215	Hassou Tobi	VAL|Yoshitsune
+216	Ayamur	VAL|Baal
 217	BLANK	FLR
 218	BLANK	FLR
 219	BLANK	FLR
@@ -702,15 +702,15 @@
 701	Curry Concentrate	INV
 702	Curry Heat Riser	INV
 703	BLANK	FLR
-704	Cadenza	DLC
-705	Cross Slash	DLC
-706	Door of Hades	DLC
-707	Magatsu Mandala	DLC
-708	Shining Arrows	DLC
-709	Beast Weaver	DLC
-710	Titanomachia	DLC
-711	Abyssal Wings	DLC
-712	Oratario	DLC
+704	Cadenza	DLC|Orpheus
+705	Cross Slash	DLC|Izanagi
+706	Door of Hades	DLC|Thanatos
+707	Magatsu Mandala	DLC|Magatsu
+708	Shining Arrows	DLC|Kaguya
+709	Beast Weaver	DLC|Ariadne
+710	Titanomachia	DLC|Asterius
+711	Abyssal Wings	DLC|Tsukuyomi
+712	Oratario	DLC|Messiah
 713	BLANK	FLR
 714	BLANK	FLR
 715	BLANK	FLR
