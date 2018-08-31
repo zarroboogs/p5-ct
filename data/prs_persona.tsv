@@ -1,4 +1,4 @@
-0	S000	BLN																
+0	S000	BLN	10										10	10	10	10	10	1
 1	Metatron	Hero	89	1416292	213	53	59						54	61	60	57	42	9
 2	Beelzebub	Hero	84	1247059	85	69	63						55	60	54	56	34	16
 3	Cu Chulainn	Hero	67	729961	222	381	276						47	36	44	47	34	18
@@ -49,7 +49,7 @@
 48	Kali	Hero	77	1021274	192	83	231						53	45	46	53	41	4
 49	Kurama Tengu	Hero	56	462933	278	236	352						34	38	34	42	27	10
 50	Oberon	Hero	66	703225	97	236	42						40	44	43	43	35	5
-51	Shiki-Ouji	Hero	21	30580	224	92	335						11	15	16	16	13	8
+51	Shiki-Ouji	Hero	21	30580	224	92	335						16	14	15	14	11	8
 52	Yamata-no-Orochi	Hero	64	651175	243	25	276						44	38	48	36	33	21
 53	Orobas	Hero	17	16601	356	13	337						11	14	15	12	6	6
 54	Hanuman	Hero	64	651175	350	366	253						43	38	40	40	38	18
@@ -69,8 +69,8 @@
 68	Orthrus	Hero	21	30580	11	812	250						16	14	14	19	7	13
 69	Succubus	Hero	7	1233	96	365							4	7	5	8	4	19
 70	Mothman	Hero	33	110444	44	942	261						21	24	16	24	21	19
-71	RESERVE	FLR																
-72	Dominion	Hero	68	757162	81	51	56						46	47	45	48	40	9
+71	RESERVE	FLR	0										37	37	37	37	36	1
+72	Dominion	Hero	68	757162	81	51	56						43	44	43	44	37	9
 73	Nekomata	Hero	17	16601	84	33	262						13	10	12	15	8	2
 74	Black Frost	Hero	67	729961	25	206	226						44	46	41	42	35	1
 75	Arahabaki	Hero	35	130135	95	371	938						21	23	22	24	22	10
@@ -81,7 +81,7 @@
 80	Power	Hero	41	201328	51	337							30	26	28	25	21	9
 81	Inugami	Hero	14	9432	211	82	335						11	9	9	12	8	13
 82	Nebiros	Hero	62	601073	66	63	96						39	40	42	36	36	16
-83	RESERVE	FLR																
+83	RESERVE	FLR	0										37	37	37	37	36	1
 84	Slime	Hero	10	3520	84	200							9	6	11	6	5	8
 85	Anzu	Hero	25	50400	31	342	387						14	18	15	21	14	6
 86	Yatagarasu	Hero	57	484660	12	355	376						35	41	30	40	32	20
@@ -101,7 +101,7 @@
 100	Dionysus	Hero	61	576768	95	236	192						35	41	38	40	36	1
 101	Apsaras	Hero	11	4656	20	381	365						7	11	6	10	6	3
 102	Andras	Hero	10	3520	20	346							5	9	7	10	6	16
-103	RESERVE	FLR																
+103	RESERVE	FLR	0										6	9	8	11	9	1
 104	Koropokguru	Hero	9	2582	20	86							5	8	6	9	6	10
 105	Koppa Tengu	Hero	11	4656	224	30							7	8	8	11	6	15
 106	Regent	Hero	10	3520	23	67	76	33	57	193	13	43	10	10	10	10	10	5
@@ -112,13 +112,13 @@
 111	Emperor's Amulet	Hero	35	130135	12	22	66	75	32	56	192	42	35	35	35	35	35	13
 112	Hope Diamond	Hero	40	188170	844	847	841	805	850	802	836	831	40	40	40	40	40	14
 113	Crystal Skull	Hero	50	343760	25	69	78	35	59	195	15	45	50	50	50	50	50	1
-114	RESERVE	FLR																
-115	RESERVE	FLR																
-116	RESERVE	FLR																
-117	RESERVE	FLR																
-118	RESERVE	FLR																
-119	RESERVE	FLR																
-120	RESERVE	FLR																
+114	RESERVE	FLR	55										21	22	23	24	25	1
+115	RESERVE	FLR	1										21	22	23	24	25	1
+116	RESERVE	FLR	1										21	22	23	24	25	1
+117	RESERVE	FLR	1										21	22	23	24	25	1
+118	RESERVE	FLR	1										21	22	23	24	25	1
+119	RESERVE	FLR	1										21	22	23	24	25	1
+120	RESERVE	FLR	1										21	22	23	24	25	1
 121	Mandrake	Hero	3	108	328	82							2	3	3	4	4	14
 122	Baal	Hero	75	959775	35	340	366						48	50	47	47	40	5
 123	Dakini	Hero	50	343760	277	211	221						34	32	34	28	29	4
@@ -143,17 +143,17 @@
 142	Belphegor	Hero	37	151817	21	810							25	27	24	23	19	17
 143	Berith	Hero	9	2582	210	336							8	6	7	8	5	6
 144	Choronzon	Hero	28	69553	103	82	241						16	19	19	18	19	2
-145	RESERVE	FLR																
-146	RESERVE	FLR																
-147	RESERVE	FLR																
-148	RESERVE	FLR																
-149	RESERVE	FLR																
-150	RESERVE	FLR																
+145	RESERVE	FLR	1										21	22	23	24	25	1
+146	RESERVE	FLR	1										21	22	23	24	25	1
+147	RESERVE	FLR	1										21	22	23	24	25	1
+148	RESERVE	FLR	1										21	22	23	24	25	1
+149	RESERVE	FLR	1										21	22	23	24	25	1
+150	RESERVE	FLR	1										21	22	23	24	25	1
 151	Nigi Mitama	Hero	20	26570	329	57	305						12	14	14	15	12	15
 152	Kushi Mitama	Hero	14	9432	20	30	86	305					8	12	11	9	9	12
 153	Ara Mitama	Hero	31	92689	74	206	92						20	19	20	20	21	8
 154	Saki Mitama	Hero	6	784	20	328	383						4	6	5	6	4	7
-155	RESERVE	FLR																
+155	RESERVE	FLR	0										37	37	37	37	36	1
 156	Shiva	Hero	82	1181040	806	45	197						55	54	53	53	38	21
 157	Michael	Hero	87	1347965	348	160	25						57	54	55	56	46	21
 158	Asura	Hero	76	990339	176	53	341						52	48	51	49	35	20
@@ -163,22 +163,22 @@
 162	Lachesis	Hero	34	120044	21	863	331						18	25	22	25	19	11
 163	Atropos	Hero	39	175534	388	380	44						23	30	22	27	22	11
 164	Ardha	Hero	84	1247059	177	203	837						54	56	55	54	40	15
-165	RESERVE	FLR																
+165	RESERVE	FLR	0										37	37	37	37	36	1
 166	Vishnu	Hero	83	1213913	857	35	72						56	51	49	57	43	1
 167	Hariti	Hero	40	188170	327	331	41						24	29	25	26	23	4
 168	Yurlungur	Hero	42	215013	97	44	70						26	29	28	27	23	20
 169	Hecatoncheires	Hero	42	215013	831	242	335						29	25	30	25	24	13
 170	Satanael	Hero	95	1624735	69	72	227	809					63	60	57	56	56	1
-171	RESERVE	FLR																
-172	RESERVE	FLR																
-173	RESERVE	FLR																
-174	RESERVE	FLR																
-175	RESERVE	FLR																
-176	RESERVE	FLR																
-177	RESERVE	FLR																
-178	RESERVE	FLR																
-179	RESERVE	FLR																
-180	RESERVE	FLR																
+171	RESERVE	FLR	1										21	22	23	24	25	1
+172	RESERVE	FLR	1										21	22	23	24	25	1
+173	RESERVE	FLR	1										21	22	23	24	25	1
+174	RESERVE	FLR	1										21	22	23	24	25	1
+175	RESERVE	FLR	1										21	22	23	24	25	1
+176	RESERVE	FLR	1										21	22	23	24	25	1
+177	RESERVE	FLR	1										21	22	23	24	25	1
+178	RESERVE	FLR	1										21	22	23	24	25	1
+179	RESERVE	FLR	1										21	22	23	24	25	1
+180	RESERVE	FLR	1										21	22	23	24	25	1
 181	Orpheus	DLC	26	56358	11	704	345						17	17	17	17	17	1
 182	Thanatos	DLC	65	676960	706	69	63						43	49	41	38	31	14
 183	Izanagi	DLC	20	26570	705	335	41						14	13	13	14	13	1
@@ -197,86 +197,86 @@
 196	Ariadne Picaro	DLC	42	215013	856	206	709						36	23	29	24	21	11
 197	Asterius Picaro	DLC	62	601073	940	15	710						46	46	36	36	29	11
 198	Tsukiyomi Picaro	DLC	55	441735	898	711	254	104					41	35	36	40	20	19
-199	Satanael	DUP																
-200	UNK	DUP																
+199	Satanael	DUP	75										41	38	36	40	33	1
+200	???	DUP	60										41	38	36	40	33	1
 201	Arsene	Hero	1	0	64								2	2	2	3	1	1
-202	Captain Kidd	Ryuji																
-203	Zorro	Morgana																
-204	Carmen	Ann																
-205	Goemon	Yusuke																
-206	Johanna	Makoto																
-207	Milady	Haru																
-208	Necronomicon	Futaba																
-209	Robin Hood	Akechi																
-210	Loki	DUP																
-211	Satanael	DUP																
-212	Seiten Taisei	Ryuji																
-213	Mercurius	Morgana																
-214	Hecate	Ann																
-215	Kamu Susano-o	Yusuke																
-216	Anat	Makoto																
-217	Astarte	Haru																
-218	Prometheus	Futaba																
-219	Loki	Akechi																
-220	Arsene	DUP																
-221	Captain Kidd	DUP																
-222	Zorro	DUP																
-223	Carmen	DUP																
-224	Goemon	DUP																
-225	Johanna	DUP																
-226	Milady	DUP																
-227	Necronomicon	DUP																
-228	Robin Hood	DUP																
-229	RESERVE	FLR																
-230	Lucifer	DUP																
-231	Seiten Taisei	DUP																
-232	Mercurius	DUP																
-233	Hecate	DUP																
-234	Kamu Susano-o	DUP																
-235	Anat	DUP																
-236	Astarte	DUP																
-237	Prometheus	DUP																
-238	Loki	DUP																
-239	RESERVE	FLR																
-240	RESERVE	FLR																
-241	RESERVE	FLR																
-242	RESERVE	FLR																
-243	RESERVE	FLR																
-244	RESERVE	FLR																
-245	RESERVE	FLR																
-246	RESERVE	FLR																
-247	RESERVE	FLR																
-248	RESERVE	FLR																
-249	RESERVE	FLR																
-250	RESERVE	FLR																
-251	RESERVE	FLR																
+202	Captain Kidd	Ryuji	4										5	3	5	3	3	8
+203	Zorro	Morgana	2										3	3	2	3	2	2
+204	Carmen	Ann	5										4	6	4	4	5	7
+205	Goemon	Yusuke	15										13	10	11	10	8	5
+206	Johanna	Makoto	21										15	15	14	15	11	3
+207	Milady	Haru	36										27	24	22	22	20	4
+208	Necronomicon	Futaba	30										17	22	19	20	34	10
+209	Robin Hood	Akechi	45										32	29	28	29	24	9
+210	Loki	DUP	1										21	22	23	24	25	9
+211	Satanael	DUP	95										63	60	57	56	56	1
+212	Seiten Taisei	Ryuji	4										5	3	5	3	3	8
+213	Mercurius	Morgana	2										3	3	2	3	2	2
+214	Hecate	Ann	5										4	6	4	4	5	7
+215	Kamu Susano-o	Yusuke	15										13	10	11	10	8	5
+216	Anat	Makoto	21										15	15	14	15	11	3
+217	Astarte	Haru	36										27	24	22	22	20	4
+218	Prometheus	Futaba	30										17	22	19	20	34	10
+219	Loki	Akechi	45										32	29	28	29	24	9
+220	Arsene	DUP	30										21	19	20	20	17	1
+221	Captain Kidd	DUP	4										5	2	5	4	3	8
+222	Zorro	DUP	1										21	22	23	24	25	2
+223	Carmen	DUP	1										21	22	23	24	25	7
+224	Goemon	DUP	1										21	22	23	24	25	5
+225	Johanna	DUP	1										21	22	23	24	25	3
+226	Milady	DUP	1										21	22	23	24	25	4
+227	Necronomicon	DUP	1										21	22	23	24	25	10
+228	Robin Hood	DUP	1										21	22	23	24	25	9
+229	RESERVE	FLR	1										21	22	23	24	25	1
+230	Lucifer	DUP	1										21	22	23	24	25	1
+231	Seiten Taisei	DUP	1										21	22	23	24	25	8
+232	Mercurius	DUP	1										21	22	23	24	25	2
+233	Hecate	DUP	1										21	22	23	24	25	7
+234	Kamu Susano-o	DUP	1										21	22	23	24	25	5
+235	Anat	DUP	1										21	22	23	24	25	3
+236	Astarte	DUP	1										21	22	23	24	25	4
+237	Prometheus	DUP	1										21	22	23	24	25	10
+238	Loki	DUP	1										21	22	23	24	25	9
+239	RESERVE	FLR	1										21	22	23	24	25	1
+240	RESERVE	FLR	1										21	22	23	24	25	1
+241	RESERVE	FLR	1										21	22	23	24	25	1
+242	RESERVE	FLR	1										21	22	23	24	25	1
+243	RESERVE	FLR	1										21	22	23	24	25	1
+244	RESERVE	FLR	1										21	22	23	24	25	1
+245	RESERVE	FLR	1										21	22	23	24	25	1
+246	RESERVE	FLR	1										21	22	23	24	25	1
+247	RESERVE	FLR	1										21	22	23	24	25	1
+248	RESERVE	FLR	1										21	22	23	24	25	1
+249	RESERVE	FLR	1										21	22	23	24	25	1
+250	RESERVE	FLR	1										21	22	23	24	25	1
+251	RESERVE	FLR	1										37	37	37	37	36	18
 252	Satan	Hero	92	1520008	237	121							62	59	55	52	55	21
 253	Lucifer	Hero	93	1554832	130	131	832						61	59	59	56	51	18
 254	Kohryu	Hero	76	990339	195	307	197						43	51	50	53	38	6
 255	Okuninushi	Hero	44	243976	194	340	253						30	28	29	28	24	5
-256	Norn	DUP																
-257	RESERVE	FLR																
-258	RESERVE	FLR																
+256	Norn	DUP	0										39	51	40	43	41	11
+257	RESERVE	FLR	0										44	41	39	35	40	18
+258	RESERVE	FLR	0										44	46	39	35	35	13
 259	Futsunushi	Hero	76	990339	857	340	254						54	48	47	49	37	2
-260	RESERVE	FLR																
+260	RESERVE	FLR	0										29	34	29	32	33	5
 261	Seth	Hero	51	362279	12	342	226						32	35	30	35	28	17
 262	Ishtar	Hero	85	1280460	883	307	311						48	59	49	58	48	7
-263	RESERVE	FLR																
+263	RESERVE	FLR	0										37	37	37	37	36	15
 264	Surt	Hero	59	529682	12	385	202						37	40	39	35	33	2
 265	Siegfried	Hero	69	784818	802	342	202						51	37	47	48	31	12
 266	Lakshmi	Hero	69	784818	22	302	91						40	47	43	46	38	11
-267	RESERVE	FLR																
-268	RESERVE	FLR																
-269	Ex-Belphegor	INV																
-270	RESERVE	FLR																
-271	Garuda	DUP																
+267	RESERVE	FLR	0										44	34	38	30	35	6
+268	RESERVE	FLR	0										8	10	7	11	7	19
+269	Ex-Belphegor	INV	0										29	26	27	20	25	16
+270	RESERVE	FLR	0										7	10	9	8	9	19
+271	Garuda	DUP	0										44	45	42	54	41	18
 272	Fortuna	Hero	46	275081	34	342	372						23	32	29	34	27	11
 273	Suzaku	Hero	19	22912	73	96	345						11	14	10	18	11	20
 274	Seiryu	Hero	62	601073	22	302	341						38	41	43	37	34	15
 275	Genbu	Hero	7	1233	20	346							5	6	7	6	4	15
 276	Byakko	Hero	49	325780	801	24	242						32	32	31	32	27	15
 277	Bishamonten	Hero	67	729961	302	75							49	37	42	45	35	6
-278	Koumokuten	Hero	49	325780	201	831	366						37	32	34	31	25	10
+278	Koumokuten	Hero	49	325780	201	831	366						37	29	34	29	25	10
 279	Jikokuten	Hero	25	50400	273	843	346						19	12	19	17	15	15
 280	Zouchouten	Hero	31	92689	211	41							22	19	24	18	17	12
 281	Hell Biker	Hero	39	175534	11	61	846						26	27	24	30	17	14
@@ -286,13 +286,13 @@
 285	Matador	Hero	19	22912	930	190	337						12	13	12	16	11	14
 286	Pale Rider	Hero	53	400935	95	268	66						34	34	33	39	26	14
 287	Horus	Hero	49	325780	301	56	70						30	32	32	35	25	20
-288	RESERVE	FLR																
+288	RESERVE	FLR	0										37	37	37	37	36	5
 289	Attis	Hero	82	1181040	15	318	343						56	50	48	51	48	13
-290	RESERVE	FLR																
-291	RESERVE	FLR																
+290	RESERVE	FLR	0										37	37	37	37	36	15
+291	RESERVE	FLR	0										21	22	23	24	25	8
 292	Sraosha	Hero	80	1116170	906	56	53						47	56	45	56	43	18
-293	Berith	DUP																
-294	RESERVE	FLR																
+293	Berith	DUP	0										0	0	0	0	0	2
+294	RESERVE	FLR	0										21	22	23	24	25	10
 295	Mitra	Hero	33	110444	301	55	52						19	26	19	24	18	15
 296	Phoenix	Hero	22	34956	265	74							14	15	15	18	11	6
 297	Principality	Hero	29	76810	87	58	372						17	19	18	21	19	9
@@ -300,52 +300,165 @@
 299	Vasuki	Hero	68	757162	97	53	225						41	46	45	42	37	13
 300	Ananta	Hero	43	229228	843	382	77						24	30	31	26	25	18
 301	Throne	Hero	71	841458	906	837	53						42	49	47	46	36	9
-302	RESERVE	FLR																
+302	RESERVE	FLR	0										37	37	37	37	36	19
 303	Quetzalcoatl	Hero	63	625877	273	32	34						38	42	41	41	34	20
 304	Red Rider	Hero	41	201328	194	396	221						26	27	25	29	23	17
-305	Black Rider	Hero	59	529682	270	69	63						38	43	37	45	30	17
-306	RESERVE	FLR																
-307	Ex-Moloch	INV																
+305	Black Rider	Hero	59	529682	270	69	63						36	42	34	42	30	17
+306	RESERVE	FLR	0										21	22	23	24	25	2
+307	Ex-Moloch	INV	0										35	28	27	21	25	13
 308	Pazuzu	Hero	43	229228	68	61	83						29	30	27	26	24	16
-309	RESERVE	FLR																
-310	Slime	DUP																
-311	Jack-o'-Lantern	DUP																
-312	Agathion	DUP																
-313	Mandrake	DUP																
-314	Shiisaa	DUP																
-315	Jack Frost	DUP																
-316	Sudama	DUP																
-317	Onmoraki	DUP																
-318	Bugs	DUP																
-319	Pixie	DUP																
-320	Pixie	DUP																
-321	Ardha	DUP																
-322	RESERVE	FLR																
-323	RESERVE	FLR																
-324	RESERVE	FLR																
-325	RESERVE	FLR																
-326	RESERVE	FLR																
-327	RESERVE	FLR																
-328	RESERVE	FLR																
-329	RESERVE	FLR																
-330	RESERVE	FLR																
-331	RESERVE	FLR																
-332	RESERVE	FLR																
-333	RESERVE	FLR																
-334	RESERVE	FLR																
-335	RESERVE	FLR																
-336	RESERVE	FLR																
-337	RESERVE	FLR																
-338	RESERVE	FLR																
-339	RESERVE	FLR																
-340	RESERVE	FLR																
-341	RESERVE	FLR																
-342	RESERVE	FLR																
-343	RESERVE	FLR																
-344	RESERVE	FLR																
-345	RESERVE	FLR																
-346	RESERVE	FLR																
-347	RESERVE	FLR																
-348	RESERVE	FLR																
-349	RESERVE	FLR																
-350	RESERVE	FLR																
+309	RESERVE	FLR	1										21	22	23	24	25	1
+310	Slime	DUP	1										21	22	23	24	25	1
+311	Jack-o'-Lantern	DUP	1										21	22	23	24	25	1
+312	Agathion	DUP	1										21	22	23	24	25	1
+313	Mandrake	DUP	1										21	22	23	24	25	1
+314	Shiisaa	DUP	1										21	22	23	24	25	1
+315	Jack Frost	DUP	1										21	22	23	24	25	1
+316	Sudama	DUP	1										21	22	23	24	25	1
+317	Onmoraki	DUP	1										21	22	23	24	25	1
+318	Bugs	DUP	1										21	22	23	24	25	1
+319	Pixie	DUP	1										21	22	23	24	25	1
+320	Pixie	DUP	1										21	22	23	24	25	1
+321	Ardha	DUP	1										21	22	23	24	25	1
+322	RESERVE	FLR	1										21	22	23	24	25	1
+323	RESERVE	FLR	1										21	22	23	24	25	1
+324	RESERVE	FLR	1										21	22	23	24	25	1
+325	RESERVE	FLR	1										21	22	23	24	25	1
+326	RESERVE	FLR	1										21	22	23	24	25	1
+327	RESERVE	FLR	1										21	22	23	24	25	1
+328	RESERVE	FLR	1										21	22	23	24	25	1
+329	RESERVE	FLR	1										21	22	23	24	25	1
+330	RESERVE	FLR	1										21	22	23	24	25	1
+331	RESERVE	FLR	1										21	22	23	24	25	1
+332	RESERVE	FLR	1										21	22	23	24	25	1
+333	RESERVE	FLR	1										21	22	23	24	25	1
+334	RESERVE	FLR	1										21	22	23	24	25	1
+335	RESERVE	FLR	1										21	22	23	24	25	1
+336	RESERVE	FLR	1										21	22	23	24	25	1
+337	RESERVE	FLR	1										21	22	23	24	25	1
+338	RESERVE	FLR	1										21	22	23	24	25	1
+339	RESERVE	FLR	1										21	22	23	24	25	1
+340	RESERVE	FLR	1										21	22	23	24	25	1
+341	RESERVE	FLR	1										21	22	23	24	25	1
+342	RESERVE	FLR	1										21	22	23	24	25	1
+343	RESERVE	FLR	1										21	22	23	24	25	1
+344	RESERVE	FLR	1										21	22	23	24	25	1
+345	RESERVE	FLR	1										21	22	23	24	25	1
+346	RESERVE	FLR	1										21	22	23	24	25	1
+347	RESERVE	FLR	1										21	22	23	24	25	1
+348	RESERVE	FLR	1										21	22	23	24	25	1
+349	RESERVE	FLR	1										21	22	23	24	25	1
+350	RESERVE	FLR	1										21	22	23	24	25	1
+351	P5 Unused	FLR	10										11	12	13	14	15	1
+352	P5 Unused	FLR	10										11	12	13	14	15	1
+353	P5 Unused	FLR	10										11	12	13	14	15	1
+354	P6 Unused	FLR	10										11	12	13	14	15	1
+355	P5 Unused	FLR	10										11	12	13	14	15	1
+356	P5 Unused	FLR	10										11	12	13	14	15	1
+357	P5 Unused	FLR	10										11	12	13	14	15	1
+358	P5 Unused	FLR	10										11	12	13	14	15	1
+359	P5 Unused	FLR	10										11	12	13	14	15	1
+360	P5 Unused	FLR	10										11	12	13	14	15	1
+361	P5 Unused	FLR	10										11	12	13	14	15	1
+362	P5 Unused	FLR	10										11	12	13	14	15	1
+363	P5 Unused	FLR	10										11	12	13	14	15	1
+364	P5 Unused	FLR	10										11	12	13	14	15	1
+365	P5 Unused	FLR	10										11	12	13	14	15	1
+366	P5 Unused	FLR	10										11	12	13	14	15	1
+367	P5 Unused	FLR	10										11	12	13	14	15	1
+368	P5 Unused	FLR	10										11	12	13	14	15	1
+369	P5 Unused	FLR	10										11	12	13	14	15	1
+370	P5 Unused	FLR	10										11	12	13	14	15	1
+371	P5 Unused	FLR	10										11	12	13	14	15	1
+372	P5 Unused	FLR	10										11	12	13	14	15	1
+373	P5 Unused	FLR	10										11	12	13	14	15	1
+374	P5 Unused	FLR	10										11	12	13	14	15	1
+375	P5 Unused	FLR	10										11	12	13	14	15	1
+376	P5 Unused	FLR	10										11	12	13	14	15	1
+377	P5 Unused	FLR	10										11	12	13	14	15	1
+378	P5 Unused	FLR	10										11	12	13	14	15	1
+379	P5 Unused	FLR	10										11	12	13	14	15	1
+380	P5 Unused	FLR	10										11	12	13	14	15	1
+381	P5 Unused	FLR	10										11	12	13	14	15	1
+382	P5 Unused	FLR	10										11	12	13	14	15	1
+383	P5 Unused	FLR	10										11	12	13	14	15	1
+384	P5 Unused	FLR	10										11	12	13	14	15	1
+385	P5 Unused	FLR	10										11	12	13	14	15	1
+386	P5 Unused	FLR	10										11	12	13	14	15	1
+387	P5 Unused	FLR	10										11	12	13	14	15	1
+388	P5 Unused	FLR	10										11	12	13	14	15	1
+389	P5 Unused	FLR	10										11	12	13	14	15	1
+390	P5 Unused	FLR	10										11	12	13	14	15	1
+391	P5 Unused	FLR	10										11	12	13	14	15	1
+392	P5 Unused	FLR	10										11	12	13	14	15	1
+393	P5 Unused	FLR	10										11	12	13	14	15	1
+394	P5 Unused	FLR	10										11	12	13	14	15	1
+395	P5 Unused	FLR	10										11	12	13	14	15	1
+396	P5 Unused	FLR	10										11	12	13	14	15	1
+397	P5 Unused	FLR	10										11	12	13	14	15	1
+398	P5 Unused	FLR	10										11	12	13	14	15	1
+399	P5 Unused	FLR	10										11	12	13	14	15	1
+400	P5 Unused	FLR	10										11	12	13	14	15	1
+401	P5 Unused	FLR	10										11	12	13	14	15	1
+402	P5 Unused	FLR	10										11	12	13	14	15	1
+403	P5 Unused	FLR	10										11	12	13	14	15	1
+404	P5 Unused	FLR	10										11	12	13	14	15	1
+405	P5 Unused	FLR	10										11	12	13	14	15	1
+406	P5 Unused	FLR	10										11	12	13	14	15	1
+407	P5 Unused	FLR	10										11	12	13	14	15	1
+408	P5 Unused	FLR	10										11	12	13	14	15	1
+409	P5 Unused	FLR	10										11	12	13	14	15	1
+410	P5 Unused	FLR	10										11	12	13	14	15	1
+411	P5 Unused	FLR	10										11	12	13	14	15	1
+412	P5 Unused	FLR	10										11	12	13	14	15	1
+413	P5 Unused	FLR	10										11	12	13	14	15	1
+414	P5 Unused	FLR	10										11	12	13	14	15	1
+415	P5 Unused	FLR	10										11	12	13	14	15	1
+416	P5 Unused	FLR	10										11	12	13	14	15	1
+417	P5 Unused	FLR	10										11	12	13	14	15	1
+418	P5 Unused	FLR	10										11	12	13	14	15	1
+419	P5 Unused	FLR	10										11	12	13	14	15	1
+420	P5 Unused	FLR	10										11	12	13	14	15	1
+421	P5 Unused	FLR	10										11	12	13	14	15	1
+422	P5 Unused	FLR	10										11	12	13	14	15	1
+423	P5 Unused	FLR	10										11	12	13	14	15	1
+424	P5 Unused	FLR	10										11	12	13	14	15	1
+425	P5 Unused	FLR	10										11	12	13	14	15	1
+426	P5 Unused	FLR	10										11	12	13	14	15	1
+427	P5 Unused	FLR	10										11	12	13	14	15	1
+428	P5 Unused	FLR	10										11	12	13	14	15	1
+429	P5 Unused	FLR	10										11	12	13	14	15	1
+430	P5 Unused	FLR	10										11	12	13	14	15	1
+431	P5 Unused	FLR	10										11	12	13	14	15	1
+432	P5 Unused	FLR	10										11	12	13	14	15	1
+433	P5 Unused	FLR	10										11	12	13	14	15	1
+434	P5 Unused	FLR	10										11	12	13	14	15	1
+435	P5 Unused	FLR	10										11	12	13	14	15	1
+436	P5 Unused	FLR	10										11	12	13	14	15	1
+437	P5 Unused	FLR	10										11	12	13	14	15	1
+438	P5 Unused	FLR	10										11	12	13	14	15	1
+439	P5 Unused	FLR	10										11	12	13	14	15	1
+440	P5 Unused	FLR	10										11	12	13	14	15	1
+441	P5 Unused	FLR	10										11	12	13	14	15	1
+442	P5 Unused	FLR	10										11	12	13	14	15	1
+443	P5 Unused	FLR	10										11	12	13	14	15	1
+444	P5 Unused	FLR	10										11	12	13	14	15	1
+445	P5 Unused	FLR	10										11	12	13	14	15	1
+446	P5 Unused	FLR	10										11	12	13	14	15	1
+447	P5 Unused	FLR	10										11	12	13	14	15	1
+448	P5 Unused	FLR	10										11	12	13	14	15	1
+449	P5 Unused	FLR	10										11	12	13	14	15	1
+450	P5 Unused	FLR	10										11	12	13	14	15	1
+451	P5 Unused	FLR	10										11	12	13	14	15	1
+452	P5 Unused	FLR	10										11	12	13	14	15	1
+453	P5 Unused	FLR	10										11	12	13	14	15	1
+454	P5 Unused	FLR	10										11	12	13	14	15	1
+455	P5 Unused	FLR	10										11	12	13	14	15	1
+456	P5 Unused	FLR	10										11	12	13	14	15	1
+457	P5 Unused	FLR	10										11	12	13	14	15	1
+458	P5 Unused	FLR	10										11	12	13	14	15	1
+459	P5 Unused	FLR	10										11	12	13	14	15	1
+460	RESERVE	FLR	10										11	12	13	14	15	1
+461	RESERVE	FLR	10										11	12	13	14	15	1
+462	RESERVE	FLR	10										11	12	13	14	15	1
+463	RESERVE	FLR	10										11	12	13	14	15	1
