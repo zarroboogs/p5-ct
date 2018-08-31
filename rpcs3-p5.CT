@@ -1594,7 +1594,11 @@ local function cbTargetsSelect(sender)
   local index = sender.ItemIndex
   local id = string.match(sender.Items[index], "%d+")
   local persona = table.filter(tab.prs_persona, fById(id))[1]
-  base_level = tonumber(persona.Level) or 121
+  base_level = tonumber(persona.Level)
+
+  if not (fHasTag("Hero|DLC"))(persona) then
+     base_level = 121
+  end
 
   calcExp()
 end
