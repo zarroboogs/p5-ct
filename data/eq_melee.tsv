@@ -1,6 +1,7 @@
+id	name	tag
 0	Blank	BLN
 1	Generic Gear	UNK
-2	Rebel Knife	Hero
+2	Rebel Knife	Hero|DEF
 3	Kukri	Hero
 4	Arsene's Cane	Hero
 5	Blizz Dagger	Hero
@@ -35,7 +36,7 @@
 34	Melancholia	UNK
 35	Paradise Lost	Hero
 36	Yamanaji	UNK
-37	Normal Rod	Ryuji
+37	Normal Rod	Ryuji|DEF
 38	Mace	Ryuji
 39	Hell Slugger	Ryuji
 40	Heavy Steel Pipe	Ryuji
@@ -71,7 +72,7 @@
 70	Reserve	FLR
 71	The Pulverizer	UNK
 72	Mjolnir	Ryuji
-73	Bandit Sword	Morgana
+73	Bandit Sword	Morgana|DEF
 74	Headhunter Ladle	Morgana
 75	Ryozanpaku Sword	Morgana
 76	Sonic Blade	Morgana
@@ -106,7 +107,7 @@
 105	God Saber	Morgana
 106	Heaven Saber	UNK
 107	Deus Ex Machina	UNK
-108	Leather Whip	Ann
+108	Leather Whip	Ann|DEF
 109	Training Whip	Ann
 110	Skin Ripper	Ann
 111	Heat Whip	Ann
@@ -140,7 +141,7 @@
 139	Snow Queen's Whip	Ann
 140	Death Match Wire	UNK
 141	Naraka Whip	Ann
-142	Katana	Yusuke
+142	Katana	Yusuke|DEF
 143	Gunto	Yusuke
 144	Reserve	FLR
 145	Imitation Katana	Yusuke
@@ -171,7 +172,7 @@
 170	Kyokusui	UNK
 171	Senryou Yakusha	Yusuke
 172	Ame-no-Murakumo	UNK
-173	Brass Knuckles	Makoto
+173	Brass Knuckles	Makoto|DEF
 174	Hell Knuckles	Makoto
 175	Heavy Pound	Makoto
 176	Super Heavy Grip	UNK
@@ -199,7 +200,7 @@
 198	Reserve	FLR
 199	Reserve	FLR
 200	Reserve	FLR
-201	Axe	Haru
+201	Axe	Haru|DEF
 202	Mega Axe	Haru
 203	Steel Bardiche	UNK
 204	Crescent Axe	Haru
@@ -221,7 +222,7 @@
 220	Reserve	FLR
 221	Delta Knuckle	Makoto
 222	Heavy Grip	Makoto
-223	Lumina Saber	Akechi
+223	Lumina Saber	Akechi|DEF
 224	Reserve	FLR
 225	Quasar Saber	Akechi
 226	Reserve	FLR

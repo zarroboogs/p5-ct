@@ -1,14 +1,15 @@
+id	name	tag
 0	Starter Clothes	BLN
 1	Shujin Uniform	UNK
-2	Phantom Suit	Hero
-3	Pirate Armor	Ryuji
-4	Morgana Classic	Morgana
-5	Red Latex Suit	Ann
-6	Outlaw's Attire	Yusuke
-7	Metal Rider	Makoto
-8	Musketeer Suit	Haru
-9	Cyber Gear	Futaba
-10	Prince Suit	Akechi
+2	Phantom Suit	Hero|DEF
+3	Pirate Armor	Ryuji|DEF
+4	Morgana Classic	Morgana|DEF
+5	Red Latex Suit	Ann|DEF
+6	Outlaw's Attire	Yusuke|DEF
+7	Metal Rider	Makoto|DEF
+8	Musketeer Suit	Haru|DEF
+9	Cyber Gear	Futaba|DEF
+10	Prince Suit	Akechi|DEF
 11	Summer Uniform	Hero
 12	Summer Uniform	Ryuji
 13	Summer Uniform	Morgana

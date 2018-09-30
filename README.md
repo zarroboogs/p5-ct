@@ -27,6 +27,7 @@ __NOTE__: The table is mostly dynamically generated, due to some limitations ope
 
 1. Open RPCS3 and launch `Persona 5`.
 2. Open Cheat Engine and load the cheat table.
+3. If prompted, allow the main table script to run.
 
 ---
 
@@ -55,6 +56,14 @@ This tool limits you to the available characters for names in the English releas
 #### Compendium Unlocker
 
 Click the checkbox to unlock or lock a persona in the compendium.
+
+### Persona Base Stats
+
+View the persona base stats table.
+
+### Persona Base Skills
+
+View the persona base skill table.
 
 __WARNING:__ Locking a persona and then unlocking it would reset all persona stats.
 
@@ -92,6 +101,13 @@ Entries are tagged, see [Tags](#tags) for more details.
 
 Contains various game stats that didn't fit in any other category: Money, Romance, Batting, Training, Fishing and Palace stats.
 
+You can also edit time related values:
+
+* To repeat a day's first timeslot, during an event, set `Day Timeslot` to `3`.
+* To repeat a day's second timeslot, during an event, set `Day Timeslot` to `5`.
+
+Editing the day count itself, `Day #`, is highly discouraged.
+
 ### Trophy Counters
 
 Various trophy counters that track when a trophy is unlocked.
@@ -103,14 +119,6 @@ __This is particulary helpful to track the progress of the "Passionate Listener"
 Allows you to edit persona records in the compendium.
 
 You can also unlock or lock persona records using the [Compendium Unlocker](#compendium-unlocker).
-
-### Time
-
-Allows you to edit time related values.
-
-To repeat a day's first timeslot, during an event, set `Time of Day` to `3`.
-
-To repeat a day's second timeslot, during an event, set `Time of Day` to `5`.
 
 ### Confidants
 
@@ -160,14 +168,6 @@ The in-game relationship between a party member or persona's experience `E` and 
 
 ![exp](img/exp.png)
 
-``` tex
-E(x) = \left \lfloor C \times x^{3} + 10 \right \rfloor * ( 1 - \left \lfloor \frac{1}{x}  \right \rfloor )
-```
-
-``` text
-E(x) = floor( C * x ^ 3 + 10 ) * ( 1 - floor( 1 / x ) )
-```
-
 `C` is the base level coefficient:
 
 * for party members, `C` is always `1.4`.
@@ -175,13 +175,11 @@ E(x) = floor( C * x ^ 3 + 10 ) * ( 1 - floor( 1 / x ) )
 
 ![coeff](img/coeff.png)
 
-``` tex
-C(b) = -0.019 \times b + 3.7
-```
+### Time Played
 
-``` text
-C(b) = -0.019 * b + 3.7
-```
+The amount of time played is represented using a "frame counter" (each second equals 30 ticks):
+
+![time](img/time.png)
 
 ### Tags
 
@@ -193,6 +191,7 @@ C(b) = -0.019 * b + 3.7
 * `UNK` - Unknown if valid
 * `VAL` - Obtainable item
 * `HAW` - Hawaii gift
+* `<ALLY_NAME>` - Default equipment for...
 
 #### Melee
 
@@ -200,12 +199,14 @@ C(b) = -0.019 * b + 3.7
 * `FLR` - Filler
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
+* `DEF` - Default equipment
 
 #### Outfit
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
+* `DEF` - Default equipment
 
 #### Protector
 
@@ -213,21 +214,25 @@ C(b) = -0.019 * b + 3.7
 * `UNK` - Unknown if valid
 * `<TYPE>` - Can be equipped by...
 * `DLC*` - Obtained from DLC
+* `<ALLY_NAME>` - Default equipment for...
 
 #### Ranged
 
 * `BLN` - Blank
 * `UNK` - Unknown if valid
 * `<ALLY_NAME>` - Can be equipped by...
+* `DEF` - Default equipment
 
 #### Skill Cards
 
 * `VAL` - Obtainable item
 * `BLN` - Blank
-* `DLC` - Obtained from DLC
+* `DLC_CARD`, `DLC_PRS` - Obtained from DLC
 * `INV` - Invalid item
 * `FLR` - Filler
 * `UNO` - Valid but unobtainable
+* `REW` - Obtained as mission reward
+* `NET` - Network skill, valid but unobtainable
 
 #### Key & Palace
 

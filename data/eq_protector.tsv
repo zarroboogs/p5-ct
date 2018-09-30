@@ -1,17 +1,18 @@
+id	name	tag
 0	Blank	BLN
 1	Thief Clothes	UNK
-2	Dark Undershirt	Males
-3	Print T-Shirt	Males
-4	Neckerchief	Cats
-5	Baseball Jacket	Females
-6	Dress Shirt	Males
-7	Turtleneck	Females
-8	Pink Top	Females
-9	Loose Cutsew	Females
-10	Formal Shirt	Males
+2	Dark Undershirt	Males|Hero
+3	Print T-Shirt	Males|Ryuji
+4	Neckerchief	Cats|Morgana
+5	Baseball Jacket	Females|Ann
+6	Dress Shirt	Males|Yusuke
+7	Turtleneck	Females|Makoto
+8	Pink Top	Females|Haru
+9	Loose Cutsew	Females|Futaba
+10	Formal Shirt	Males|Akechi
 11	0x00B	FLR
 12	0x00C	FLR
-13	Gold Breastplate	Male
+13	Gold Breastplate	Males
 14	Grimy Gear	Unisex
 15	Soiled Armor	Unisex
 16	Shoulder Pads	Males
@@ -58,7 +59,7 @@
 57	Sponge Camisole	Females
 58	Gilded Vest	Unisex
 59	Fancy Collar	Cats
-60	Saint's Tunic	Male
+60	Saint's Tunic	Males
 61	Glaring Cape	Females
 62	Reckless Vest	Unisex
 63	Water Crown	Cats
@@ -196,7 +197,7 @@
 195	Fusion Guard M 4	UNK
 196	Silk Dress	Females
 197	Archangel Bra	Females
-198	Tapsuan	Female
+198	Tapsuan	Females
 199	Fusion Guard F 4	UNK
 200	King Frost Cape	Unisex
 201	Black Wing Robe	Unisex

@@ -1,13 +1,14 @@
+id	name	tag
 0	Blank	BLN
-1	Hip Glasses	VAL
-2	Suspenders	VAL
-3	Fanny Pack	VAL
-4	Hairpin	VAL
-5	Silver Key Ring	VAL
-6	Black Tights	VAL
-7	Dotted Tights	VAL
-8	Headphones	VAL
-9	Black Necktie	VAL
+1	Hip Glasses	VAL|Hero
+2	Suspenders	VAL|Ryuji
+3	Fanny Pack	VAL|Morgana
+4	Hairpin	VAL|Ann
+5	Silver Key Ring	VAL|Yusuke
+6	Black Tights	VAL|Makoto
+7	Dotted Tights	VAL|Haru
+8	Headphones	VAL|Futaba
+9	Black Necktie	VAL|Akechi
 10	Worn Rosary	UNK
 11	Breath Sash	VAL
 12	Stamina Sash	VAL

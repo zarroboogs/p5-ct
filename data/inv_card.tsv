@@ -1,3 +1,4 @@
+id	name	tag
 0	Blank	BLN
 1	Agi	VAL
 2	Agilao	VAL
@@ -35,9 +36,9 @@
 34	Makougaon	VAL
 35	Mudo	VAL
 36	Mudoon	VAL
-37	Mamudo	VAL
+37	Mamudo	UNO
 38	Mamudoon	VAL
-39	Eiha	VAL
+39	Eiha	DLC_CARD
 40	Eiga	VAL
 41	Eigaon	VAL
 42	Maeiha	VAL
@@ -55,7 +56,7 @@
 54	Dazzler	VAL
 55	Nocturnal Flash	VAL
 56	Pulinpa	VAL
-57	Tentarafoo	VAL
+57	Tentarafoo	UNO
 58	Evil Touch	VAL
 59	Evil Smile	VAL
 60	Makajama	VAL
@@ -69,7 +70,7 @@
 68	Ominous Words	VAL
 69	Abysmal Surge	VAL
 70	Marin Karin	VAL
-71	Brain Jack	VAL
+71	Brain Jack	UNO
 72	Trapped Rat	INV
 73	Self-destruct	INV
 74	Self-destruct	INV
@@ -89,7 +90,7 @@
 88	Vacuum Wave	UNO
 89	Thunder Reign	UNO
 90	Wild Thunder	UNO
-91	Divine Judgment	UNO
+91	Divine Judgement	UNO
 92	Samsara	UNO
 93	Demonic Decree	UNO
 94	Die For Me!	UNO
@@ -114,10 +115,10 @@
 113	Cleave	VAL
 114	Giant Slice	VAL
 115	Brave Blade	VAL
-116	Sword Dance	VAL
+116	Sword Dance	UNO
 117	Hassou Tobi	UNO
 118	Ayamur	UNO
-119	Cornered Fang	VAL
+119	Cornered Fang	UNO
 120	Rising Slash	VAL
 121	Deadly Fury	VAL
 122	Snap	VAL
@@ -127,8 +128,8 @@
 126	Vajra Blast	VAL
 127	Vorpal Blade	VAL
 128	Vicious Strike	VAL
-129	Heat Wave	VAL
-130	Gigantomachia	DLC
+129	Heat Wave	UNO
+130	Gigantomachia	DLC_PRS
 131	Rampage	VAL
 132	Swift Strike	VAL
 133	Deathbound	VAL
@@ -165,7 +166,7 @@
 164	Recarmdra	INV
 165	Amrita Drop	VAL
 166	Amrita Shower	VAL
-167	Mabaisudi	VAL
+167	Mabaisudi	UNO
 168	Salvation	VAL
 169	Patra	VAL
 170	Energy Shower	VAL
@@ -191,13 +192,13 @@
 190	Dekaja	VAL
 191	Charge	VAL
 192	Concentrate	VAL
-193	Rebellion	VAL
-194	Revolution	VAL
-195	Tetrakarn	VAL
+193	Rebellion	UNO
+194	Revolution	UNO
+195	Tetrakarn	UNO
 196	Makarakarn	VAL
 197	Tetraja	VAL
 198	Tetra Break	VAL
-199	Makara Break	VAL
+199	Makara Break	UNO
 200	Fire Wall	VAL
 201	Ice Wall	VAL
 202	Elec Wall	VAL
@@ -205,12 +206,12 @@
 204	Fire Break	VAL
 205	Ice Break	VAL
 206	Wind Break	VAL
-207	Elec Break	VAL
+207	Elec Break	UNO
 208	BLANK	FLR
 209	BLANK	FLR
-210	Nuke Wall	VAL
+210	Nuke Wall	UNO
 211	Psy Wall	VAL
-212	Nuke Break	VAL
+212	Nuke Break	UNO
 213	Psy Break	VAL
 214	Counter	VAL
 215	Counterstrike	VAL
@@ -233,7 +234,7 @@
 232	Fire Boost	VAL
 233	Fire Amp	VAL
 234	Ice Boost	VAL
-235	Ice Amp	VAL
+235	Ice Amp	UNO
 236	Wind Boost	VAL
 237	Wind Amp	VAL
 238	Elec Boost	VAL
@@ -247,15 +248,15 @@
 246	Invigorate 2	VAL
 247	Invigorate 3	VAL
 248	Attack Master	UNO
-249	Auto-Mataru	DLC
+249	Auto-Mataru	DLC_PRS
 250	Defense Master	UNO
 251	Auto-Maraku	UNO
 252	Speed Master	UNO
 253	Auto-Masuku	UNO
 254	Fast Heal	VAL
-255	Insta-Heal	DLC
+255	Insta-Heal	DLC_PRS
 256	Arms Master	VAL
-257	Spell Master	DLC
+257	Spell Master	DLC_PRS
 258	Sharp Student	VAL
 259	Apt Pupil	VAL
 260	Ali Dance	UNO
@@ -264,7 +265,7 @@
 263	Victory Cry	UNO
 264	Growth 1	VAL
 265	Growth 2	VAL
-266	Growth 3	VAL
+266	Growth 3	REW|DLC_PRS
 267	Unshaken Will	VAL
 268	Evade Bless	UNO
 269	Evade Curse	UNO
@@ -294,13 +295,13 @@
 293	Repel Curse	UNO
 294	Drain Curse	UNO
 295	Resist Phys	UNO
-296	Null Phys	VAL
+296	Null Phys	REW
 297	Repel Phys	UNO
 298	Drain Phys	UNO
 299	Ailment Boost	VAL
-300	Hama Boost	VAL
-301	Mudo Boost	VAL
-302	Dizzy Boost	VAL
+300	Hama Boost	UNO
+301	Mudo Boost	UNO
+302	Dizzy Boost	UNO
 303	Confuse Boost	VAL
 304	Fear Boost	VAL
 305	Forget Boost	VAL
@@ -329,17 +330,17 @@
 328	Burn Boost	VAL
 329	Freeze Boost	VAL
 330	Shock Boost	VAL
-331	Fortified Moxy	VAL
+331	Fortified Moxy	UNO
 332	Adverse Resolve	VAL
-333	Last Stand	INV
+333	Last Stand	UNO
 334	Heat Up	UNO
 335	BLANK	FLR
-336	Touch n' Go	VAL
+336	Touch n' Go	UNO
 337	Climate Decorum	UNO
-338	Ambient Aid	VAL
-339	Snipe	VAL
-340	Cripple	VAL
-341	Trigger Happy	VAL
+338	Ambient Aid	UNO
+339	Snipe	UNO
+340	Cripple	UNO
+341	Trigger Happy	UNO
 342	Resist Nuke	UNO
 343	Null Nuke	UNO
 344	Repel Nuke	UNO
@@ -350,22 +351,22 @@
 349	Drain Psy	UNO
 350	Nuke Boost	VAL
 351	Nuke Amp	VAL
-352	Psy Boost	VAL
-353	Psy Amp	VAL
+352	Psy Boost	UNO
+353	Psy Amp	UNO
 354	Dodge Nuke	UNO
 355	Evade Nuke	UNO
 356	Dodge Psy	UNO
 357	Evade Psy	UNO
-358	Bless Boost	VAL
-359	Bless Amp	VAL
-360	Curse Boost	VAL
-361	Curse Amp	VAL
-362	Magic Ability	VAL
+358	Bless Boost	UNO
+359	Bless Amp	UNO
+360	Curse Boost	UNO
+361	Curse Amp	UNO
+362	Magic Ability	NET
 363	Fortify Spirit	UNO
-364	Almighty Boost	VAL
-365	Almighty Amp	VAL
+364	Almighty Boost	NET
+365	Almighty Amp	NET
 366	Zenith Defense	INV
-367	Soul Chain	UNO
+367	Soul Chain	NET
 368	BLANK	FLR
 369	BLANK	FLR
 370	BLANK	FLR
