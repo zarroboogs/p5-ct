@@ -99,7 +99,7 @@ p5_RandomizedEncounterMusicCE: &p5_RandomizedEncounterMusicCE
     - [ be32, 0x00B44B94, 0x4863ACEA ] # ba     0x63ACE8
 ```
 
-__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the Persona 5 `PPU-<hash>` segement**:
+__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the Persona 5 `PPU-<hash>` segment**:
 
 ``` yml
     - [ load, p5_RandomizedEncounterMusicCE ] # Enabled via a Cheat Engine script
@@ -108,6 +108,21 @@ __Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the Pe
 __Step 3:__ Restart the game for the `patch.yml` changes to take effect.
 
 __Step 4:__ Enable the _Randomized Encounter Music_ tool via the `[ENABLE] p5_RandomizedEncounterMusicCE` script in the cheat table.
+
+---
+
+As an alternative to the steps above, you can apply [elf_page_protection_rw.patch](elf_page_protection_rw.patch) to the rpcs3 source before building:
+
+``` txt
+cp elf_page_protection_rw.patch <rpcs3_src_dir>
+
+cd <rpcs3_src_dir>
+git apply elf_page_protection_rw.patch
+```
+
+This patch will mark the elf page with rw protection and allow TGE's original mod to work on RPCS3.
+
+**WARNING: This is a hack. Using it might have unforeseen side effects. Using the resulting build in general, and for any reason other than allowing TGE's original Randomized Encounter Music mod for Persona 5 to work in RPCS3 is not recommended.**
 
 ### Party Stats
 
