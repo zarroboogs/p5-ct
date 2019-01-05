@@ -57,15 +57,57 @@ This tool limits you to the available characters for names in the English releas
 
 Click the checkbox to unlock or lock a persona in the compendium.
 
-### Persona Base Stats
-
-View the persona base stats table.
-
-### Persona Base Skills
-
-View the persona base skill table.
-
 __WARNING:__ Locking a persona and then unlocking it would reset all persona stats.
+
+#### Randomized Encounter Music
+
+Due to the way RPCS3 handles the `elf` file spec (i.e. properly, unlike real hardware), enabling TGE's Randomized Encounter Music mod via a `patch.yml` file causes RPCS3 to throw a memory access violation exception.
+
+RPCS3 protects the `elf` memory page as `ro` (read-only), in accordance with the `elf` flags.
+Real hardware seems to ignore said flags, and the page is writable (`rw`).
+
+TGE's mod tries to write 2 bytes to the `elf` memory page, therefore works on real hardware (`rw` protection) but fails on RPCS3 (`ro` protection).
+
+Below is a modified version of TGE's mod that does not write to the problematic protected page.
+Instead, a Cheat Engine script is used, which prevents RPCS3 from throwing an error.
+
+To use the script, follow these steps:
+
+__Step 1:__ Add the following to your Persona 5 `patch.yml` file, **above the Persona 5 `PPU-<hash>` segment**:
+
+``` yml
+# Game: Persona 5
+# Subject: Shuffled/randomized encounter music (modified)
+# Author: TGE
+p5_RandomizedEncounterMusicCE: &p5_RandomizedEncounterMusicCE
+    # patch Btl_PlayBgm
+    # branch to trampoline
+    - [ be32, 0x0063ACE4, 0x48B44B87 ] # bla 0xB44B84 (trampoline)
+    - [ be32, 0x0063ACE8, 0x4806CCBB ] # bla 0x6CCB8 (SoundManager__GetBgmId)
+
+    # trampoline
+
+    # check and return if not normal battle bgm
+    - [ be32, 0x00B44B84, 0x2C1F012C ] # cmpwi  r31, 300 # normal battle
+    - [ be32, 0x00B44B88, 0x41820008 ] # beq    8 # return if not normal battle music
+    - [ be32, 0x00B44B8C, 0x4E800020 ] # blr
+
+    # randomize sound bank
+    - [ be32, 0x00B44B90, 0x4806CCCB ] # bla    0x6CCC8 (SoundManager__SetEquipBgm)
+
+    # return
+    - [ be32, 0x00B44B94, 0x4863ACEA ] # ba     0x63ACE8
+```
+
+__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the Persona 5 `PPU-<hash>` segement**:
+
+``` yml
+    - [ load, p5_RandomizedEncounterMusicCE ] # Enabled via a Cheat Engine script
+```
+
+__Step 3:__ Restart the game for the `patch.yml` changes to take effect.
+
+__Step 4:__ Enable the _Randomized Encounter Music_ tool via the `[ENABLE] p5_RandomizedEncounterMusicCE` script in the cheat table.
 
 ### Party Stats
 
@@ -143,6 +185,14 @@ Numbers in parentheses indicate how many points are needed to level up a stat pe
 * 1 note - 2 points.
 * 2 notes - 3 points.
 * 3 notes - 5 points.
+
+### Persona Base Stats
+
+View the persona base stats table.
+
+### Persona Base Skills
+
+View the persona base skill table.
 
 ### Enemies
 

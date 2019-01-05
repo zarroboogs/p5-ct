@@ -7,144 +7,143 @@
   </Forms>
   <CheatEntries>
     <CheatEntry>
-      <ID>1</ID>
+      <ID>0</ID>
       <Description>"Internal Stuff"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>2</ID>
+          <ID>1</ID>
           <Description>"Data Structures"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>3</ID>
+              <ID>2</ID>
               <Description>"[DS] Persona"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>4</ID>
+                  <ID>3</ID>
                   <Description>"SIZE,48"</Description>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>5</ID>
+                  <ID>4</ID>
                   <Description>"Flags"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>0</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>6</ID>
+                  <ID>5</ID>
                   <Description>"Unlocked"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>7</ID>
+                  <ID>6</ID>
                   <Description>"Persona ID"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>2</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>8</ID>
+                  <ID>7</ID>
                   <Description>"Level"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Byte</VariableType>
                   <Address>4</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>9</ID>
+                  <ID>8</ID>
                   <Description>"EXP"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>4 Byte Big Endian</CustomType>
                   <Address>8</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>10</ID>
+                  <ID>9</ID>
                   <Description>"Skill 1"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>11</ID>
+                  <ID>10</ID>
                   <Description>"Skill 2"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>E</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>12</ID>
+                  <ID>11</ID>
                   <Description>"Skill 3"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>10</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>13</ID>
+                  <ID>12</ID>
                   <Description>"Skill 4"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>12</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>14</ID>
+                  <ID>13</ID>
                   <Description>"Skill 5"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>14</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>15</ID>
+                  <ID>14</ID>
                   <Description>"Skill 6"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>16</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>16</ID>
+                  <ID>15</ID>
                   <Description>"Skill 7"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>18</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17</ID>
+                  <ID>16</ID>
                   <Description>"Skill 8"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>1A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>18</ID>
+                  <ID>17</ID>
                   <Description>"St"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>19</ID>
+                  <ID>18</ID>
                   <Description>"Ma"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1D</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>20</ID>
+                  <ID>19</ID>
                   <Description>"En"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1E</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>21</ID>
+                  <ID>20</ID>
                   <Description>"Ag"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1F</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>22</ID>
+                  <ID>21</ID>
                   <Description>"Lu"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>20</Address>
@@ -152,18 +151,18 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>23</ID>
+              <ID>22</ID>
               <Description>"[DS] Combatant"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>24</ID>
+                  <ID>23</ID>
                   <Description>"SIZE,672"</Description>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>25</ID>
+                  <ID>24</ID>
                   <Description>"UNK"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -171,973 +170,873 @@
                   <Address>0</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>26</ID>
+                  <ID>25</ID>
                   <Description>"Type"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>5</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>27</ID>
+                  <ID>26</ID>
                   <Description>"Comb. ID"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>28</ID>
+                  <ID>27</ID>
                   <Description>"HP"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>E</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>29</ID>
+                  <ID>28</ID>
                   <Description>"SP"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>12</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>30</ID>
+                  <ID>29</ID>
                   <Description>"Ailments"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>31</ID>
+                      <ID>30</ID>
                       <Description>"Burn"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>32</ID>
+                      <ID>31</ID>
                       <Description>"Freeze"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>33</ID>
+                      <ID>32</ID>
                       <Description>"Shock"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>34</ID>
+                      <ID>33</ID>
                       <Description>"Dizzy"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>35</ID>
+                      <ID>34</ID>
                       <Description>"Confuse"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>36</ID>
+                      <ID>35</ID>
                       <Description>"Fear"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>37</ID>
+                      <ID>36</ID>
                       <Description>"Forget"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>38</ID>
+                      <ID>37</ID>
                       <Description>"Hunger"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>17</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>39</ID>
+                      <ID>38</ID>
                       <Description>"Sleep"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>40</ID>
+                      <ID>39</ID>
                       <Description>"Rage"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>41</ID>
+                      <ID>40</ID>
                       <Description>"Despair"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>42</ID>
+                      <ID>41</ID>
                       <Description>"Brainwash"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>43</ID>
+                      <ID>42</ID>
                       <Description>"Desperation"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>16</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>43</ID>
+                      <Description>"UNK"</Description>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>5</BitStart>
+                      <BitLength>1</BitLength>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>44</ID>
-                      <Description>"UNK"</Description>
-                      <VariableType>Binary</VariableType>
-                      <BitStart>5</BitStart>
-                      <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
-                      <Address>16</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>45</ID>
                       <Description>"Panic"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>46</ID>
+                      <ID>45</ID>
                       <Description>"Lust"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>16</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>47</ID>
+                      <ID>46</ID>
                       <Description>"Wrath"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>48</ID>
+                      <ID>47</ID>
                       <Description>"Envy"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>49</ID>
+                      <ID>48</ID>
                       <Description>"Susceptible"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>50</ID>
+                      <ID>49</ID>
                       <Description>"Dead"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>51</ID>
+                      <ID>50</ID>
                       <Description>"Down"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>52</ID>
+                      <ID>51</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>53</ID>
+                      <ID>52</ID>
                       <Description>"Rattled"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>54</ID>
+                      <ID>53</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>15</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>55</ID>
+                  <ID>54</ID>
                   <Description>"Level"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>19</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>56</ID>
+                  <ID>55</ID>
                   <Description>"EXP"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>4 Byte Big Endian</CustomType>
                   <Address>1C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>57</ID>
+                  <ID>56</ID>
                   <Description>"Phase ID"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>20</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>58</ID>
+                  <ID>57</ID>
                   <Description>"Buff Status"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>59</ID>
+                      <ID>58</ID>
                       <Description>"ATK Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>60</ID>
+                      <ID>59</ID>
                       <Description>"ACC Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>61</ID>
+                      <ID>60</ID>
                       <Description>"DEF Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>62</ID>
+                      <ID>61</ID>
                       <Description>"EVA Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>63</ID>
+                      <ID>62</ID>
                       <Description>"Critical #1 Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>64</ID>
+                      <ID>63</ID>
                       <Description>"Critical #2 Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>65</ID>
+                      <ID>64</ID>
                       <Description>"Susceptibility Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>66</ID>
+                      <ID>65</ID>
                       <Description>"Fire Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>27</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>67</ID>
+                      <ID>66</ID>
                       <Description>"Ice Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>68</ID>
+                      <ID>67</ID>
                       <Description>"Wind Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>69</ID>
+                      <ID>68</ID>
                       <Description>"Elec Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>70</ID>
+                      <ID>69</ID>
                       <Description>"Nuke Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>71</ID>
+                      <ID>70</ID>
                       <Description>"Psy Aff. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>72</ID>
+                      <ID>71</ID>
                       <Description>"Fire Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>73</ID>
+                      <ID>72</ID>
                       <Description>"Ice Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>74</ID>
+                      <ID>73</ID>
                       <Description>"Elec Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>26</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>75</ID>
+                      <ID>74</ID>
                       <Description>"Wind Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>76</ID>
+                      <ID>75</ID>
                       <Description>"Nuke Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>77</ID>
+                      <ID>76</ID>
                       <Description>"Psy Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>78</ID>
+                      <ID>77</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>3</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>79</ID>
+                      <ID>78</ID>
                       <Description>"Phys Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>80</ID>
+                      <ID>79</ID>
                       <Description>"Magic Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>81</ID>
+                      <ID>80</ID>
                       <Description>"Charge Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>82</ID>
+                      <ID>81</ID>
                       <Description>"Concentrate Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>25</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>82</ID>
+                      <Description>"UNK"</Description>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>0</BitStart>
+                      <BitLength>1</BitLength>
+                      <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>83</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
-                      <BitStart>0</BitStart>
+                      <BitStart>1</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>84</ID>
-                      <Description>"UNK"</Description>
-                      <VariableType>Binary</VariableType>
-                      <BitStart>1</BitStart>
-                      <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
-                      <Address>24</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>85</ID>
                       <Description>"Insta-Kill Resist. Status"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>2</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>24</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>85</ID>
+                      <Description>"UNK"</Description>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>3</BitStart>
+                      <BitLength>1</BitLength>
                       <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>86</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
-                      <BitStart>3</BitStart>
+                      <BitStart>4</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>87</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
-                      <BitStart>4</BitStart>
+                      <BitStart>5</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>88</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
-                      <BitStart>5</BitStart>
+                      <BitStart>6</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>24</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>89</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
-                      <BitStart>6</BitStart>
-                      <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
-                      <Address>24</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>90</ID>
-                      <Description>"UNK"</Description>
-                      <VariableType>Binary</VariableType>
                       <BitStart>7</BitStart>
                       <BitLength>1</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>24</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>91</ID>
+                  <ID>90</ID>
                   <Description>"Attack Type"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>2B</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>92</ID>
+                  <ID>91</ID>
                   <Description>"Buff Direction"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>93</ID>
+                      <ID>92</ID>
                       <Description>"ATK Direction"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>2C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>93</ID>
+                      <Description>"ACC Direction"</Description>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>4</BitLength>
                       <Address>2C</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>94</ID>
-                      <Description>"ACC Direction"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Binary</VariableType>
-                      <BitStart>4</BitStart>
-                      <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
-                      <Address>2C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>95</ID>
                       <Description>"DEF Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2D</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>96</ID>
+                      <ID>95</ID>
                       <Description>"EVA Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2D</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>97</ID>
+                      <ID>96</ID>
                       <Description>"Crit. #1 Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2E</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>98</ID>
+                      <ID>97</ID>
                       <Description>"Crit. #2 Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2E</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>99</ID>
+                      <ID>98</ID>
                       <Description>"Sucep. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2F</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>100</ID>
+                      <ID>99</ID>
                       <Description>"Fire Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>2F</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>101</ID>
+                      <ID>100</ID>
                       <Description>"Ice Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>30</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>102</ID>
+                      <ID>101</ID>
                       <Description>"Wind Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>30</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>103</ID>
+                      <ID>102</ID>
                       <Description>"Elec Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>31</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>104</ID>
+                      <ID>103</ID>
                       <Description>"Nuke Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>31</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>105</ID>
+                      <ID>104</ID>
                       <Description>"Psy Aff. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>32</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>106</ID>
+                      <ID>105</ID>
                       <Description>"Fire Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>32</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>107</ID>
+                      <ID>106</ID>
                       <Description>"Ice Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>33</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>108</ID>
+                      <ID>107</ID>
                       <Description>"Elec Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>33</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>109</ID>
+                      <ID>108</ID>
                       <Description>"Wind Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>34</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>110</ID>
+                      <ID>109</ID>
                       <Description>"Nuke Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>34</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>111</ID>
+                      <ID>110</ID>
                       <Description>"Psy Resist. Direction"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>35</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>112</ID>
+                      <ID>111</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>35</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>113</ID>
+                  <ID>112</ID>
                   <Description>"Buff Duration"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>114</ID>
+                      <ID>113</ID>
                       <Description>"ATK Duration"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
+                      <Address>36</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>114</ID>
+                      <Description>"ACC Duration"</Description>
+                      <VariableType>Binary</VariableType>
+                      <BitStart>4</BitStart>
+                      <BitLength>4</BitLength>
                       <Address>36</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>115</ID>
-                      <Description>"ACC Duration"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>Binary</VariableType>
-                      <BitStart>4</BitStart>
-                      <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
-                      <Address>36</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>116</ID>
                       <Description>"DEF Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>37</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>117</ID>
+                      <ID>116</ID>
                       <Description>"EVA Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>37</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>118</ID>
+                      <ID>117</ID>
                       <Description>"Crit. #1 Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>38</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>119</ID>
+                      <ID>118</ID>
                       <Description>"Crit. #2 Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>38</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>120</ID>
+                      <ID>119</ID>
                       <Description>"Sucep. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>39</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>121</ID>
+                      <ID>120</ID>
                       <Description>"Fire Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>39</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>122</ID>
+                      <ID>121</ID>
                       <Description>"Ice Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>40</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>123</ID>
+                      <ID>122</ID>
                       <Description>"Wind Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>40</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>124</ID>
+                      <ID>123</ID>
                       <Description>"Elec Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>41</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>125</ID>
+                      <ID>124</ID>
                       <Description>"Nuke Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>41</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>126</ID>
+                      <ID>125</ID>
                       <Description>"Psy Aff. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3C</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>127</ID>
+                      <ID>126</ID>
                       <Description>"Fire Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3C</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>128</ID>
+                      <ID>127</ID>
                       <Description>"Ice Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3D</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>129</ID>
+                      <ID>128</ID>
                       <Description>"Elec Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3D</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>130</ID>
+                      <ID>129</ID>
                       <Description>"Wind Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3E</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>131</ID>
+                      <ID>130</ID>
                       <Description>"Nuke Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3E</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>132</ID>
+                      <ID>131</ID>
                       <Description>"Psy Resist. Duration"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>0</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3F</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>133</ID>
+                      <ID>132</ID>
                       <Description>"UNK"</Description>
                       <VariableType>Binary</VariableType>
                       <BitStart>4</BitStart>
                       <BitLength>4</BitLength>
-                      <ShowAsBinary>0</ShowAsBinary>
                       <Address>3F</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>134</ID>
+                  <ID>133</ID>
                   <Description>"Marked Persona (In Menu)"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>41</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>135</ID>
+                  <ID>134</ID>
                   <Description>"Persona"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>136</ID>
+                      <ID>135</ID>
                       <Description>"FILL,12,[DS] Persona"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>44</Address>
@@ -1145,37 +1044,37 @@
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>137</ID>
+                  <ID>136</ID>
                   <Description>"Equip"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <Options moHideChildren="1" moManualExpandCollapse="1" />
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>138</ID>
+                      <ID>137</ID>
                       <Description>"Melee"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>285</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>139</ID>
+                      <ID>138</ID>
                       <Description>"Protector"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>287</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>140</ID>
+                      <ID>139</ID>
                       <Description>"Accessory"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>289</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>141</ID>
+                      <ID>140</ID>
                       <Description>"Outfit"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>28B</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>142</ID>
+                      <ID>141</ID>
                       <Description>"Ranged"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>28D</Address>
@@ -1183,27 +1082,27 @@
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>143</ID>
+                  <ID>142</ID>
                   <Description>"Bullets"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>294</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>144</ID>
+                  <ID>143</ID>
                   <Description>"UNK"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>29A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>145</ID>
+                  <ID>144</ID>
                   <Description>"HP Gain"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>29C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>146</ID>
+                  <ID>145</ID>
                   <Description>"SP Gain"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
@@ -1212,78 +1111,78 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>147</ID>
+              <ID>146</ID>
               <Description>"[DS] Persona Base Stats"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>148</ID>
+                  <ID>147</ID>
                   <Description>"SIZE,14"</Description>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>149</ID>
+                  <ID>148</ID>
                   <Description>"Type"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>150</ID>
+                  <ID>149</ID>
                   <Description>"Flags"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>151</ID>
+                  <ID>150</ID>
                   <Description>"Arcana"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>2</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>152</ID>
+                  <ID>151</ID>
                   <Description>"Base Level"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>3</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>153</ID>
+                  <ID>152</ID>
                   <Description>"St"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>4</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>154</ID>
+                  <ID>153</ID>
                   <Description>"Ma"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>5</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>155</ID>
+                  <ID>154</ID>
                   <Description>"En"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>6</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>156</ID>
+                  <ID>155</ID>
                   <Description>"Ag"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>7</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>157</ID>
+                  <ID>156</ID>
                   <Description>"Lu"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>8</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>158</ID>
+                  <ID>157</ID>
                   <Description>"Inherit"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>b</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>159</ID>
+                  <ID>158</ID>
                   <Description>"UNK"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>d</Address>
@@ -1291,170 +1190,170 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>160</ID>
+              <ID>159</ID>
               <Description>"[DS] Persona Base Skills"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>161</ID>
+                  <ID>160</ID>
                   <Description>"SIZE,70"</Description>
                   <GroupHeader>1</GroupHeader>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>162</ID>
+                  <ID>161</ID>
                   <Description>"Skill 1 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>163</ID>
+                  <ID>162</ID>
                   <Description>"Skill 1 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>1</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>164</ID>
+                  <ID>163</ID>
                   <Description>"Skill 1"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>2</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>165</ID>
+                  <ID>164</ID>
                   <Description>"Skill 2 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000004</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>166</ID>
+                  <ID>165</ID>
                   <Description>"Skill 2 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000005</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>167</ID>
+                  <ID>166</ID>
                   <Description>"Skill 2"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>6</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>168</ID>
+                  <ID>167</ID>
                   <Description>"Skill 3 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000008</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>169</ID>
+                  <ID>168</ID>
                   <Description>"Skill 3 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000009</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>170</ID>
+                  <ID>169</ID>
                   <Description>"Skill 3"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>171</ID>
+                  <ID>170</ID>
                   <Description>"Skill 4 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0000000C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>172</ID>
+                  <ID>171</ID>
                   <Description>"Skill 4 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0000000D</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>173</ID>
+                  <ID>172</ID>
                   <Description>"Skill 4"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>E</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>174</ID>
+                  <ID>173</ID>
                   <Description>"Skill 5 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000010</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>175</ID>
+                  <ID>174</ID>
                   <Description>"Skill 5 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000011</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>176</ID>
+                  <ID>175</ID>
                   <Description>"Skill 5"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>12</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>177</ID>
+                  <ID>176</ID>
                   <Description>"Skill 6 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000014</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>178</ID>
+                  <ID>177</ID>
                   <Description>"Skill 6 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000015</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>179</ID>
+                  <ID>178</ID>
                   <Description>"Skill 6"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>16</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>180</ID>
+                  <ID>179</ID>
                   <Description>"Skill 7 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000018</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>181</ID>
+                  <ID>180</ID>
                   <Description>"Skill 7 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>00000019</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>182</ID>
+                  <ID>181</ID>
                   <Description>"Skill 7"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>1A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>183</ID>
+                  <ID>182</ID>
                   <Description>"Skill 8 Level Delta"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0000001C</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>184</ID>
+                  <ID>183</ID>
                   <Description>"Skill 8 Enabled"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>0000001D</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>185</ID>
+                  <ID>184</ID>
                   <Description>"Skill 8"</Description>
                   <VariableType>Custom</VariableType>
                   <CustomType>2 Byte Big Endian</CustomType>
                   <Address>1E</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>186</ID>
+                  <ID>185</ID>
                   <Description>"UNK"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1466,39 +1365,38 @@
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>187</ID>
+          <ID>186</ID>
           <Description>"Dynamic Lists"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
-          <CheatEntries/>
         </CheatEntry>
         <CheatEntry>
-          <ID>188</ID>
+          <ID>187</ID>
           <Description>"Static Lists"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>189</ID>
+              <ID>188</ID>
               <Description>"slBuffDirection"</Description>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:None
 1:Up
 14:Down
 </DropDownList>
               <VariableType>4 Bytes</VariableType>
-              <Address/>
+              <Address />
             </CheatEntry>
             <CheatEntry>
-              <ID>190</ID>
+              <ID>189</ID>
               <Description>"slActive"</Description>
               <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Inactive
 1:Active
 </DropDownList>
               <VariableType>4 Bytes</VariableType>
-              <Address/>
+              <Address />
             </CheatEntry>
             <CheatEntry>
-              <ID>191</ID>
+              <ID>190</ID>
               <Description>"slPersonaInherit"</Description>
               <DropDownList DisplayValueAsItem="1">0:Blank
 1:Phys
@@ -1518,20 +1416,20 @@
 15:Psy
 </DropDownList>
               <VariableType>4 Bytes</VariableType>
-              <Address/>
+              <Address />
             </CheatEntry>
             <CheatEntry>
-              <ID>192</ID>
+              <ID>191</ID>
               <Description>"slPersonaType"</Description>
               <DropDownList DisplayValueAsItem="1">0:Normal
 1:Treasure
 2:DLC
 </DropDownList>
               <VariableType>4 Bytes</VariableType>
-              <Address/>
+              <Address />
             </CheatEntry>
             <CheatEntry>
-              <ID>193</ID>
+              <ID>192</ID>
               <Description>"slBaseStatsFlags"</Description>
               <DropDownList DisplayValueAsItem="1">0:Normal
 2:Special
@@ -1542,24 +1440,24 @@
 56:Invalid 5
 </DropDownList>
               <VariableType>4 Bytes</VariableType>
-              <Address/>
+              <Address />
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>194</ID>
+          <ID>193</ID>
           <Description>"Names"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>195</ID>
+              <ID>194</ID>
               <Description>"Last Name"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>196</ID>
+                  <ID>195</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1567,7 +1465,7 @@
                   <Address>4010C18B2</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>197</ID>
+                  <ID>196</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1577,13 +1475,13 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>198</ID>
+              <ID>197</ID>
               <Description>"First Name"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>199</ID>
+                  <ID>198</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1591,7 +1489,7 @@
                   <Address>4010C18C6</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>200</ID>
+                  <ID>199</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1601,13 +1499,13 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>201</ID>
+              <ID>200</ID>
               <Description>"First Name + Last Name"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>202</ID>
+                  <ID>201</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1615,7 +1513,7 @@
                   <Address>4010C187A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>203</ID>
+                  <ID>202</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1623,7 +1521,7 @@
                   <Address>4010C18DA</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>204</ID>
+                  <ID>203</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1631,7 +1529,7 @@
                   <Address>4010D671A</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>205</ID>
+                  <ID>204</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1641,13 +1539,13 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
-              <ID>206</ID>
+              <ID>205</ID>
               <Description>"Group Name"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>207</ID>
+                  <ID>206</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1655,7 +1553,7 @@
                   <Address>4010C1902</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>208</ID>
+                  <ID>207</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1663,7 +1561,7 @@
                   <Address>4010C191B</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>209</ID>
+                  <ID>208</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1671,7 +1569,7 @@
                   <Address>4010D67A2</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>210</ID>
+                  <ID>209</ID>
                   <Description>"No description"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
@@ -1685,14 +1583,14 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>211</ID>
+      <ID>210</ID>
       <Description>"Tools"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>212</ID>
-          <Description>"Experience Calculator"</Description>
+          <ID>211</ID>
+          <Description>"[TOOL] Experience Calculator"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -1771,8 +1669,8 @@ frmExpCalc.Hide()
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>213</ID>
-          <Description>"Name Changer"</Description>
+          <ID>212</ID>
+          <Description>"[TOOL] Name Changer"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -1937,8 +1835,8 @@ frmNames.Hide()
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>214</ID>
-          <Description>"Compendium Unlocker"</Description>
+          <ID>213</ID>
+          <Description>"[TOOL] Compendium Unlocker"</Description>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -2046,31 +1944,42 @@ frmComp.Hide()
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>215</ID>
-          <Description>"Persona Base Stats"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
+          <ID>214</ID>
+          <Description>"[TOOL] Randomized Encounter Music"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>215</ID>
+              <Description>"[ENABLE] p5_RandomizedEncounterMusicCE"</Description>
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
 {$lua}
 
-if memrec == nil then return end
-if memrec.Count &gt; 0 then return end
+if syntaxcheck then return end
 
-local tmp, tmpSize = popDS("[DS] Persona Base Stats", getAddress("_prsBaseStats"))
+local maxBGM = 11
+local interval = 5000
 
-for _, v in pairs(tab.prs_persona) do
-  local r = mrClone(tmp, tmpSize * v.id)
-  r.Description = string.format("%03d. %s [%s]", v.id, v.name, v.tag)
-  r.DontSave = true
-  r.appendToEntry(memrec)
+local addr = 0x400b49738
+
+math.randomseed(os.time())
+
+local function timerTick(timer)
+  if not memrec.Active then
+    writeBE2(addr, 0)
+    timer.destroy()
+    return
+  end
+
+  writeBE2(addr, math.random(0, maxBGM))
 end
 
-tmp.destroy()
-
-addDDLRef(memrec, false, "slPersonaType", mrByDesc("^Type$"))
-addDDLRef(memrec, false, "slBaseStatsFlags", mrByDesc("^Flags$"))
-addDDLRef(memrec, false, "dlArcana", mrByDesc("^Arcana$"))
-addDDLRef(memrec, false, "slPersonaInherit", mrByDesc("^Inherit$"))
+local tmRandomBGM = createTimer(getMainForm(), false)
+tmRandomBGM.Interval = interval
+tmRandomBGM.OnTimer = timerTick
+tmRandomBGM.Enabled = true
 
 {$asm}
 
@@ -2080,46 +1989,29 @@ addDDLRef(memrec, false, "slPersonaInherit", mrByDesc("^Inherit$"))
 {$asm}
 
 </AssemblerScript>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>216</ID>
-          <Description>"Persona Base Skills"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-{$lua}
-
-if memrec == nil then return end
-if memrec.Count &gt; 0 then return end
-
-local tmp, tmpSize = popDS("[DS] Persona Base Skills", getAddress("_prsBaseSkills"))
-
-for _, v in pairs(tab.prs_persona) do
-  local r = mrClone(tmp, tmpSize * v.id)
-  r.Description = string.format("%03d. %s [%s]", v.id, v.name, v.tag)
-  r.DontSave = true
-  r.appendToEntry(memrec)
-end
-
-tmp.destroy()
-
-addDDLRef(memrec, false, "dlSkill", mrByDesc("^Skill [1-8]$"))
-
-{$asm}
-
-[DISABLE]
-{$lua}
-
-{$asm}
-
-</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>216</ID>
+              <Description>"Next BGM Index"</Description>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>400b49738</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>217</ID>
+              <Description>"State (300 -&gt; Normal Battle)"</Description>
+              <VariableType>Custom</VariableType>
+              <CustomType>2 Byte Big Endian</CustomType>
+              <Address>400CFF4C6</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>217</ID>
+      <ID>218</ID>
       <Description>"Party Stats"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$lua}
@@ -2157,13 +2049,11 @@ addDDLRef(memrec, false, "dlEqRanged", mrByDesc("^Ranged$"))
 {$asm}
 
 </AssemblerScript>
-      <CheatEntries/>
     </CheatEntry>
     <CheatEntry>
-      <ID>218</ID>
+      <ID>219</ID>
       <Description>"Inventory"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
-      <Color>000000</Color>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$lua}
@@ -2211,219 +2101,200 @@ end
 {$asm}
 
 </AssemblerScript>
-      <CheatEntries/>
     </CheatEntry>
     <CheatEntry>
-      <ID>219</ID>
+      <ID>220</ID>
       <Description>"General"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>220</ID>
+          <ID>221</ID>
           <Description>"Money"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B21C4</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>221</ID>
+          <ID>222</ID>
           <Description>"Romance Flags"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>222</ID>
-              <Description>"Star"</Description>
+              <ID>223</ID>
+              <Description>"Hifumi"</Description>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B2320</Address>
             </CheatEntry>
             <CheatEntry>
-              <ID>223</ID>
-              <Description>"Priestess"</Description>
+              <ID>224</ID>
+              <Description>"Makoto"</Description>
               <VariableType>Binary</VariableType>
               <BitStart>0</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>224</ID>
-              <Description>"Empress"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>1</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B2321</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>225</ID>
-              <Description>"Lovers"</Description>
+              <Description>"Haru"</Description>
               <VariableType>Binary</VariableType>
-              <BitStart>2</BitStart>
+              <BitStart>1</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B2321</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>226</ID>
-              <Description>"Hermit"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>3</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>227</ID>
-              <Description>"Fortune"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>4</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>228</ID>
-              <Description>"Death"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>5</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>229</ID>
-              <Description>"Temperence"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>6</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>230</ID>
-              <Description>"Devil"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>7</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B2321</Address>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>231</ID>
-          <Description>"Party Flags"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>232</ID>
-              <Description>"Ryuji"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>0</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B25ED</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>233</ID>
-              <Description>"Morgana"</Description>
-              <VariableType>Binary</VariableType>
-              <BitStart>1</BitStart>
-              <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
-              <Address>4010B25ED</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>234</ID>
               <Description>"Ann"</Description>
               <VariableType>Binary</VariableType>
               <BitStart>2</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>227</ID>
+              <Description>"Futaba"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>3</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>228</ID>
+              <Description>"Chihaya"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>4</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>229</ID>
+              <Description>"Takemi"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>5</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>230</ID>
+              <Description>"Kawakami"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>231</ID>
+              <Description>"Ohya"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>7</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B2321</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>232</ID>
+          <Description>"Party Flags"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>233</ID>
+              <Description>"Ryuji"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B25ED</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>234</ID>
+              <Description>"Morgana"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>1</BitStart>
+              <BitLength>1</BitLength>
               <Address>4010B25ED</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>235</ID>
-              <Description>"Yusuke"</Description>
+              <Description>"Ann"</Description>
               <VariableType>Binary</VariableType>
-              <BitStart>3</BitStart>
+              <BitStart>2</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B25ED</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>236</ID>
-              <Description>"Makoto"</Description>
+              <Description>"Yusuke"</Description>
               <VariableType>Binary</VariableType>
-              <BitStart>4</BitStart>
+              <BitStart>3</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B25ED</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>237</ID>
-              <Description>"Haru"</Description>
+              <Description>"Makoto"</Description>
               <VariableType>Binary</VariableType>
-              <BitStart>5</BitStart>
+              <BitStart>4</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B25ED</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>238</ID>
-              <Description>"Futaba"</Description>
+              <Description>"Haru"</Description>
               <VariableType>Binary</VariableType>
-              <BitStart>6</BitStart>
+              <BitStart>5</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B25ED</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>239</ID>
+              <Description>"Futaba"</Description>
+              <VariableType>Binary</VariableType>
+              <BitStart>6</BitStart>
+              <BitLength>1</BitLength>
+              <Address>4010B25ED</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>240</ID>
               <Description>"Akechi"</Description>
               <VariableType>Binary</VariableType>
               <BitStart>7</BitStart>
               <BitLength>1</BitLength>
-              <ShowAsBinary>0</ShowAsBinary>
               <Address>4010B25ED</Address>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>240</ID>
+          <ID>241</ID>
           <Description>"Batting Hits"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B26E0</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>241</ID>
+          <ID>242</ID>
           <Description>"Batting Home Runs"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B26E4</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>242</ID>
+          <ID>243</ID>
           <Description>"Training # In Room (20 max)"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B272F</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>243</ID>
+          <ID>244</ID>
           <Description>"Training # In Gym (20 max)"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B2757</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>244</ID>
+          <ID>245</ID>
           <Description>"Curry Secrets"</Description>
           <DropDownList DisplayValueAsItem="1">0:None
 1:Curry Secret Ingredient: Apples
@@ -2446,13 +2317,13 @@ end
           <Address>4010B273B</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>245</ID>
+          <ID>246</ID>
           <Description>"Curry Making #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B274F</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>246</ID>
+          <ID>247</ID>
           <Description>"Coffee Facts"</Description>
           <DropDownList DisplayValueAsItem="1">0:None
 1:Jamaican Blue Mountain
@@ -2479,13 +2350,13 @@ end
           <Address>4010B273F</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>247</ID>
+          <ID>248</ID>
           <Description>"Coffee Brewing #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B274B</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>248</ID>
+          <ID>249</ID>
           <Description>"Crosswords Solved"</Description>
           <DropDownList DisplayValueAsItem="1">0:None
 1:Blue Mountain
@@ -2514,26 +2385,26 @@ end
           <Address>4010B275B</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>249</ID>
+          <ID>250</ID>
           <Description>"Fishing Points"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B2790</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>250</ID>
+          <ID>251</ID>
           <Description>"Fish Caught"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B2797</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>251</ID>
+          <ID>252</ID>
           <Description>"Palace Security Level"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010B2837</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>252</ID>
+          <ID>253</ID>
           <Description>"Palace #6 Casino Coins"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
@@ -2553,13 +2424,13 @@ end
           <Address>4010B8706</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>258</ID>
+          <ID>256</ID>
           <Description>"Playthrough #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010C3826</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>0</ID>
+          <ID>257</ID>
           <Description>"Playtime (30 * 60 * (60 * h + m))"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
@@ -2568,60 +2439,60 @@ end
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>259</ID>
+      <ID>258</ID>
       <Description>"Trophy Counters"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>260</ID>
+          <ID>259</ID>
           <Description>"Ambush #"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B28E8</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>261</ID>
+          <ID>260</ID>
           <Description>"Enemies Defeated"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B28EC</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>262</ID>
+          <ID>261</ID>
           <Description>"Weakness Exploited #"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>4 Byte Big Endian</CustomType>
           <Address>4010B2910</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>263</ID>
+          <ID>262</ID>
           <Description>"Fusions #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010C3B1C</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>264</ID>
+          <ID>263</ID>
           <Description>"All-out Attacks #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010C3B1E</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>265</ID>
+          <ID>264</ID>
           <Description>"Negotiations #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010C3B20</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>23696</ID>
+          <ID>265</ID>
           <Description>"Passionate Listener"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>267</ID>
+              <ID>266</ID>
               <Description>"Futaba Line Flags"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 {$lua}
@@ -2652,9 +2523,9 @@ end
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
-              <ID>268</ID>
+              <ID>267</ID>
               <Description>"Morgana Line Flags"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
 {$lua}
@@ -2685,7 +2556,7 @@ end
 </AssemblerScript>
             </CheatEntry>
             <CheatEntry>
-              <ID>269</ID>
+              <ID>268</ID>
               <Description>"Navi Line #"</Description>
               <VariableType>Custom</VariableType>
               <CustomType>4 Byte Big Endian</CustomType>
@@ -2694,7 +2565,7 @@ end
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>270</ID>
+          <ID>269</ID>
           <Description>"Items Obtained #"</Description>
           <VariableType>Byte</VariableType>
           <Address>4010C3B99</Address>
@@ -2702,15 +2573,15 @@ end
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>271</ID>
+      <ID>270</ID>
       <Description>"Compendium"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>272</ID>
+          <ID>271</ID>
           <Description>"By Persona ID"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -2741,9 +2612,9 @@ addDDLRef(memrec, false, "dlSkill", mrByDesc("^Skill [1-8]$"))
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>273</ID>
+          <ID>272</ID>
           <Description>"By Base Level"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -2774,9 +2645,9 @@ addDDLRef(memrec, false, "dlSkill", mrByDesc("^Skill [1-8]$"))
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>274</ID>
+          <ID>273</ID>
           <Description>"By Arcana"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
 {$lua}
@@ -2822,9 +2693,9 @@ addDDLRef(memrec, false, "dlSkill", mrByDesc("^Skill [1-8]$"))
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>275</ID>
+      <ID>274</ID>
       <Description>"Confidants"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$lua}
@@ -2857,44 +2728,43 @@ addDDLRef(memrec, false, "dlArcana", mrByDesc("^Confidant #%d+ ID$"))
 {$asm}
 
 </AssemblerScript>
-      <CheatEntries/>
     </CheatEntry>
     <CheatEntry>
-      <ID>276</ID>
+      <ID>275</ID>
       <Description>"Social Stats"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>277</ID>
+          <ID>276</ID>
           <Description>"Knowledge (34|82|126|192)"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
           <Address>4010C1870</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>278</ID>
+          <ID>277</ID>
           <Description>"Charm (6|52|92|132)"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
           <Address>4010C1872</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>279</ID>
+          <ID>278</ID>
           <Description>"Proficiency (12|34|60|87)"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
           <Address>4010C1874</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>280</ID>
+          <ID>279</ID>
           <Description>"Guts (11|29|57|113)"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
           <Address>4010C1876</Address>
         </CheatEntry>
         <CheatEntry>
-          <ID>281</ID>
+          <ID>280</ID>
           <Description>"Kindness (14|44|91|136)"</Description>
           <VariableType>Custom</VariableType>
           <CustomType>2 Byte Big Endian</CustomType>
@@ -2903,9 +2773,78 @@ addDDLRef(memrec, false, "dlArcana", mrByDesc("^Confidant #%d+ ID$"))
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>281</ID>
+      <Description>"Persona Base Stats"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+if memrec == nil then return end
+if memrec.Count &gt; 0 then return end
+
+local tmp, tmpSize = popDS("[DS] Persona Base Stats", getAddress("_prsBaseStats"))
+
+for _, v in pairs(tab.prs_persona) do
+  local r = mrClone(tmp, tmpSize * v.id)
+  r.Description = string.format("%03d. %s [%s]", v.id, v.name, v.tag)
+  r.DontSave = true
+  r.appendToEntry(memrec)
+end
+
+tmp.destroy()
+
+addDDLRef(memrec, false, "slPersonaType", mrByDesc("^Type$"))
+addDDLRef(memrec, false, "slBaseStatsFlags", mrByDesc("^Flags$"))
+addDDLRef(memrec, false, "dlArcana", mrByDesc("^Arcana$"))
+addDDLRef(memrec, false, "slPersonaInherit", mrByDesc("^Inherit$"))
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+{$asm}
+
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
       <ID>282</ID>
+      <Description>"Persona Base Skills"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+if memrec == nil then return end
+if memrec.Count &gt; 0 then return end
+
+local tmp, tmpSize = popDS("[DS] Persona Base Skills", getAddress("_prsBaseSkills"))
+
+for _, v in pairs(tab.prs_persona) do
+  local r = mrClone(tmp, tmpSize * v.id)
+  r.Description = string.format("%03d. %s [%s]", v.id, v.name, v.tag)
+  r.DontSave = true
+  r.appendToEntry(memrec)
+end
+
+tmp.destroy()
+
+addDDLRef(memrec, false, "dlSkill", mrByDesc("^Skill [1-8]$"))
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+{$asm}
+
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>283</ID>
       <Description>"Enemies (In Battle)"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$lua}
@@ -3036,6 +2975,10 @@ end
     <SymbolEntry>
       <Name>_partyStats</Name>
       <Address>4010AF270</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>_elf</Name>
+      <Address>400010000</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
   <LuaScript>--------------------------------------
