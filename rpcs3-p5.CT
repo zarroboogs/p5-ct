@@ -1959,7 +1959,7 @@ frmComp.Hide()
 
 if syntaxcheck then return end
 
-local maxBGM = 11
+local maxBGM = 10
 local interval = 5000
 
 local addr = 0x400b49738
