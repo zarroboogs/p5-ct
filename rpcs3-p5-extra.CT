@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="29">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Misc Scripts"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Ailment Loop"</Description>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+-- loops through all ailment effects for a given party member
+
+local partyMember = 0
+
+local addr = 0x4010AF284 + partyMember * 0x2A0
+local curr = -1
+local first = true
+
+local timer = createTimer(getMainForm())
+timer.Interval = 1000
+timer.OnTimer = function(timer)
+  if not memrec.Active == true then
+      writeBE4(addr, 0)
+
+      timer.destroy()
+  else
+    if curr &lt; 0 then
+      writeBE4(addr, 0)
+    else
+      writeBE4(addr, 1 &lt;&lt; curr)
+    end
+
+    curr = curr + 1
+
+    if partyMember == 0 and curr == 19 then curr = 20 end
+    if curr &gt; 32 then curr = -1 end
+  end
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+if syntaxcheck then return end
+
+{$asm}
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2</ID>
+          <Description>"PLG Scan"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+-- searches for PLGs in memory
+
+local bytes =
+  "00000000 01000400 0000???? 0000???? 0000???? 00000000"
+local from, to = "400000000", "500000000"
+
+local ms = createMemScan(false)
+
+ms.firstScan(soExactValue, vtByteArray, nil, bytes, nil, from, to, "+W-X-C",
+  fsmAligned, "4", true, false, false, false, false)
+ms.waitTillDone()
+
+clearLuaConsole()
+
+local f = createFoundList(ms)
+f.initialize()
+
+myTable = { 0x10000, 0 }
+
+for i = 0, f.Count - 1 do
+  local addr = getAddress(f[i])
+
+  local rec = mrNew()
+  rec.Description = ""
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Bytes Big Endian"
+  rec.DontSave = true
+  rec.appendToEntry(memrec)
+  rec.Address = addr
+  rec.Description = readString(addr + 0x40)
+end
+
+f.destroy()
+ms.destroy()
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Bustup Stuff"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Global Offset X"</Description>
+          <Color>808080</Color>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD0A4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"Global Offset Y"</Description>
+          <Color>808080</Color>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD0A8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"Bustup Offset X"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD114</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"Bustup Offset Y"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD118</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"Eye Blink Enabled"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>4010AD124</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>9</ID>
+          <Description>"Eye Blink Frame Counter"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>4010AD12F</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Eye Frame - Current"</Description>
+          <DropDownList DisplayValueAsItem="1">0:None
+1:e1
+2:e2
+</DropDownList>
+          <VariableType>Custom</VariableType>
+          <CustomType>2 Byte Big Endian</CustomType>
+          <Address>4010AD130</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Eye Frame Offset X"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD234</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"Eye Frame Offset Y"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD238</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"Mouth Frame Enabled"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>4010AD23E</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"Mouth Frame - Current"</Description>
+          <DropDownList DisplayValueAsItem="1">0:m1
+1:m2
+2:m3
+65535:None
+</DropDownList>
+          <VariableType>Custom</VariableType>
+          <CustomType>2 Byte Big Endian</CustomType>
+          <Address>4010AD240</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Mouth Frame Offset X"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD244</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"Mouth Frame Offset Y"</Description>
+          <VariableType>Custom</VariableType>
+          <CustomType>Float Big Endian</CustomType>
+          <Address>4010AD248</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"Bustup Shadow Enabled"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>4010AD25B</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"Party Panel"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1" />
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Party Panel Patches"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>20</ID>
+              <Description>"Print Active Patches"</Description>
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+-- prints all entries in an active patch record under "Party Panel Offsets"
+
+clearLuaConsole()
+
+local typeMap = {
+  ["4 Byte Big Endian"] = "be32",
+  ["Float Big Endian"] = "bef32"
+}
+
+local rec = mrDesc("Party Panel Offsets")
+for i = 0, rec.Count - 1 do
+  local patchRec = rec[i]
+
+  if patchRec.Active then
+    local patchName = string.split(patchRec.Description, " ")[2]
+    print(string.format("%s: &amp;%s", patchName, patchName))
+
+    for j = 0, patchRec.Count - 1 do
+      local subRec = patchRec[j]
+
+      local patch = string.format("    - [ %s, 0x%s, %s ] # %s",
+        typeMap[subRec.CustomTypeName],
+        subRec.Address:sub(2, -1),
+        subRec.Value,
+        subRec.Description)
+      print(patch)
+    end
+  end
+end
+
+print()
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"Print Frozen Values Patch"</Description>
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+-- prints all frozen entries in all active patch records under "Party Panel Offsets"
+
+clearLuaConsole()
+
+local typeMap = {
+  ["4 Byte Big Endian"] = "be32",
+  ["Float Big Endian"] = "bef32"
+}
+
+local printPatchName = true
+
+
+local rec = mrDesc("Party Panel Offsets")
+for i = 0, rec.Count - 1 do
+  local patchRec = rec[i]
+
+  local printSectionName = true
+  local patchName = string.split(patchRec.Description, " ")[2]
+  if string.match(patchName, "p5_") then
+    for j = 0, patchRec.Count - 1 do
+      local subRec = patchRec[j]
+
+      if subRec.Active then
+        if printPatchName then
+          print("newPatch: &amp;newPatch")
+          printPatchName = false
+        end
+        if printSectionName then
+          print(string.format("#%s", patchName))
+          printSectionName = false
+        end
+        local patch = string.format("    - [ %s, 0x%s, %s ] # %s",
+          typeMap[subRec.CustomTypeName],
+          subRec.Address:sub(2, -1),
+          subRec.Value,
+          subRec.Description)
+        print(patch)
+      end
+    end
+  end
+end
+
+print()
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>22</ID>
+              <Description>"Clear All Patch Records"</Description>
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+local rec = mrDesc("Party Panel Offsets")
+for i = 0, rec.Count - 1 do
+  local patchRec = rec[i]
+
+  while patchRec.Count &gt; 0 do patchRec[0].destroy() end
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+if syntaxcheck then return end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"Party Panel Offsets"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" />
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"01 p5_pp_InBattle_PortraitPartsIdx"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B6644C
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "Inactive Bg spdIdx", "Inactive Fg spdIdx", "Active spdIdx",
+  "Active plgIdx" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #who
+
+local desc = {}
+for i, x in pairs(what) do
+  for j, y in pairs(who) do
+    table.insert(desc, string.format("%s %s", x, y))
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"02 p5_pp_InBattle_PortraitPosPerMemberPerTurn"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B664EC
+
+local who = { "@--- Turn", "-@-- Turn", "--@- Turn", "---@ Turn", "Enemy Turn" }
+local what = { "@---", "-@--", "--@-", "---@" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #what * #fields
+
+local desc = {}
+for i, x in pairs(who) do
+  for j, y in pairs(what) do
+    for k, z in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, y, z))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26</ID>
+              <Description>"03 p5_pp_InBattle_InactiveHpSpBgPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B6658C
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "Inactive Bg01", "Inactive Bg02" }
+local fields = { "X", "Y", "Rot" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields
+
+local desc = {}
+for i, x in pairs(what) do
+  for k, z in pairs(who) do
+    for j, y in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, z, y))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>27</ID>
+              <Description>"04 p5_pp_InBattle_InactivePortraitPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B6667C
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "Bg", "Fg" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #what
+
+local desc = {}
+for i, x in pairs(what) do
+  for k, z in pairs(who) do
+    for j, y in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, z, y))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+    local a = addr + 0x04 * i
+
+    local rec = mrNew()
+    rec.Description = string.format("%s", desc[i + 1])
+    rec.Type = vtCustom
+    rec.CustomTypeName = "4 Byte Big Endian"
+    rec.appendToEntry(memrec)
+    rec.DontSave = true
+    rec.Address = a
+    rec.ShowAsSigned = true
+
+    rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>28</ID>
+              <Description>"05 p5_pp_InBattle_InactiveHpSpPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B6671C
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "HpSp" }
+local fields = { "X", "Y", "Rot" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields
+
+local desc = {}
+for i, x in pairs(what) do
+  for k, z in pairs(who) do
+    for j, y in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, z, y))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>29</ID>
+              <Description>"06 p5_pp_InBattle_MiscPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B66794
+
+local what = { [6] = "hp_1", [7] = "hp_10", [8] = "hp_100", [15] = "sp_1",
+  [16] = "sp_10", [17] = "sp_100" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields
+
+local desc = {}
+for i = 0, 17 do
+  for j, y in pairs(fields) do
+    if what[i] ~= nil then
+      table.insert(desc, string.format("%02d. %s %s", i, what[i], y))
+    else
+      table.insert(desc, string.format("%02d. ---", i))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>30</ID>
+              <Description>"07 p5_pp_NonBattle_PortraitFgPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B66824
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "Fg" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields
+
+local desc = {}
+for i, x in pairs(what) do
+  for k, z in pairs(who) do
+    for j, y in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, z, y))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"08 p5_pp_NonBattle_PortraitPartsIdx"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B66874
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "Bg Back spdIdx", "Bg Front spdIdx", "Fg spdIdx" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #what
+
+local desc = {}
+for i, x in pairs(who) do
+  for k, z in pairs(what) do
+    table.insert(desc, string.format("%s %s", x, z))
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"09 p5_pp_NonBatle_PortraitPosPerPanelPerMember"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B668EC
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "-@--", "--@-", "---@" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields
+
+local desc = {}
+for i, x in pairs(what) do
+  for k, z in pairs(who) do
+    for j, y in pairs(fields) do
+      table.insert(desc, string.format("%s %s %s", x, z, y))
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>33</ID>
+              <Description>"10 p5_pp_NonBatle_BgBoxes"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B669DC
+
+local who = { "BgBox01" , "BgBox02", "BgBox03" }
+local what = { "Black", "White" }
+local fields1 = { "X", "Y" }
+local fields2 = { "1", "2", "3", "4" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #fields2 * #what
+
+local desc = {}
+for i, x in pairs(who) do
+  for k, z in pairs(what) do
+    for r, w in pairs(fields2) do
+      for j, y in pairs(fields1) do
+        table.insert(desc, string.format("%s %s %s%s", x, z, y, w))
+      end
+    end
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>34</ID>
+              <Description>"11 p5_pp_00"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B66A9C
+
+for i = 0, 8 - 1 do
+  local a = addr + 0x04 * i
+
+  local rec = mrNew()
+  rec.Description = string.format("%s", "---")
+  rec.Type = vtCustom
+  rec.CustomTypeName = "4 Byte Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"12 p5_pp_InBattle_ActivePortraitPartsPos"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+printPatch = false
+
+local addr = 0x400B66ABC
+
+local who = { "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto", "Haru",
+  "Futaba", "Akechi" }
+local what = { "spd", "plg", "ailTop", "ailBottom" }
+local fields = { "X", "Y" }
+
+local color = { 0xcc0000, 0x00cc00 }
+local colorMod = #what * #fields
+
+local desc = {}
+for i, x in pairs(who) do
+  for j, y in pairs(what) do
+    for k, z in pairs(fields) do
+      table.insert(desc, string.format("%s %s%s", x, y, z))
+    end
+  end
+end
+
+clearLuaConsole()
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "Float Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+
+  rec.Color = color[(i // colorMod + 1) % #color + 1]
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>36</ID>
+              <Description>"13 p5_pp_Unknown_NamesAreGuesses"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+if memrec.Count &gt; 0 then return end
+
+local addr = 0x400B66BDC
+
+local who = { "NONE", "Joker", "Ryuji", "Morgana", "Ann", "Yusuke", "Makoto",
+  "Haru", "Futaba", "Akechi" }
+local what = { "X", "Y", "Rot" }
+
+desc = {}
+for i, x in pairs(who) do
+  for j, y in pairs(what) do
+    table.insert(desc, string.format("%s %s", x, y))
+  end
+end
+
+for i = 0, #desc - 1 do
+  local a = addr + 0x04 * i
+  local rec = mrNew()
+  rec.Description = string.format("%s", desc[i + 1])
+  rec.Type = vtCustom
+  rec.CustomTypeName = "Float Big Endian"
+  rec.appendToEntry(memrec)
+  rec.DontSave = true
+  rec.Address = a
+  rec.ShowAsSigned = true
+end
+
+{$asm}
+
+[DISABLE]
+{$lua}
+
+--while memrec.Count &gt; 0 do memrec[0].destroy() end
+
+{$asm}
+
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <LuaScript>function h(a)
+  return string.format("%08x", a)
+end
+
+function clearLuaConsole()
+  GetLuaEngine().MenuItem5.doClick()
+end
+
+----------------------
+-- Big Endian Types --
+----------------------
+
+-- global type vars
+be2 = getCustomType('2 Byte Big Endian')
+be4 = getCustomType('4 Byte Big Endian')
+bef = getCustomType('Float Big Endian')
+
+--- reads a 2-byte big-endian value from the given address
+function readBE2(addr)
+  return be2.byteTableToValue(readBytes(addr, 2, true))
+end
+
+--- writes a 2-byte big-endian value to the given address
+function writeBE2(addr, value)
+  writeBytes(addr, be2.valueToByteTable(value))
+end
+
+--- reads a 4-byte big-endian value from the given address
+function readBE4(addr)
+  return be4.byteTableToValue(readBytes(addr, 4, true))
+end
+
+--- writes a 4-byte big-endian value to the given address
+function writeBE4(addr, value)
+  writeBytes(addr, be4.valueToByteTable(value))
+end
+
+--- reads a 4-byte big-endian value from the given address
+function readBEF(addr)
+  return bef.byteTableToValue(readBytes(addr, 4, true))
+end
+
+-------------------------
+-- Auxillary Functions --
+-------------------------
+
+--- iterates over tables in a given order
+function spairs(t, order)
+  -- collect the keys
+  local keys = {}
+  for k in pairs(t) do keys[#keys + 1] = k end
+
+  -- if order function given, sort by it by passing the table and keys a, b,
+  -- otherwise just sort the keys
+  if order then
+    table.sort(keys, function(a, b) return order(t, a, b) end)
+  else
+    table.sort(keys)
+  end
+
+  -- return the iterator function
+  local i = 0
+  return function()
+    i = i + 1
+    if keys[i] then
+      return keys[i], t[keys[i]]
+    end
+  end
+end
+
+--- splits a string using a delimiter
+function string.split(s, sep)
+  local out, n = {}, 1
+  for w in s:gmatch("([^"..sep.."]*)") do
+    out[n] = out[n] or w
+    if w == "" then
+      n = n + 1
+    end
+  end
+  return out
+end
+
+------------------
+-- Record Manip --
+------------------
+
+--- returns a memory record by description
+function mrDesc(desc)
+  return getAddressList().getMemoryRecordByDescription(desc)
+end
+
+--- returns a memory record by id
+function mrID(id)
+  return getAddressList().getMemoryRecordByID(id)
+end
+
+--- creates a new memory record
+function mrNew()
+  return getAddressList().createMemoryRecord()
+end
+
+</LuaScript>
+</CheatTable>
