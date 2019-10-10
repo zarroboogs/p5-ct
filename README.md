@@ -1,15 +1,7 @@
 
-# [RPSC3] Persona 5 Cheat Table
+# Persona 5 Cheat Table
 
-A cheat table for Persona 5, a game developed by Atlus.
-
-For use while playing on RPCS3.
-
-__WARNING:__ Generally untested, use at your own discretion, don't blame me for borked saves, etc.
-
-![table.png](img/table.png)
-
-__NOTE__: The table is mostly dynamically generated, due to some limitations opening certain group records for the first time can take a while.
+A cheat table for __Persona 5__, a game developed by Atlus, for use while playing on RPCS3.
 
 ## Prerequisites
 
@@ -26,8 +18,9 @@ __NOTE__: The table is mostly dynamically generated, due to some limitations ope
 ## Usage
 
 1. Open RPCS3 and launch `Persona 5`.
-2. Open Cheat Engine and load the cheat table.
+2. Open Cheat Engine and load `rpcs3-p5.CT`.
 3. If prompted, allow the main table script to run.
+4. Enable the table via the `[ENABLE]` script at the top.
 
 ---
 
@@ -45,8 +38,6 @@ Miscellaneous utilities.
 
 By entering a value in the level field, you can get the _minimal required experience_ to reach that level for a given persona or party member.
 
-See [Experience](#experience) for calculation details.
-
 #### Name Changer
 
 Using this tool, you can change the Hero's first and last name, as well as your group name.
@@ -61,68 +52,30 @@ __WARNING:__ Locking a persona and then unlocking it would reset all persona sta
 
 #### Randomized Encounter Music
 
-Due to the way RPCS3 handles the `elf` file spec (i.e. properly, unlike real hardware), enabling TGE's Randomized Encounter Music mod via a `patch.yml` file causes RPCS3 to throw a memory access violation exception.
-
-RPCS3 protects the `elf` memory page as `ro` (read-only), in accordance with the `elf` flags.
-Real hardware seems to ignore said flags, and the page is writable (`rw`).
-
-TGE's mod tries to write 2 bytes to the `elf` memory page, therefore works on real hardware (`rw` protection) but fails on RPCS3 (`ro` protection).
-
-Below is a modified version of TGE's mod that does not write to the problematic protected page.
-Instead, a Cheat Engine script is used, which prevents RPCS3 from throwing an error.
-
 To use the script, follow these steps:
 
-__Step 1:__ Add the following to your Persona 5 `patch.yml` file, **above the Persona 5 `PPU-<hash>` segment**:
+__Step 1:__ Add the following patch (modified from TGE's original one) to your Persona 5 `patch.yml` file, **above the `PPU-<hash>` segment**:
 
 ``` yml
-# Game: Persona 5
-# Subject: Shuffled/randomized encounter music (modified)
-# Author: TGE
 p5_RandomizedEncounterMusicCE: &p5_RandomizedEncounterMusicCE
-    # patch Btl_PlayBgm
-    # branch to trampoline
-    - [ be32, 0x0063ACE4, 0x48B44B87 ] # bla 0xB44B84 (trampoline)
-    - [ be32, 0x0063ACE8, 0x4806CCBB ] # bla 0x6CCB8 (SoundManager__GetBgmId)
-
-    # trampoline
-
-    # check and return if not normal battle bgm
-    - [ be32, 0x00B44B84, 0x2C1F012C ] # cmpwi  r31, 300 # normal battle
-    - [ be32, 0x00B44B88, 0x41820008 ] # beq    8 # return if not normal battle music
-    - [ be32, 0x00B44B8C, 0x4E800020 ] # blr
-
-    # randomize sound bank
-    - [ be32, 0x00B44B90, 0x4806CCCB ] # bla    0x6CCC8 (SoundManager__SetEquipBgm)
-
-    # return
-    - [ be32, 0x00B44B94, 0x4863ACEA ] # ba     0x63ACE8
+    - [ be32, 0x0063ACE4, 0x48B44B87 ]
+    - [ be32, 0x0063ACE8, 0x4806CCBB ]
+    - [ be32, 0x00B44B84, 0x2C1F012C ]
+    - [ be32, 0x00B44B88, 0x41820008 ]
+    - [ be32, 0x00B44B8C, 0x4E800020 ]
+    - [ be32, 0x00B44B90, 0x4806CCCB ]
+    - [ be32, 0x00B44B94, 0x4863ACEA ]
 ```
 
-__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the Persona 5 `PPU-<hash>` segment**:
+__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the `PPU-<hash>` segment**:
 
 ``` yml
-    - [ load, p5_RandomizedEncounterMusicCE ] # Enabled via a Cheat Engine script
+    - [ load, p5_RandomizedEncounterMusicCE ] # Enabled via Cheat Engine
 ```
 
 __Step 3:__ Restart the game for the `patch.yml` changes to take effect.
 
-__Step 4:__ Enable the _Randomized Encounter Music_ tool via the `[ENABLE] p5_RandomizedEncounterMusicCE` script in the cheat table.
-
----
-
-As an alternative to the steps above, you can apply [elf_page_protection_rw.patch](elf_page_protection_rw.patch) to the rpcs3 source before building:
-
-``` txt
-cp elf_page_protection_rw.patch <rpcs3_src_dir>
-
-cd <rpcs3_src_dir>
-git apply elf_page_protection_rw.patch
-```
-
-This patch will mark the elf page with rw protection and allow TGE's original mod to work on RPCS3.
-
-**WARNING: This is a hack. Using it might have unforeseen side effects. Using the resulting build in general, and for any reason other than allowing TGE's original Randomized Encounter Music mod for Persona 5 to work in RPCS3 is not recommended.**
+__Step 4:__ Enable the _Randomized Encounter Music_ tool via the `[ENABLE]` scripts in the cheat table.
 
 ### Party Stats
 
@@ -134,25 +87,23 @@ Edit stats relating to party members:
   * Only relevant to the Hero.
   * Use the _Experience Calculator_ in the _Tools_ section to get correct values for these entries.
   * Editing the level is not recommended, instead edit the EXP, then enter and win a battle to initiate the game's level-up process.
-  * Party member's level and EXP are tied to their persona's level and EXP.
+  * **Party member's level and EXP are tied to their persona's level and EXP**.
 * _Buff Status_: Flags that determine whether a buff is active or not.
 * _Buff Direction_: Determines a buff's direction (e.g. ATK+ or ATK-).
 * _Buff Duration_: The amount of turns in which a buff is active.
 * _Persona_: A collection of the combatant's persona. Note that only the hero can have more than one persona, however all party members (and enemies) use the same data structure and so the table accounts for that. Available stats for each persona include:
 
   * _Level, EXP_: Should be obvious. These also represent each party member's (but not the Hero's, see above) Level and EXP.
-  * _Skills_: Should be obvious. Entries are tagged, see [Tags](#tags) for more details.
+  * _Skills_: Should be obvious.
   * _Stats_: Should be obvious.
 
-* _Equip_: Equipped gear. Entries are tagged, see [Tags](#tags) for more details.
+* _Equip_: Equipped gear.
 * _Bullets:_ Should be obvious.
 * _HP Gain, SP Gain_: The HP and SP gained from training. Normally can only be increased by the Hero, however you can set these manually for other party members and their HP and SP will increase accordingly.
 
 ### Inventory
 
 Items are grouped in the table as they are grouped in the game's memory.
-
-Entries are tagged, see [Tags](#tags) for more details.
 
 ### General
 
@@ -169,7 +120,7 @@ Editing the day count itself, `Day #`, is highly discouraged.
 
 Various trophy counters that track when a trophy is unlocked.
 
-__This is particulary helpful to track the progress of the "Passionate Listener" trophy.__ Contrary to popular belief, this trophy only tracks lines spoken _during combat_ using _either navigator_.
+__This is particularly helpful to track the progress of the "Passionate Listener" trophy.__ Contrary to popular belief, this trophy only tracks lines spoken _during combat_ using _either navigator_.
 
 ### Compendium
 
@@ -201,170 +152,8 @@ Numbers in parentheses indicate how many points are needed to level up a stat pe
 * 2 notes - 3 points.
 * 3 notes - 5 points.
 
-### Persona Base Stats
-
-View the persona base stats table.
-
-### Persona Base Skills
-
-View the persona base skill table.
-
 ### Enemies
 
 When in battle, enable this record to view enemy stats.
 
 This record does not auto-update, so you'd have to toggle the record to see newly summoned enemies.
-
----
-
-## Notes
-
-### Persona Stats
-
-The sum of persona stats, depending on level `x` is defined using:
-
-``` text
-S(x) = x * 3 + 7 ( = St + Ma + En + Ag + Lu )
-```
-
-### Experience
-
-The in-game relationship between a party member or persona's experience `E` and level `x` can be described using:
-
-![exp](img/exp.png)
-
-`C` is the base level coefficient:
-
-* for party members, `C` is always `1.4`.
-* for personas, `C` depends on the persona's base level `b` and is calculated using:
-
-![coeff](img/coeff.png)
-
-### Time Played
-
-The amount of time played is represented using a "frame counter" (each second equals 30 ticks):
-
-![time](img/time.png)
-
-### Tags
-
-#### Accessory
-
-* `BLN` - Blank
-* `FLR` - Filler
-* `DLC*` - Obtained from DLC
-* `UNK` - Unknown if valid
-* `VAL` - Obtainable item
-* `HAW` - Hawaii gift
-* `<ALLY_NAME>` - Default equipment for...
-
-#### Melee
-
-* `BLN` - Blank
-* `FLR` - Filler
-* `UNK` - Unknown if valid
-* `<ALLY_NAME>` - Can be equipped by...
-* `DEF` - Default equipment
-
-#### Outfit
-
-* `BLN` - Blank
-* `UNK` - Unknown if valid
-* `<ALLY_NAME>` - Can be equipped by...
-* `DEF` - Default equipment
-
-#### Protector
-
-* `BLN` - Blank
-* `UNK` - Unknown if valid
-* `<TYPE>` - Can be equipped by...
-* `DLC*` - Obtained from DLC
-* `<ALLY_NAME>` - Default equipment for...
-
-#### Ranged
-
-* `BLN` - Blank
-* `UNK` - Unknown if valid
-* `<ALLY_NAME>` - Can be equipped by...
-* `DEF` - Default equipment
-
-#### Skill Cards
-
-* `VAL` - Obtainable item
-* `BLN` - Blank
-* `DLC_CARD`, `DLC_PRS` - Obtained from DLC
-* `INV` - Invalid item
-* `FLR` - Filler
-* `UNO` - Valid but unobtainable
-* `REW` - Obtained as mission reward
-* `NET` - Network skill, valid but unobtainable
-
-#### Key & Palace
-
-* `BLN` - Blank
-* `FLR` - Filler
-* `UNK` - Unknown if valid
-* `IWAI` - Special confidant item
-* `FUSE` - Fusion enabler
-* `BOSS` - Boss gift
-* `XMAS` - Christmas gift
-* `CNF` - Confidant gift
-* `PAL` - Palace item
-
-#### Consumables & Essentials
-
-* `BLN` - Blank
-* `FLR` - Filler
-* `UNK` - Unknown if valid
-* `BOOK` ,`DVD`, `TOOL`, `GAME`, `GIFT`, `FISH`, `FISH*` - Should be obvious
-* `DEC` - Room decoration
-* `CAP` - Capsule game reward
-* `REW` - Game reward
-* `MAT` - Tool materials
-* `ITM`, `ITM*` - Misc. item
-* `HP`, `BUFF`, `HP+BUFF`, `HP+CURE`, `HP+SP`, `SP`, `SP+BUFF`, `CURE` - Should be obvious
-* `IN` - Can be used only _in battle_
-* `OUT` - Can be used only _out of battle_
-* `BTH` - Can be used _anytime_
-* `REV` - Revival item
-* `SHI` - Shield item
-* `VLN` - Valentine's gift
-* `DMG` - Damage dealing item
-* `FES` - Festival gift
-
-#### Treasure
-
-* `BLN` - Blank
-* `VAL` - Obtainable item
-* `UNK` - Unknown if valid
-* `FLR` - Filler
-
-#### Arcana
-
-* `BLN` - Blank
-* `UNK` - Unknown if valid
-* `FLR` - Filler
-* `VAL` - Valid arcana
-
-#### Persona
-
-* `BLN` - Blank
-* `INV` - Invalid persona
-* `DLC` - DLC exclusive persona
-* `DUP` - Duplicate persona
-* `FLR` - Filler
-* `<ALLY_NAME>` - Valid persona, carried by...
-
-#### Skills
-
-* `BLN` - Blank
-* `NET` - Network fusion skill
-* `UNO` - Valid but unobtainable skill
-* `FUT` - Futaba skill
-* `DLC` - DLC exclusive skill
-* `LCK` - Lockdown exclusive skill
-* `DUP` - Duplicate skill
-* `FLR` - Filler
-* `VAL` - Obtainable skill
-* `INV` - Invalid skill
-* `<PERSONA>` - Skill unique to this persona
