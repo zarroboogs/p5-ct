@@ -1,13 +1,13 @@
 
 # Persona 5 Cheat Table
 
-A cheat table for __Persona 5__, a game developed by Atlus, for use while playing on RPCS3.
+A cheat table for __Persona 5__ @ RPCS3.
 
 ## Prerequisites
 
 * Latest Cheat Engine version + Big Endian Types.
 * Latest RPCS3 master.
-* Persona 5. This table has been tested with NPEB02436.
+* Persona 5. This table has been tested with `NPEB02436`.
 
 ## Installation
 
@@ -25,10 +25,6 @@ A cheat table for __Persona 5__, a game developed by Atlus, for use while playin
 ---
 
 ## Table Contents
-
-### Internal Stuff
-
-Internal table records.
 
 ### Tools
 
@@ -50,38 +46,11 @@ Click the checkbox to unlock or lock a persona in the compendium.
 
 __WARNING:__ Locking a persona and then unlocking it would reset all persona stats.
 
-#### Randomized Encounter Music
-
-To use the script, follow these steps:
-
-__Step 1:__ Add the following patch (modified from TGE's original one) to your Persona 5 `patch.yml` file, **above the `PPU-<hash>` segment**:
-
-``` yml
-p5_RandomizedEncounterMusicCE: &p5_RandomizedEncounterMusicCE
-    - [ be32, 0x0063ACE4, 0x48B44B87 ]
-    - [ be32, 0x0063ACE8, 0x4806CCBB ]
-    - [ be32, 0x00B44B84, 0x2C1F012C ]
-    - [ be32, 0x00B44B88, 0x41820008 ]
-    - [ be32, 0x00B44B8C, 0x4E800020 ]
-    - [ be32, 0x00B44B90, 0x4806CCCB ]
-    - [ be32, 0x00B44B94, 0x4863ACEA ]
-```
-
-__Step 2:__ Add the following to your Persona 5 `patch.yml` file, **under the `PPU-<hash>` segment**:
-
-``` yml
-    - [ load, p5_RandomizedEncounterMusicCE ] # Enabled via Cheat Engine
-```
-
-__Step 3:__ Restart the game for the `patch.yml` changes to take effect.
-
-__Step 4:__ Enable the _Randomized Encounter Music_ tool via the `[ENABLE]` scripts in the cheat table.
-
 ### Party Stats
 
 Edit stats relating to party members:
 
-* _HP, SP:_ Should be obvious.
+* _HP, SP_.
 * _Ailments:_ Various ailment flags.
 * _Level, EXP_:
   * Only relevant to the Hero.
@@ -91,19 +60,17 @@ Edit stats relating to party members:
 * _Buff Status_: Flags that determine whether a buff is active or not.
 * _Buff Direction_: Determines a buff's direction (e.g. ATK+ or ATK-).
 * _Buff Duration_: The amount of turns in which a buff is active.
-* _Persona_: A collection of the combatant's persona. Note that only the hero can have more than one persona, however all party members (and enemies) use the same data structure and so the table accounts for that. Available stats for each persona include:
-
-  * _Level, EXP_: Should be obvious. These also represent each party member's (but not the Hero's, see above) Level and EXP.
-  * _Skills_: Should be obvious.
-  * _Stats_: Should be obvious.
-
 * _Equip_: Equipped gear.
-* _Bullets:_ Should be obvious.
+* _Bullets_.
 * _HP Gain, SP Gain_: The HP and SP gained from training. Normally can only be increased by the Hero, however you can set these manually for other party members and their HP and SP will increase accordingly.
 
-### Inventory
+### Party Stats - Hero & Party Persona
 
-Items are grouped in the table as they are grouped in the game's memory.
+Available stats for each persona include:
+
+* _Level, EXP_ - These also represent the EXP and level of each party member.
+* _Skills_.
+* _Stats_.
 
 ### General
 
@@ -114,13 +81,9 @@ You can also edit time related values:
 * To repeat a day's first timeslot, during an event, set `Day Timeslot` to `3`.
 * To repeat a day's second timeslot, during an event, set `Day Timeslot` to `5`.
 
-Editing the day count itself, `Day #`, is highly discouraged.
-
 ### Trophy Counters
 
 Various trophy counters that track when a trophy is unlocked.
-
-__This is particularly helpful to track the progress of the "Passionate Listener" trophy.__ Contrary to popular belief, this trophy only tracks lines spoken _during combat_ using _either navigator_.
 
 ### Compendium
 
@@ -132,7 +95,7 @@ You can also unlock or lock persona records using the [Compendium Unlocker](#com
 
 Allows you to edit both the confidant’s current rank and the confidant's affinity (determines whether the confidant will rank up the next time you meet with them).
 
-Changing a confidant's rank via the table is not recommended, instead change the affinity and then initiate a rank up in game.
+Changing a confidant's rank via the table is not recommended, instead change the affinity and then initiate a confidant event in-game.
 
 ### Social Stats
 
