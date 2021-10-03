@@ -1,0 +1,302 @@
+id	name	tag
+0	Blank	BLN
+1	Thief Clothes	All
+2	Dark Undershirt	Hero DEF
+3	Print T-Shirt	Ryuji DEF
+4	Neckerchief	Morgana DEF
+5	Baseball Jacket	Ann DEF
+6	Dress Shirt	Yusuke DEF
+7	Turtleneck	Makoto DEF
+8	Pink Top	Haru DEF
+9	Loose Cutsew	Futaba DEF
+10	Formal Shirt	Akechi DEF
+11	0x00B	FLR
+12	0x00C	FLR
+13	Gold Breastplate	Male
+14	Grimy Gear	All
+15	Soiled Armor	All
+16	Shoulder Pads	Male
+17	Battle Camisole	Female
+18	Padded Shirt	Unisex
+19	Silk Scarf	Cat
+20	Pauldrons	Male
+21	Old Camisole	Female
+22	Ancient Shirt	Unisex
+23	Well-worn Scarf	Cat
+24	Burntech	Male
+25	Magic Camisole	Female
+26	Lynx Camo Vest	Unisex
+27	Cat Sweater	Cat
+28	Old Blouse	Male
+29	Retro Camisole	Female
+30	Worn Chainmail	Unisex
+31	Guard Bandana	Cat
+32	Survival Vest	Male
+33	Robust Apron	Female
+34	Chain Vest	Unisex
+35	Breeze Scarf	Cat
+36	Okamoto Vest	Male
+37	Courbet Apron	Female
+38	Elegant Shirt	Unisex
+39	Flowing Scarf	Cat
+40	Cosmic Undies	Male
+41	Lady's Dress	Female
+42	Austere Haori	Unisex
+43	E-Collar	Cat
+44	Gaudy Undies	Male
+45	Scream Dress	Female
+46	Pollock Vest	Unisex
+47	Renoir Scarf	Cat
+48	Acrylic-coated Gear	All
+49	Paint-flecked Armor	All
+50	0x032	FLR
+51	0x033	FLR
+52	Athletic Shirt	Male
+53	Power Camisole	Female
+54	Army Vest	Unisex
+55	Camo Collar	Cat
+56	Nouveau Riche Shirt	Male
+57	Sponge Camisole	Female
+58	Gilded Vest	Unisex
+59	Fancy Collar	Cat
+60	Saint's Tunic	Male
+61	Glaring Cape	Female
+62	Reckless Vest	Unisex
+63	Water Crown	Cat
+64	Patron Undies	Male
+65	Accountant Cape	Female
+66	Bookkeeper Wrap	Unisex
+67	Flexible Collar	Cat
+68	Tarnished Gear	All
+69	Gold-tainted Armor	All
+70	0x046	FLR
+71	0x047	FLR
+72	Plate Vest	Male
+73	Elysian Robe	Female
+74	Papal Robes	Unisex
+75	Id Collar	Cat
+76	Vest of the Dead	Male
+77	Rosetta Corset	Female
+78	Pyramid Jacket	Unisex
+79	Bandage Collar	Cat
+80	Retention Vest	Male
+81	Dogwatch Kimono	Female
+82	Hope Shirt	Unisex
+83	Sparkly Collar	Cat
+84	Sand Gown	Male
+85	Pyramid Shawl	Female
+86	Royal Haori	Unisex
+87	Magical Scarf	Cat
+88	Dust-crusted Gear	All
+89	Timeworn Armor	All
+90	0x05A	FLR
+91	0x05B	FLR
+92	Gigas Vest	Male
+93	Spiked Bra	Female
+94	Brigandine	Unisex
+95	Memorial Collar	Cat
+96	UFO Vest	Male
+97	Astro Bra	Female
+98	Space Suit	Unisex
+99	Quiet Collar	Cat
+100	Mythril Vest	Male
+101	Maillot	Female
+102	Dieting Wrap	Unisex
+103	Rubber Scarf	Cat
+104	Moon Man Vest	Male
+105	Zero-G Undies	Female
+106	Akashic Shirt	Unisex
+107	Solar Wind Scarf	Cat
+108	Spyware-laden Gear	All
+109	Fragmented Armor	All
+110	0x06E	FLR
+111	0x06F	FLR
+112	Fluted Guard	Male
+113	Rune Dress	Female
+114	Ghillie Vest	Unisex
+115	Measure Collar	Cat
+116	Gambler Guard	Male
+117	Tsubofuri Wrap	Female
+118	Unyielding Vest	Unisex
+119	Scam Collar	Cat
+120	Brave Waistcoat	Male
+121	Yama Dress	Female
+122	Egoist Shirt	Unisex
+123	Morose Collar	Cat
+124	Lucky Waistcoat	Male
+125	Gambler Dress	Female
+126	Gambler Shirt	Unisex
+127	Gambler Collar	Cat
+128	Seedy Gear	All
+129	Smokestained Armor	All
+130	0x082	FLR
+131	0x083	FLR
+132	Kaiser Vest	Male
+133	Kotodama Cape	Female
+134	Life Jacket	Unisex
+135	Killer Collar	Cat
+136	Luxurious Vest	Male
+137	Aristocrat Cape	Female
+138	Magellan Robe	Unisex
+139	Revelry Collar	Cat
+140	Fireman Happi	Male
+141	Mizuha Doumaru	Female
+142	Best Vest	Unisex
+143	Insomnia Collar	Cat
+144	Captain's Vest	Male
+145	Millionaire Doumaru	Female
+146	Steel Chef Vest	Unisex
+147	Gorgeous Collar	Cat
+148	Corrupt Gear	All
+149	Classified Armor	All
+150	0x096	FLR
+151	0x097	FLR
+152	Karna's Robe	Male
+153	Titanium Set	Female
+154	Silver Vest	Unisex
+155	Sublime Collar	Cat
+156	Karna's Robe+	Male
+157	Titanium Set+	Female
+158	Silver Vest+	Unisex
+159	Sublime Collar+	Cat
+160	Demon's Jacket	Male
+161	Haten Robe	Female
+162	Soul Vest	Unisex
+163	Nekomata Coat	Cat
+164	Demon's Jacket+	Male
+165	Haten Robe+	Female
+166	Soul Vest+	Unisex
+167	Nekomata Coat+	Cat
+168	Desecrated Gear	All
+169	Unholy Armor	All
+170	0x0AA	FLR
+171	0x0AB	FLR
+172	Over Guard	Male
+173	Diva Guard	Female
+174	Empathy Cape	Unisex
+175	Engetsu Collar	Cat
+176	Over Guard+	Male
+177	Diva Guard+	Female
+178	Empathy Cape+	Unisex
+179	Engetsu Collar+	Cat
+180	Immortal Vest	Male
+181	Sublime Bikini	Female
+182	Hero Jin-Baori	Unisex
+183	9 Lives Collar	Cat
+184	Immortal Vest+	Male
+185	Sublime Bikini+	Female
+186	Hero Jinbaori+	Unisex
+187	9-Lives Collar+	Cat
+188	Filth-caked Gear	All
+189	Unsanitary Armor	All
+190	RESERVE	FLR
+191	RESERVE	FLR
+192	Tantric Oath	Male
+193	Black Jacket	Male
+194	Official's Robe	Male
+195	Fusion Guard M 4	Male
+196	Silk Dress	Female
+197	Archangel Bra	Female
+198	Tapsuan	Female
+199	Fusion Guard F 4	Female
+200	King Frost Cape	Unisex
+201	Black Wing Robe	Unisex
+202	Fusion Guard 3	Unisex
+203	Fusion Guard 4	Unisex
+204	Frost Hood	Cat
+205	Jack Hood	Cat
+206	Black Robe	Male
+207	RESERVE	FLR
+208	Empress Guard	Female
+209	Weird Wrap	Unisex
+210	Moonlight Robe	Female
+211	Lucifer Guard	Unisex
+212	RESERVE	FLR
+213	RESERVE	FLR
+214	RESERVE	FLR
+215	RESERVE	FLR
+216	RESERVE	FLR
+217	RESERVE	FLR
+218	RESERVE	FLR
+219	RESERVE	FLR
+220	RESERVE	FLR
+221	RESERVE	FLR
+222	RESERVE	FLR
+223	RESERVE	FLR
+224	RESERVE	FLR
+225	RESERVE	FLR
+226	RESERVE	FLR
+227	RESERVE	FLR
+228	RESERVE	FLR
+229	RESERVE	FLR
+230	RESERVE	FLR
+231	RESERVE	FLR
+232	RESERVE	FLR
+233	RESERVE	FLR
+234	RESERVE	FLR
+235	RESERVE	FLR
+236	RESERVE	FLR
+237	RESERVE	FLR
+238	RESERVE	FLR
+239	RESERVE	FLR
+240	RESERVE	FLR
+241	RESERVE	FLR
+242	RESERVE	FLR
+243	RESERVE	FLR
+244	RESERVE	FLR
+245	RESERVE	FLR
+246	RESERVE	FLR
+247	RESERVE	FLR
+248	RESERVE	FLR
+249	RESERVE	FLR
+250	RESERVE	FLR
+251	RESERVE	FLR
+252	RESERVE	FLR
+253	RESERVE	FLR
+254	RESERVE	FLR
+255	RESERVE	FLR
+256	0x100	FLR
+257	0x101	FLR
+258	0x102	FLR
+259	0x103	FLR
+260	0x104	FLR
+261	0x105	FLR
+262	0x106	FLR
+263	0x107	FLR
+264	0x108	FLR
+265	0x109	FLR
+266	0x10A	FLR
+267	0x10B	FLR
+268	0x10C	FLR
+269	0x10D	FLR
+270	0x10E	FLR
+271	0x10F	FLR
+272	0x110	FLR
+273	0x111	FLR
+274	0x112	FLR
+275	0x113	FLR
+276	0x114	FLR
+277	0x115	FLR
+278	0x116	FLR
+279	0x117	FLR
+280	0x118	FLR
+281	0x119	FLR
+282	0x11A	FLR
+283	0x11B	FLR
+284	0x11C	FLR
+285	0x11D	FLR
+286	0x11E	FLR
+287	0x11F	FLR
+288	0x120	FLR
+289	0x121	FLR
+290	0x122	FLR
+291	0x123	FLR
+292	0x124	FLR
+293	0x125	FLR
+294	0x126	FLR
+295	0x127	FLR
+296	0x128	FLR
+297	0x129	FLR
+298	0x12A	FLR
+299	0x12B	FLR
+300	0x12C	FLR

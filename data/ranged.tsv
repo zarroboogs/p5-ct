@@ -1,23 +1,23 @@
 id	name	tag
 0	Blank	BLN
-1	Handgun	UNK
-2	Shotgun	UNK
-3	Slingshot 1	UNK
-4	Submachine Gun	UNK
-5	Rifle 1	UNK
-6	American Gun 1	UNK
-7	Masaharu Gun 1	UNK
-8	Aura Gun 1	UNK
-9	Gun 009	UNK
-10	Handgun	UNK
-11	Gun 00B	UNK
-12	Gun 00C	UNK
-13	Rifle 2	UNK
-14	Gun 014	UNK
-15	Gun 015	UNK
-16	Tkachev	Hero|DEF
+1	Handgun	All
+2	Shotgun	Ryuji
+3	Slingshot 1	Morgana
+4	Submachine Gun	Ann
+5	Rifle 1	Yusuke
+6	American Gun 1	All
+7	Masaharu Gun 1	All
+8	Aura Gun 1	All
+9	Gun 009	All
+10	Handgun	Hero
+11	Gun 00B	All
+12	Gun 00C	All
+13	Rifle 2	All
+14	Gun 014	All
+15	Gun 015	All
+16	Tkachev	Hero DEF
 17	Governance	Hero
-18	Unmarked Pistol	UNK
+18	Unmarked Pistol	Hero
 19	Tkachev II	Hero
 20	Tkachev HP	Hero
 21	Makaronov	Hero
@@ -31,7 +31,7 @@ id	name	tag
 29	Assassin SP	Hero
 30	Sand Hawk II	Hero
 31	Model Gun	Hero
-32	Levinson M31	Ryuji|DEF
+32	Levinson M31	Ryuji DEF
 33	Levinson M31 II	Ryuji
 34	Granelli M3	Ryuji
 35	Levinson M31 HP	Ryuji
@@ -58,13 +58,13 @@ id	name	tag
 56	Calamity Gun SP	Ryuji
 57	Kiraihou II	Ryuji
 58	Smithereens II	Ryuji
-59	Unmarked Shotgun	UNK
+59	Unmarked Shotgun	Ryuji
 60	Bianchi SBAS	Ryuji
 61	Nock Volley	Ryuji
 62	Hellfire	Ryuji
 63	Nock Volley SP	Ryuji
-64	Slingshot	Morgana|DEF
-65	Unmarked Sling	UNK
+64	Slingshot	Morgana DEF
+65	Unmarked Sling	Morgana
 66	Slingshot SP	Morgana
 67	Slingshot HP	Morgana
 68	Shrike	Morgana
@@ -95,9 +95,9 @@ id	name	tag
 93	Northern Light	Morgana
 94	Shooting Star	Morgana
 95	Star Slayer	Morgana
-96	Replica SMG	Ann|DEF
+96	Replica SMG	Ann DEF
 97	Tommy Gun	Ann
-98	Unmarked SMG	UNK
+98	Unmarked SMG	Ann
 99	Trooper	Ann
 100	MP2 Prototype	Ann
 101	Flare SMG	Ann
@@ -127,7 +127,7 @@ id	name	tag
 125	Flare SMG II	Ann
 126	Tarantula	Ann
 127	Blitz MGSP	Ann
-128	Replica AR	Yusuke|DEF
+128	Replica AR	Yusuke DEF
 129	Black Assault	Yusuke
 130	AR-M4	Yusuke
 131	Heavy Assault	Yusuke
@@ -159,7 +159,7 @@ id	name	tag
 157	Hizutsu	Yusuke
 158	Ryuraihou	Yusuke
 159	Heaven's Gate	Yusuke
-160	Replica Revolver	Makoto|DEF
+160	Replica Revolver	Makoto DEF
 161	Peacemaker	Makoto
 162	P Revolver	Makoto
 163	PM Sheriff	Makoto
@@ -191,11 +191,11 @@ id	name	tag
 189	Volley Cannon	Ryuji
 190	Kiraihou	Ryuji
 191	Megido Fire	Ryuji
-192	GL Replica	Haru|DEF
+192	GL Replica	Haru DEF
 193	Pawzooka	Haru
-194	Unmarked GL	UNK
-195	GL Mega	UNK
-196	GL Rep	UNK
+194	Unmarked GL	Haru
+195	GL Mega	Haru
+196	GL Rep	Haru
 197	Scorcher	Haru
 198	GL Replica II	Haru
 199	Multiple GL	Haru
@@ -209,8 +209,8 @@ id	name	tag
 207	Magma Bucket SP	Haru
 208	Flame Ocean II	Haru
 209	Pandemonium SP	Haru
-210	Haru Reserve	UNK
-211	Haru Reserve 2	UNK
+210	Haru Reserve	FLR
+211	Haru Reserve 2	FLR
 212	Town Burner	Haru
 213	Town Burner SP	Haru
 214	Pandemonium	Haru
@@ -219,11 +219,11 @@ id	name	tag
 217	Antares II	Ann
 218	Phantom Killer	Ann
 219	Wild Hunt	Ann
-220	Clemont Shot	UNK
+220	Clemont Shot	Morgana
 221	Golden Beam	Akechi
-222	Gun 222	UNK
-223	Gun 223	UNK
-224	Moebius	Akechi|DEF
+222	Gun 222	FLR
+223	Gun 223	FLR
+224	Moebius	Akechi DEF
 225	Moebius II	Akechi
 226	Sirius	Akechi
 227	Sirius SP	Akechi
@@ -252,6 +252,6 @@ id	name	tag
 250	Cocytus	Hero
 251	Cocytus SP	Hero
 252	Tyrant Pistol	Hero
-253	Gun 253	UNK
-254	Gun 254	UNK
-255	Gun 255	UNK
+253	Gun 253	FLR
+254	Gun 254	FLR
+255	Gun 255	FLR

@@ -1,0 +1,388 @@
+id	name	tag
+0	BLANK (Unusable)	BLN
+1	Agi	
+2	Agilao	
+3	Agidyne	
+4	Maragi	
+5	Maragion	
+6	Maragidyne	
+7	Bufu	
+8	Bufula	
+9	Bufudyne	
+10	Mabufu	
+11	Mabufula	
+12	Mabufudyne	
+13	Garu	
+14	Garula	
+15	Garudyne	
+16	Magaru	
+17	Magarula	
+18	Magarudyne	
+19	Zio	
+20	Zionga	
+21	Ziodyne	
+22	Mazio	
+23	Mazionga	
+24	Maziodyne	
+25	Hama	
+26	Hamaon	
+27	Mahama	
+28	Mahamaon	
+29	Kouha	
+30	Kouga	
+31	Kougaon	
+32	Makouha	
+33	Makouga	
+34	Makougaon	
+35	Mudo	
+36	Mudoon	
+37	Mamudo	
+38	Mamudoon	
+39	Eiha	
+40	Eiga	
+41	Eigaon	
+42	Maeiha	
+43	Maeiga	
+44	Maeigaon	
+45	Megido	
+46	Megidola	
+47	Megidolaon	
+48	Frei	
+49	Freila	
+50	Freidyne	
+51	Mafrei	
+52	Mafreila	
+53	Mafreidyne	
+54	Dazzler	
+55	Nocturnal Flash	
+56	Pulinpa	
+57	Tentarafoo	
+58	Evil Touch	
+59	Evil Smile	
+60	Makajama	
+61	Makajamaon	
+62	Famine's Breath	
+63	Famine's Scream	
+64	Dormina	
+65	Lullaby	
+66	Taunt	
+67	Wage War	
+68	Ominous Words	
+69	Abysmal Surge	
+70	Marin Karin	
+71	Brain Jack	
+72	Trapped Rat	
+73	Self-destruct	
+74	Self-destruct	
+75	Self-destruct	
+76	Life Drain	
+77	Spirit Drain	
+78	Life Leech	
+79	Spirit Leech	
+80	Foul Breath	
+81	Stagnant Air	
+82	Ghastly Wail	
+83	Inferno	
+84	Blazing Hell	
+85	Diamond Dust	
+86	Ice Age	
+87	Panta Rhei	
+88	Vacuum Wave	
+89	Thunder Reign	
+90	Wild Thunder	
+91	Divine Judgment	
+92	Samsara	
+93	Demonic Decree	
+94	Die For Me!	
+95	Atomic Flare	
+96	Cosmic Flare	
+97	Black Viper	
+98	Morning Star	
+99	Psi	
+100	Psio	
+101	Psiodyne	
+102	Mapsi	
+103	Mapsio	
+104	Mapsiodyne	
+105	Psycho Force	
+106	Psycho Blast	
+107	Lunge	
+108	Assault Dive	
+109	Megaton Raid	
+110	God's Hand	
+111	Lucky Punch	
+112	Miracle Punch	
+113	Cleave	
+114	Giant Slice	
+115	Brave Blade	
+116	Sword Dance	
+117	Hassou Tobi	
+118	Ayamur	
+119	Cornered Fang	
+120	Rising Slash	
+121	Deadly Fury	
+122	Snap	
+123	Triple Down	
+124	One-shot Kill	
+125	Riot Gun	
+126	Vajra Blast	
+127	Vorpal Blade	
+128	Vicious Strike	
+129	Heat Wave	
+130	Gigantomachia	
+131	Rampage	
+132	Swift Strike	
+133	Deathbound	
+134	Agneyastra	
+135	Double Fangs	
+136	Tempest Slash	
+137	Myriad Slashes	
+138	Sledgehammer	
+139	Skull Cracker	
+140	Terror Claw	
+141	Headbutt	
+142	Stomach Blow	
+143	Dream Needle	
+144	Hysterical Slap	
+145	Negative Pile	
+146	Brain Shake	
+147	Flash Bomb	
+148	Mind Slice	
+149	Bloodbath	
+150	Memory Blow	
+151	Insatiable Strike	
+152	Dormin Rush	
+153	Oni-Kagura	
+154	Bad Beat	
+155	Brain Buster	
+156	Dia	
+157	Diarama	
+158	Diarahan	
+159	Media	
+160	Mediarama	
+161	Mediarahan	
+162	Recarm	
+163	Samarecarm	
+164	Recarmdra	
+165	Amrita Drop	
+166	Amrita Shower	
+167	Mabaisudi	
+168	Salvation	
+169	Patra	
+170	Energy Shower	
+171	Energy Drop	
+172	Baisudi	
+173	Me Patra	
+174	Tarukaja	
+175	Rakukaja	
+176	Sukukaja	
+177	Heat Riser	
+178	Matarukaja	
+179	Marakukaja	
+180	Masukukaja	
+181	Thermopylae	
+182	Tarunda	
+183	Rakunda	
+184	Sukunda	
+185	Debilitate	
+186	Matarunda	
+187	Marakunda	
+188	Masukunda	
+189	Dekunda	
+190	Dekaja	
+191	Charge	
+192	Concentrate	
+193	Rebellion	
+194	Revolution	
+195	Tetrakarn	
+196	Makarakarn	
+197	Tetraja	
+198	Tetra Break	
+199	Makara Break	
+200	Fire Wall	
+201	Ice Wall	
+202	Elec Wall	
+203	Wind Wall	
+204	Fire Break	
+205	Ice Break	
+206	Wind Break	
+207	Elec Break	
+208	BLANK	FLR
+209	BLANK	FLR
+210	Nuke Wall	
+211	Psy Wall	
+212	Nuke Break	
+213	Psy Break	
+214	Counter	
+215	Counterstrike	
+216	High Counter	
+217	Endure	
+218	Enduring Soul	
+219	Dodge Bless	
+220	Dodge Curse	
+221	Survival Trick	
+222	Dodge Fire	
+223	Evade Fire	
+224	Dodge Ice	
+225	Evade Ice	
+226	Dodge Wind	
+227	Evade Wind	
+228	Dodge Elec	
+229	Evade Elec	
+230	Dodge Phys	
+231	Evade Phys	
+232	Fire Boost	
+233	Fire Amp	
+234	Ice Boost	
+235	Ice Amp	
+236	Wind Boost	
+237	Wind Amp	
+238	Elec Boost	
+239	Elec Amp	
+240	Angelic Grace	
+241	Divine Grace	
+242	Regenerate 1	
+243	Regenerate 2	
+244	Regenerate 3	
+245	Invigorate 1	
+246	Invigorate 2	
+247	Invigorate 3	
+248	Attack Master	
+249	Auto-Mataru	
+250	Defense Master	
+251	Auto-Maraku	
+252	Speed Master	
+253	Auto-Masuku	
+254	Fast Heal	
+255	Insta-Heal	
+256	Arms Master	
+257	Spell Master	
+258	Sharp Student	
+259	Apt Pupil	
+260	Ali Dance	
+261	Firm Stance	
+262	Life Aid	
+263	Victory Cry	
+264	Growth 1	
+265	Growth 2	
+266	Growth 3	
+267	Unshaken Will	
+268	Evade Bless	
+269	Evade Curse	
+270	BLANK	FLR
+271	Resist Fire	
+272	Null Fire	
+273	Repel Fire	
+274	Drain Fire	
+275	Resist Ice	
+276	Null Ice	
+277	Repel Ice	
+278	Drain Ice	
+279	Resist Wind	
+280	Null Wind	
+281	Repel Wind	
+282	Drain Wind	
+283	Resist Elec	
+284	Null Elec	
+285	Repel Elec	
+286	Drain Elec	
+287	Resist Bless	
+288	Null Bless	
+289	Repel Bless	
+290	Drain Bless	
+291	Resist Curse	
+292	Null Curse	
+293	Repel Curse	
+294	Drain Curse	
+295	Resist Phys	
+296	Null Phys	
+297	Repel Phys	
+298	Drain Phys	
+299	Ailment Boost	
+300	Hama Boost	
+301	Mudo Boost	
+302	Dizzy Boost	
+303	Confuse Boost	
+304	Fear Boost	
+305	Forget Boost	
+306	Sleep Boost	
+307	Rage Boost	
+308	Despair Boost	
+309	BLANK	FLR
+310	Brainwash Boost	
+311	Resist Dizzy	
+312	Resist Confuse	
+313	Resist Fear	
+314	Resist Forget	
+315	Resist Sleep	
+316	Resist Rage	
+317	Resist Despair	
+318	BLANK	FLR
+319	Resist Brainwash	
+320	Null Dizzy	
+321	Null Confuse	
+322	Null Fear	
+323	Null Forget	
+324	Null Sleep	
+325	Null Rage	
+326	Null Despair	
+327	Null Brainwash	
+328	Burn Boost	
+329	Freeze Boost	
+330	Shock Boost	
+331	Fortified Moxy	
+332	Adverse Resolve	
+333	Last Stand	
+334	Heat Up	
+335	BLANK	FLR
+336	Touch n' Go	
+337	Climate Decorum	
+338	Ambient Aid	
+339	Snipe	
+340	Cripple	
+341	Trigger Happy	
+342	Resist Nuke	
+343	Null Nuke	
+344	Repel Nuke	
+345	Drain Nuke	
+346	Resist Psy	
+347	Null Psy	
+348	Repel Psy	
+349	Drain Psy	
+350	Nuke Boost	
+351	Nuke Amp	
+352	Psy Boost	
+353	Psy Amp	
+354	Dodge Nuke	
+355	Evade Nuke	
+356	Dodge Psy	
+357	Evade Psy	
+358	Bless Boost	
+359	Bless Amp	
+360	Curse Boost	
+361	Curse Amp	
+362	Magic Ability	
+363	Fortify Spirit	
+364	Almighty Boost	
+365	Almighty Amp	
+366	Zenith Defense	
+367	Soul Chain	
+368	BLANK	FLR
+369	BLANK	FLR
+370	BLANK	FLR
+371	BLANK	FLR
+372	BLANK	FLR
+373	BLANK	FLR
+374	BLANK	FLR
+375	BLANK	FLR
+376	BLANK	FLR
+377	BLANK	FLR
+378	BLANK	FLR
+379	BLANK	FLR
+380	BLANK	FLR
+381	BLANK	FLR
+382	BLANK	FLR
+383	BLANK	FLR
+384	BLANK	FLR
+385	BLANK	FLR
+386	Blank Card	

@@ -1,0 +1,257 @@
+id	name	tag
+0	Blank	BLN
+1	Hip Glasses 	Hero DEF
+2	Suspenders	Ryuji DEF
+3	Fanny Pack	Morgana DEF
+4	Hairpin	Ann DEF
+5	Silver Key Ring	Yusuke DEF
+6	Black Tights	Makoto DEF
+7	Dotted Tights	Haru DEF
+8	Headphones	Futaba DEF
+9	Black Necktie	Akechi DEF
+10	Worn Rosary	
+11	Breath Sash	
+12	Stamina Sash	
+13	Vitality Sash	
+14	Spirit Sash	
+15	Vigor Sash	
+16	Grit Sash	
+17	Chakra Choker	
+18	Mind Choker	
+19	Soul Choker	
+20	Aura Choker	
+21	Spirit Choker	
+22	Divine Choker	
+23	Red Band	
+24	Blue Band	
+25	Green Band	
+26	Yellow Band	
+27	Fire Bangle	
+28	Ice Bangle	
+29	Wind Bangle	
+30	Elec Bangle	
+31	Star Bracelet	
+32	Circular Band	
+33	White Band	
+34	Black Band	
+35	Nuclear Band	
+36	Kinetic Bangle	
+37	Holy Bangle	
+38	Grudge Bangle	
+39	Anger Bandana	
+40	Secret Hood	
+41	Stone Cap	
+42	Air Mino	
+43	Extra Mag 1	
+44	Extra Mag 2	
+45	Extra Mag 3	
+46	Wood Clappers	
+47	Hot Water Pouch	
+48	Rubber Gloves	
+49	Shield Goggles	
+50	Calming Mask	
+51	Wild Clogs	
+52	Notebook	
+53	Hunger Gem	
+54	Sleep Gem	
+55	Rage Gem	
+56	Despair Gem	
+57	Towser's Belt	
+58	Brain Guard	
+59	Burn Charm	
+60	Freeze Charm	
+61	Shock Charm	
+62	Dizzy Charm	
+63	Confuse Charm	
+64	Fear Charm	
+65	Forget Charm	
+66	Hunger Charm	
+67	Sleep Charm	
+68	Rage Charm	
+69	Despair Charm	
+70	Brainwash Charm	
+71	Zero-Day Pass	
+72	Revenge Mirror	
+73	Reprisal Mirror	
+74	Retribution Mirror	
+75	Power Anklet	
+76	Muscle Anklet	
+77	Soldier Anklet	
+78	Berserk Anklet	
+79	Hercules Anklet	
+80	Atlas Anklet	
+81	Magic Amulet	
+82	Witch Amulet	
+83	Druid Amulet	
+84	Rune Amulet	
+85	Wizard Amulet	
+86	Shaman Amulet	
+87	Strength Belt	
+88	Protect Belt	
+89	Fortress Belt	
+90	Armada Belt	
+91	Gigas Belt	
+92	Gaia Belt	
+93	Army Socks	
+94	Wing Socks	
+95	Purebred Socks	
+96	Cheetah Socks	
+97	Sonic Socks	
+98	Skanda Socks	
+99	Lucky Charm	
+100	Zodiac Charm	
+101	Feng Shui Charm	
+102	Bagua Charm	
+103	Guard Charm	
+104	Tyche Charm	
+105	Knight Crest	
+106	Hero Crest	
+107	Girard Medal	
+108	Olivier Medal	
+109	Roland Medal	
+110	Caesar Medal	
+111	Rakshasa Belt	
+112	Vajra Belt	
+113	Skanda Belt	
+114	Spirit Belt	
+115	Willful Belt	
+116	Hachiman Belt	
+117	Crimson Ring	
+118	Ignis Ring	
+119	Atar Ring	
+120	Ice Ring	
+121	Aurora Ring	
+122	Poli'ahu Ring	
+123	Elec Ring	
+124	Blitz Ring	
+125	Indra Ring	
+126	Wind Ring	
+127	Gale Ring	
+128	Kukulkan Ring	
+129	Atom Ring	
+130	Shelter Ring	
+131	Aegis Ring	
+132	Psychic Ring	
+133	Parapsy Ring	
+134	Akashic Ring	
+135	Shoten Ring	
+136	Heaven Ring	
+137	Nirvana Ring	
+138	Midnight Ring	
+139	Fallen Ring	
+140	Druj Ring	
+141	Resist Ring	
+142	Dispel Ring	
+143	Banish Ring	
+144	Bold Eyepatch	
+145	Hero Eyepatch	
+146	Epic Eyepatch	
+147	Fire Mask	
+148	Flame Cape	
+149	Blaze Cape	
+150	Ice Mask	
+151	Hail Cape	
+152	Blizzard Cape	
+153	Elec Mask	
+154	Thunder Cape	
+155	Blizzard Cape	
+156	Wind Mask	
+157	Gale Cape	
+158	Tempest Cape	
+159	Heat Mask	
+160	Heatwave Cape	
+161	Nuclear Cape	
+162	Psychic Mask	
+163	TK Cape	
+164	Abhijna Cape	
+165	Hamaya Mask	
+166	Royal Cape	
+167	Holy Cape	
+168	Protect Mask	
+169	Mystic Mask	
+170	Grudge Mask	
+171	Magic Rosary	
+172	Wizard Rosary	
+173	Makyou Rosary	
+174	Expedite Ring	
+175	Petra Genetrix	
+176	Khamrai Tao	
+177	Hua Khon	
+178	Daffodils	
+179	Legion's Jail	
+180	Thunder Band	
+181	Shackles	
+182	Vayu's Wrath	
+183	Regent	
+184	Queen's Necklace	
+185	Stone of Scone	
+186	Koh-i-Noor	
+187	Orlov	
+188	Emperor's Amulet	
+189	Hope Diamond	
+190	Crystal Skull	
+191	0x0BF	FLR
+192	Miyuki's Earring	
+193	Harumi's Earring	
+194	Marronnier's Earring	
+195	Thief Mask	
+196	Black Rock	
+197	0x0C5	FLR
+198	Vulcan Band	
+199	Neptune Band	
+200	Aquilo Band	
+201	Jupiter Band	
+202	Janus Band	
+203	Minerva Band	
+204	Venus Band	
+205	Pluto Band	
+206	Hades Harp	
+207	Menehune Dolls	
+208	Hawaiian Ring	
+209	Forneus Badge	
+210	Train Badge	
+211	PI Badge	
+212	Punch Badge	
+213	Betting Badge	
+214	Golf Badge	
+215	Tough Belt	
+216	Dandy Mirror	
+217	Leblanc Charm	
+218	Boss Undies	
+219	2nd Mate Badge	
+220	1st Mate Badge	
+221	Captain Badge	
+222	Regen Patch 1	
+223	Regen Patch 2	
+224	Regen Patch 3	
+225	SP Adhesive 1	
+226	SP Adhesive 2	
+227	SP Adhesive 3	
+228	Hot Compress	
+229	Grudge Gauze	
+230	Thought Gauze	
+231	Savage Band	
+232	Omnipotent Orb	
+233	Divine Pillar	
+234	Darkness Ring	
+235	White Headband	
+236	Attachment Pearl	
+237	Black Headband	
+238	Red Yarn Ball	
+239	Thunder Horns	
+240	Black Moon	
+241	Holy Stone	
+242	Team Glasses	
+243	SEES Armband	
+244	Sevens Emblem	
+245	Hermelin Badge	
+246	Arm PC	
+247	Midnight Bandana	
+248	Evoker	
+249	Honu Charm	
+250	Tiki Keychain	
+251	Beast Headphones	
+252	Babel Headphones	
+253	Lambs' Pillow	
+254	Gauntlet	
+255	Kuzunoha Tubes	

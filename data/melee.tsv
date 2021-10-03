@@ -1,228 +1,228 @@
 id	name	tag
 0	Blank	BLN
-1	Generic Gear	UNK
-2	Rebel Knife	Hero|DEF
+1	Generic Gear	All
+2	Rebel Knife	Hero DEF
 3	Kukri	Hero
 4	Arsene's Cane	Hero
 5	Blizz Dagger	Hero
 6	Athame	Hero
-7	Steel Kukri	UNK
+7	Steel Kukri	Hero
 8	Skinning Knife	Hero
-9	Corvo	UNK
+9	Corvo	Hero
 10	Kopis	Hero
 11	Killing Scalpel	Hero
-12	Mummy's Kopis	UNK
+12	Mummy's Kopis	Hero
 13	Quality Kopis	Hero
 14	Pro Skinning Knife	Hero
-15	Blood Corvo	UNK
+15	Blood Corvo	Hero
 16	Dirk	Hero
 17	Parrying Dagger	Hero
-18	Old Dirk	UNK
+18	Old Dirk	Hero
 19	Machete	Hero
 20	Baselard	Hero
-21	Dual Edge Machete	UNK
+21	Dual Edge Machete	Hero
 22	Frenzy Dagger	Hero
 23	Pro Parrying Dagger	Hero
-24	Coma Dagger	UNK
+24	Coma Dagger	Hero
 25	Misericorde	Hero
 26	Reserve	FLR
-27	Pro Yamanaji	UNK
-28	Amnesia	UNK
+27	Pro Yamanaji	Hero
+28	Amnesia	Hero
 29	Reserve	FLR
 30	Igniter	Hero
-31	Ritual Athame	UNK
-32	Shock Knife	UNK
-33	Dancing Knife	UNK
-34	Melancholia	UNK
+31	Ritual Athame	Hero
+32	Shock Knife	Hero
+33	Dancing Knife	Hero
+34	Melancholia	Hero
 35	Paradise Lost	Hero
-36	Yamanaji	UNK
-37	Normal Rod	Ryuji|DEF
+36	Yamanaji	Hero
+37	Normal Rod	Ryuji DEF
 38	Mace	Ryuji
 39	Hell Slugger	Ryuji
 40	Heavy Steel Pipe	Ryuji
-41	Steel Pipe	UNK
+41	Steel Pipe	Ryuji
 42	Battle Hammer	Ryuji
 43	Iron Pipe	Ryuji
-44	Quality Steel Pipe	UNK
+44	Quality Steel Pipe	Ryuji
 45	Heavy Mace	Ryuji
 46	Spike Rod	Ryuji
-47	Demon War Hammer	UNK
+47	Demon War Hammer	Ryuji
 48	Bush Hammer	Ryuji
 49	Demon Pipe	Ryuji
-50	Megaton Rod	UNK
+50	Megaton Rod	Ryuji
 51	Boss Bush Hammer	Ryuji
 52	Gaea Presser	Ryuji
-53	Lotus Wand	UNK
+53	Lotus Wand	Ryuji
 54	Big Sleep Stick	Ryuji
 55	Stun Baton	Ryuji
-56	Death Crowbar	UNK
+56	Death Crowbar	Ryuji
 57	Dragon God Pole	Ryuji
 58	Grand Presser	Ryuji
-59	Stun Baton	UNK
+59	Stun Baton	Ryuji
 60	Super Megido Rod	Ryuji
-61	The Anchor	UNK
-62	Erasure Hammer	UNK
-63	Genocide Crowbar	UNK
-64	Triple Crown Bat	UNK
+61	The Anchor	Ryuji
+62	Erasure Hammer	Ryuji
+63	Genocide Crowbar	Ryuji
+64	Triple Crown Bat	Ryuji
 65	Ruyi Jingu Bang	Ryuji
-66	Wolf Fang Pole	UNK
+66	Wolf Fang Pole	Ryuji
 67	Sleep Stick	Ryuji
-68	Super Steel Whip	UNK
-69	Flint Rod	UNK
+68	Super Steel Whip	Ryuji
+69	Flint Rod	Ryuji
 70	Reserve	FLR
-71	The Pulverizer	UNK
+71	The Pulverizer	Ryuji
 72	Mjolnir	Ryuji
-73	Bandit Sword	Morgana|DEF
+73	Bandit Sword	Morgana DEF
 74	Headhunter Ladle	Morgana
 75	Ryozanpaku Sword	Morgana
 76	Sonic Blade	Morgana
 77	Scimitar	Morgana
 78	Talwar	Morgana
-79	Bright Saber	UNK
+79	Bright Saber	Morgana
 80	Sleeper Blade	Morgana
 81	Shamshir	Morgana
 82	Blood Scimitar	Morgana
 83	Resting Sword	Morgana
 84	Chief's Cutlass	Morgana
-85	Quiet Sword	UNK
+85	Quiet Sword	Morgana
 86	Cosmic Sword	Morgana
 87	Damascus Sword	Morgana
-88	Solar Blade	UNK
+88	Solar Blade	Morgana
 89	Heavy Saber	Morgana
-90	Master Shamshir	UNK
+90	Master Shamshir	Morgana
 91	Panic Sword	Morgana
-92	Fury Blade	UNK
+92	Fury Blade	Morgana
 93	Bright Sword	Morgana
 94	Reserve	FLR
 95	Answerer	Morgana
-96	Mega Flash Sword	UNK
-97	Corona Blade	UNK
+96	Mega Flash Sword	Morgana
+97	Corona Blade	Morgana
 98	Claiomh Solais	Morgana
 99	Reserve	FLR
-100	Machete	UNK
-101	Plasma Sword	UNK
-102	Kikouseiken	UNK
-103	Vile Sword	UNK
-104	El Caliente	UNK
+100	Machete	Morgana
+101	Plasma Sword	Morgana
+102	Kikouseiken	Morgana
+103	Vile Sword	Morgana
+104	El Caliente	Morgana
 105	God Saber	Morgana
-106	Heaven Saber	UNK
-107	Deus Ex Machina	UNK
-108	Leather Whip	Ann|DEF
+106	Heaven Saber	Morgana
+107	Deus Ex Machina	Morgana
+108	Leather Whip	Ann DEF
 109	Training Whip	Ann
 110	Skin Ripper	Ann
 111	Heat Whip	Ann
 112	Warrior Whip	Ann
-113	Blaze Whip	UNK
+113	Blaze Whip	Ann
 114	Burn Whip	Ann
 115	Hero Whip	Ann
-116	Tear Whip	UNK
+116	Tear Whip	Ann
 117	Whip Sword	Ann
 118	Electromag Whip	Ann
-119	Disgrace Whip	UNK
+119	Disgrace Whip	Ann
 120	Mirage Whip	Ann
 121	Strike Tail	Ann
-122	White Paper Whip	UNK
+122	White Paper Whip	Ann
 123	Great Whip Sword	Ann
 124	Chain Whip	Ann
-125	Barbed Wire	UNK
+125	Barbed Wire	Ann
 126	Pain and Pain	Ann
 127	Spike Whip	Ann
-128	Love Whip	UNK
+128	Love Whip	Ann
 129	Hard Branch	Ann
-130	Coil Whip	UNK
-131	Last Agony	UNK
-132	Law Rope	UNK
+130	Coil Whip	Ann
+131	Last Agony	Ann
+132	Law Rope	Ann
 133	Fundo-Kusari	Ann
 134	Goat Leather Whip	Ann
-135	Ingot Chain	UNK
-136	Knout Whip	UNK
-137	Death Knout	UNK
-138	Cat-o-Nine Tails	UNK
+135	Ingot Chain	Ann
+136	Knout Whip	Ann
+137	Death Knout	Ann
+138	Cat-o-Nine Tails	Ann
 139	Snow Queen's Whip	Ann
-140	Death Match Wire	UNK
+140	Death Match Wire	Ann
 141	Naraka Whip	Ann
-142	Katana	Yusuke|DEF
+142	Katana	Yusuke DEF
 143	Gunto	Yusuke
 144	Reserve	FLR
 145	Imitation Katana	Yusuke
 146	Unmarked Katana	Yusuke
 147	Antique Gunto	Yusuke
 148	Seishiki Sword	Yusuke
-149	Muramasa	UNK
+149	Muramasa	Yusuke
 150	Jagato	Yusuke
 151	Imperial Sword	Yusuke
-152	Kirisame	UNK
+152	Kirisame	Yusuke
 153	Fury Blade	Yusuke
 154	Iai Katana	Yusuke
-155	Kunitsuna	UNK
+155	Kunitsuna	Yusuke
 156	Orochito	Yusuke
 157	Wakizashi	Yusuke
-158	Chidori	UNK
+158	Chidori	Yusuke
 159	Masamune	Yusuke
 160	Master's Iai Katana	Yusuke
-161	Monohoshizao	UNK
+161	Monohoshizao	Yusuke
 162	Red Demon Blade	Yusuke
-163	Quality Wakizashi	UNK
+163	Quality Wakizashi	Yusuke
 164	Reserve	FLR
-165	Musou Masamune	UNK
+165	Musou Masamune	Yusuke
 166	Usumidori	Yusuke
-167	Shimobashira	UNK
-168	Shizukuto	UNK
+167	Shimobashira	Yusuke
+168	Shizukuto	Yusuke
 169	Shikomi Kiseru	Yusuke
-170	Kyokusui	UNK
+170	Kyokusui	Yusuke
 171	Senryou Yakusha	Yusuke
-172	Ame-no-Murakumo	UNK
-173	Brass Knuckles	Makoto|DEF
+172	Ame-no-Murakumo	Yusuke
+173	Brass Knuckles	Makoto DEF
 174	Hell Knuckles	Makoto
 175	Heavy Pound	Makoto
-176	Super Heavy Grip	UNK
+176	Super Heavy Grip	Makoto
 177	Metal Duster	Makoto
-178	Hell Cestus	UNK
+178	Hell Cestus	Makoto
 179	Iron Fist	Makoto
 180	Mach Punch	Makoto
-181	Bagh Naka	UNK
+181	Bagh Naka	Makoto
 182	Demon Fist	Makoto
 183	Flash Punch	Makoto
-184	Fast Puncher	UNK
+184	Fast Puncher	Makoto
 185	Omega Knuckle	Makoto
 186	Bout Gloves	Makoto
 187	Sanction	Makoto
-188	Dazzle Fist	UNK
-189	One Inch	UNK
-190	Chrome Duster	UNK
-191	Grief Fist	UNK
+188	Dazzle Fist	Makoto
+189	One Inch	Makoto
+190	Chrome Duster	Makoto
+191	Grief Fist	Makoto
 192	Bear Gloves	Makoto
 193	Clenched Fist	Makoto
 194	Sabazios	Makoto
-195	Wrathful Iron Fist	UNK
-196	Sealed Fist	UNK
+195	Wrathful Iron Fist	Makoto
+196	Sealed Fist	Makoto
 197	Vajra	Makoto
 198	Reserve	FLR
 199	Reserve	FLR
 200	Reserve	FLR
-201	Axe	Haru|DEF
+201	Axe	Haru DEF
 202	Mega Axe	Haru
-203	Steel Bardiche	UNK
+203	Steel Bardiche	Haru
 204	Crescent Axe	Haru
 205	Lethe Axe	Haru
 206	Ice Axe	Haru
-207	Melatonin Axe	UNK
+207	Melatonin Axe	Haru
 208	Celtis	Haru
-209	Lunatic Axe	UNK
+209	Lunatic Axe	Haru
 210	Amazon Axe	Haru
-211	Rend Celtis	UNK
-212	Dragon Scale Axe	UNK
-213	Perish Great Axe	UNK
+211	Rend Celtis	Haru
+212	Dragon Scale Axe	Haru
+213	Perish Great Axe	Haru
 214	Reserve	FLR
 215	Reserve	FLR
-216	Heracles Axe	UNK
+216	Heracles Axe	Haru
 217	Gilgamesh Axe	Haru
-218	Narcolepsy	UNK
+218	Narcolepsy	Haru
 219	Fleurs du Mal	Haru
 220	Reserve	FLR
 221	Delta Knuckle	Makoto
 222	Heavy Grip	Makoto
-223	Lumina Saber	Akechi|DEF
+223	Lumina Saber	Akechi DEF
 224	Reserve	FLR
 225	Quasar Saber	Akechi
 226	Reserve	FLR
@@ -230,20 +230,20 @@ id	name	tag
 228	Masquerade Ribbon	Ann
 229	Reserve	FLR
 230	Reserve	FLR
-231	Haru Reserve 3	UNK
-232	Haru Reserve 1	UNK
+231	Haru Reserve 3	Haru
+232	Haru Reserve 1	Haru
 233	Bardiche	Haru
 234	Death Contract	Haru
 235	Black Kogatana	Hero
 236	Reserve	FLR
-237	Fault Knife	UNK
-238	Quest Item	UNK
-239	Lizard Tail Cutter	UNK
+237	Fault Knife	Hero
+238	Quest Item	All
+239	Lizard Tail Cutter	Yusuke
 240	Envy Chain	Ann
 241	Prophet's Hand	Makoto
-242	Dependence XX	UNK
+242	Dependence XX	All
 243	Venture Saber	Morgana
-244	Slacker Pole	UNK
+244	Slacker Pole	Ryuji
 245	Silver Dagger	Hero
 246	0x0F6	FLR
 247	0x0F7	FLR

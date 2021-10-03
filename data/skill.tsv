@@ -1,0 +1,1001 @@
+id	name	tag
+0	Attack	BLN
+1	BLANK	FLR
+2	BLANK	FLR
+3	BLANK	FLR
+4	BLANK	FLR
+5	BLANK	FLR
+6	BLANK	FLR
+7	BLANK	FLR
+8	BLANK	FLR
+9	BLANK	FLR
+10	Agi	LRN
+11	Agilao	LRN
+12	Agidyne	LRN
+13	Maragi	LRN
+14	Maragion	LRN
+15	Maragidyne	LRN
+16	Agi	
+17	Maragi	
+18	BLANK	FLR
+19	BLANK	FLR
+20	Bufu	LRN
+21	Bufula	LRN
+22	Bufudyne	LRN
+23	Mabufu	LRN
+24	Mabufula	LRN
+25	Mabufudyne	LRN
+26	Bufu	
+27	Mabufu	
+28	BLANK	FLR
+29	BLANK	FLR
+30	Garu	LRN
+31	Garula	LRN
+32	Garudyne	LRN
+33	Magaru	LRN
+34	Magarula	LRN
+35	Magarudyne	LRN
+36	Garu	
+37	BLANK	FLR
+38	BLANK	FLR
+39	BLANK	FLR
+40	Zio	LRN
+41	Zionga	LRN
+42	Ziodyne	LRN
+43	Mazio	LRN
+44	Mazionga	LRN
+45	Maziodyne	LRN
+46	Zio	
+47	Mazio	
+48	BLANK	FLR
+49	BLANK	FLR
+50	Hama	LRN
+51	Hamaon	LRN
+52	Mahama	LRN
+53	Mahamaon	LRN
+54	Kouha	LRN
+55	Kouga	LRN
+56	Kougaon	LRN
+57	Makouha	LRN
+58	Makouga	LRN
+59	Makougaon	LRN
+60	Mudo	LRN
+61	Mudoon	LRN
+62	Mamudo	LRN
+63	Mamudoon	LRN
+64	Eiha	LRN
+65	Eiga	LRN
+66	Eigaon	LRN
+67	Maeiha	LRN
+68	Maeiga	LRN
+69	Maeigaon	LRN
+70	Megido	LRN
+71	Megidola	LRN
+72	Megidolaon	LRN
+73	Frei	LRN
+74	Freila	LRN
+75	Freidyne	LRN
+76	Mafrei	LRN
+77	Mafreila	LRN
+78	Mafreidyne	LRN
+79	BLANK	FLR
+80	Dazzler	LRN
+81	Nocturnal Flash	LRN
+82	Pulinpa	LRN
+83	Tentarafoo	LRN
+84	Evil Touch	LRN
+85	Evil Smile	LRN
+86	Makajama	LRN
+87	Makajamaon	LRN
+88	Famine's Breath	
+89	Famine's Scream	
+90	Dormina	LRN
+91	Lullaby	LRN
+92	Taunt	LRN
+93	Wage War	LRN
+94	Ominous Words	LRN
+95	Abysmal Surge	LRN
+96	Marin Karin	LRN
+97	Brain Jack	LRN
+98	Trapped Rat	
+99	BLANK	FLR
+100	Self-destruct	
+101	Self-destruct	
+102	Self-destruct	
+103	Life Drain	LRN
+104	Spirit Drain	LRN
+105	Life Leech	
+106	Spirit Leech	
+107	Spirit Drain	
+108	BLANK	FLR
+109	BLANK	FLR
+110	Foul Breath	LRN
+111	Stagnant Air	LRN
+112	Reverse Rub	
+113	Ghastly Wail	LRN
+114	BLANK	FLR
+115	BLANK	FLR
+116	BLANK	FLR
+117	BLANK	FLR
+118	BLANK	FLR
+119	BLANK	FLR
+120	Inferno	LRN
+121	Blazing Hell	LRN
+122	Low Burn	
+123	Mid Burn	
+124	High Burn	
+125	Low Freeze	
+126	Mid Freeze	
+127	High Freeze	
+128	Low Shock	
+129	Mid Shock	
+130	Diamond Dust	LRN
+131	Ice Age	LRN
+132	High Shock	
+133	Low Dizzy	
+134	Mid Dizzy	
+135	High Dizzy	
+136	Low Confuse	
+137	Mid Confuse	
+138	High Confuse	
+139	Low Fear	
+140	Panta Rhei	LRN
+141	Vacuum Wave	LRN
+142	Mid Fear	
+143	High Fear	
+144	Low Forget	
+145	Mid Forget	
+146	High Forget	
+147	Low Brainwash	
+148	Mid Brainwash	
+149	High Brainwash	
+150	Thunder Reign	LRN
+151	Wild Thunder	LRN
+152	Low Sleep	
+153	Mid Sleep	
+154	High Sleep	
+155	Low Rage	
+156	Mid Rage	
+157	High Rage	
+158	Low Despair	
+159	Mid Despair	
+160	Divine Judgment	LRN
+161	Samsara	Daisoujou
+162	High Despair	
+163	Low All Ail	
+164	Mid All Ail	
+165	High All Ail	
+166	BLANK	FLR
+167	BLANK	FLR
+168	BLANK	FLR
+169	BLANK	FLR
+170	Demonic Decree	LRN
+171	Die For Me!	Alice
+172	BLANK	FLR
+173	BLANK	FLR
+174	BLANK	FLR
+175	BLANK	FLR
+176	Atomic Flare	LRN
+177	Cosmic Flare	LRN
+178	BLANK	FLR
+179	BLANK	FLR
+180	Black Viper	LRN
+181	Morning Star	Lucifer
+182	BLANK	FLR
+183	BLANK	FLR
+184	BLANK	FLR
+185	BLANK	FLR
+186	BLANK	FLR
+187	BLANK	FLR
+188	BLANK	FLR
+189	BLANK	FLR
+190	Psi	LRN
+191	Psio	LRN
+192	Psiodyne	LRN
+193	Mapsi	LRN
+194	Mapsio	LRN
+195	Mapsiodyne	LRN
+196	BLANK	FLR
+197	Psycho Force	LRN
+198	Psycho Blast	LRN
+199	BLANK	FLR
+200	Lunge	LRN
+201	Assault Dive	LRN
+202	Megaton Raid	LRN
+203	God's Hand	LRN
+204	Lunge	
+205	Lucky Punch	LRN
+206	Miracle Punch	LRN
+207	BLANK	FLR
+208	BLANK	FLR
+209	BLANK	FLR
+210	Cleave	LRN
+211	Giant Slice	LRN
+212	Brave Blade	LRN
+213	Sword Dance	LRN
+214	BLANK	FLR
+215	Hassou Tobi	Yoshitsune
+216	Ayamur	Baal
+217	BLANK	FLR
+218	BLANK	FLR
+219	BLANK	FLR
+220	Cornered Fang	LRN
+221	Rising Slash	LRN
+222	Deadly Fury	LRN
+223	BLANK	FLR
+224	Snap	LRN
+225	Triple Down	LRN
+226	One-shot Kill	LRN
+227	Riot Gun	LRN
+228	BLANK	FLR
+229	BLANK	FLR
+230	Vajra Blast	LRN
+231	Vorpal Blade	LRN
+232	BLANK	FLR
+233	BLANK	FLR
+234	BLANK	FLR
+235	Vicious Strike	LRN
+236	Heat Wave	LRN
+237	Gigantomachia	LRN
+238	BLANK	FLR
+239	BLANK	FLR
+240	BLANK	FLR
+241	Rampage	LRN
+242	Swift Strike	LRN
+243	Deathbound	LRN
+244	Agneyastra	LRN
+245	BLANK	FLR
+246	BLANK	FLR
+247	Rising Slash	
+248	Deadly Fury	
+249	BLANK	FLR
+250	Double Fangs	LRN
+251	BLANK	FLR
+252	BLANK	FLR
+253	Tempest Slash	LRN
+254	Myriad Slashes	LRN
+255	BLANK	FLR
+256	BLANK	FLR
+257	BLANK	FLR
+258	BLANK	FLR
+259	BLANK	FLR
+260	Sledgehammer	LRN
+261	Skull Cracker	LRN
+262	Terror Claw	LRN
+263	Headbutt	LRN
+264	Stomach Blow	
+265	Dream Needle	LRN
+266	Hysterical Slap	LRN
+267	Negative Pile	LRN
+268	Brain Shake	LRN
+269	BLANK	FLR
+270	Flash Bomb	LRN
+271	Mind Slice	LRN
+272	Bloodbath	LRN
+273	Memory Blow	LRN
+274	Insatiable Strike	
+275	Dormin Rush	LRN
+276	Oni-Kagura	LRN
+277	Bad Beat	LRN
+278	Brain Buster	LRN
+279	BLANK	FLR
+280	Handgun	
+281	Shotgun	
+282	Slingshot	
+283	Machine Gun	
+284	Assault Rifle	
+285	Revolver	
+286	Grenade Launcher	
+287	Laser Gun	
+288	BLANK	FLR
+289	BLANK	FLR
+290	BLANK	FLR
+291	BLANK	FLR
+292	BLANK	FLR
+293	BLANK	FLR
+294	BLANK	FLR
+295	BLANK	FLR
+296	BLANK	FLR
+297	BLANK	FLR
+298	BLANK	FLR
+299	Attack	
+300	Dia	LRN
+301	Diarama	LRN
+302	Diarahan	LRN
+303	BLANK	FLR
+304	BLANK	FLR
+305	Media	LRN
+306	Mediarama	LRN
+307	Mediarahan	LRN
+308	BLANK	FLR
+309	BLANK	FLR
+310	Recarm	LRN
+311	Samarecarm	LRN
+312	Recarmdra	
+313	BLANK	FLR
+314	BLANK	FLR
+315	Amrita Drop	LRN
+316	Amrita Shower	LRN
+317	BLANK	FLR
+318	Salvation	LRN
+319	BLANK	FLR
+320	BLANK	FLR
+321	BLANK	FLR
+322	BLANK	FLR
+323	BLANK	FLR
+324	BLANK	FLR
+325	Patra	LRN
+326	BLANK	FLR
+327	Energy Shower	LRN
+328	Energy Drop	LRN
+329	Baisudi	LRN
+330	Me Patra	LRN
+331	Mabaisudi	LRN
+332	BLANK	FLR
+333	BLANK	FLR
+334	BLANK	FLR
+335	Tarukaja	LRN
+336	Rakukaja	LRN
+337	Sukukaja	LRN
+338	Heat Riser	LRN
+339	BLANK	FLR
+340	Matarukaja	LRN
+341	Marakukaja	LRN
+342	Masukukaja	LRN
+343	Thermopylae	LRN
+344	BLANK	FLR
+345	Tarunda	LRN
+346	Rakunda	LRN
+347	Sukunda	LRN
+348	Debilitate	LRN
+349	BLANK	FLR
+350	Matarunda	LRN
+351	Marakunda	LRN
+352	Masukunda	LRN
+353	BLANK	FLR
+354	BLANK	FLR
+355	Dekunda	LRN
+356	Dekaja	LRN
+357	BLANK	FLR
+358	BLANK	FLR
+359	BLANK	FLR
+360	Charge	LRN
+361	Concentrate	LRN
+362	BLANK	FLR
+363	BLANK	FLR
+364	BLANK	FLR
+365	Rebellion	LRN
+366	Revolution	LRN
+367	BLANK	FLR
+368	BLANK	FLR
+369	BLANK	FLR
+370	Tetrakarn	LRN
+371	Makarakarn	LRN
+372	Tetraja	LRN
+373	BLANK	FLR
+374	BLANK	FLR
+375	Tetra Break	LRN
+376	Makara Break	LRN
+377	BLANK	FLR
+378	BLANK	FLR
+379	BLANK	FLR
+380	Fire Wall	LRN
+381	Ice Wall	LRN
+382	Elec Wall	LRN
+383	Wind Wall	LRN
+384	BLANK	FLR
+385	Fire Break	LRN
+386	Ice Break	LRN
+387	Wind Break	LRN
+388	Elec Break	LRN
+389	BLANK	FLR
+390	Trafuri	
+391	Traesto	
+392	BLANK	FLR
+393	Nuke Wall	LRN
+394	Psy Wall	LRN
+395	Nuke Break	LRN
+396	Psy Break	LRN
+397	BLANK	FLR
+398	BLANK	FLR
+399	BLANK	FLR
+400	All-out Lv 1	
+401	All-out Lv 2	
+402	All-out Lv 3	
+403	Emergency Escape	
+404	Attack	
+405	Down Shot	
+406	Summon	
+407	Call for Backup	
+408	Outlaw Attack	
+409	Barrage	
+410	Follow Crush	
+411	Follow Claw	
+412	Follow Whip	
+413	Follow Blade	
+414	Follow Knuckle	
+415	Follow Axe	
+416	Follow Saber	
+417	Dispose Item	
+418	Heal Enemy	
+419	Death (Despair)	
+420	Ally1 Follow-Up	
+421	Ally2 Follow-Up	
+422	Ally3 Follow-Up	
+423	Ally4 Follow-Up	
+424	Ally5 Follow-Up	
+425	Ally6 Follow-Up	
+426	Ally7 Follow-Up	
+427	Power Up Enemy	
+428	Power Up Enemy	
+429	Power Up Enemy	
+430	Steal Info	
+431	Sup Matarukaja	
+432	Sup Marakukaja	
+433	Sup Masukukaja	
+434	Sup All Kaja	
+435	Sup Charge	
+436	Sup HP +30%	
+437	Sup SP +10%	
+438	Sup Escape Route	
+439	Sup Third Eye	
+440	Subrecover HP	PRT
+441	Subrecover SP	PRT
+442	Analysis	PRT
+443	Deep Analysis	
+444	Full Analysis	
+445	All-Out Attack	
+446	Dust Flurry	
+447	Tongue Whip	
+448	Whip Strike	
+449	Lustful Slurp	
+450	Libido Boost	
+451	Golden Knife	
+452	Lick	
+453	Gold Medal Spike	
+454	Volleyball Assault	
+455	Maelstrom	
+456	Flame Dance	
+457	Silent Snowscape	
+458	Thunderclap	
+459	Maeiga	
+460	Hunger All	
+461	Ocular Vulcan	
+462	Missile Party	
+463	Fear Gas	
+464	Super VIP Form	
+465	March of the Piggy	
+466	Sphinx Swipe	
+467	Wing Blast	
+468	Rapid Ascent	
+469	Sphinx Dive	
+470	Dreadful Scream	
+471	Bite	
+472	Restore	
+473	The Artist's Grace	
+474	Work Order	
+475	Sacrifice Order	
+476	Selfless Devotion	
+477	Penalty	
+478	Coin Attack	
+479	Severing Slash	
+480	Gatling Gun	
+481	Berserker Dance	
+482	Roulette: HP	
+483	Roulette: SP	
+484	Roulette: Money	
+485	Roulette: Aid 1	
+486	Roulette: Aid 2	
+487	Roulette: Aid 3	
+488	Beast King's Wrath	
+489	Hunting Stance	
+490	Arm of Destruction	
+491	Gryphon's Breath	
+492	Royal Wing Beam	
+493	Cannon Fire	
+494	Cannon Barrage	
+495	Unholy Convergence	
+496	Pyramid Blast	
+497	Tyrant's Fist	
+498	Tyrant's Glare	
+499	Tyrant's Wave	
+500	Fig Seed	
+501	Medicine	
+502	Ointment	
+503	Antibiotic Gel	
+504	Life Stone	
+505	Bead	
+506	Value Medicine	
+507	Medical Kit	
+508	Maka Leaf	
+509	Bead Chain	
+510	Soul Drop	
+511	Snuff Soul	
+512	Chewing Soul	
+513	Soul Food	
+514	Revival Bead	
+515	Balm of Life	
+516	Royel Jelly	
+517	Organic Herb	
+518	Disclose	
+519	Tranquilizer	
+520	Kopi Luwak	
+521	Goho-M	
+522	Vanish Ball	
+523	Soma	
+524	Amrita Soda	
+525	Hiranya	
+526	Muscle Drink	
+527	Odd Morsel	
+528	Rancid Gravy	
+529	Plume of Dusk	
+530	Magic Mirror	
+531	Physical Mirror	
+532	Universe Ring	
+533	Sleipnir	
+534	Obsidian Mirror	
+535	Purifying Water	
+536	Purifying Salt	
+537	Firecracker	
+538	San-zun Tama	
+539	Ice Cube	
+540	Dry Ice	
+541	Pinwheel	
+542	Yashichi	
+543	Ball Lightning	
+544	Tesla Coil	
+545	Smart Bomb	
+546	Segami Rice	
+547	Curse Paper	
+548	Flame Magatama	
+549	Wind Magatama	
+550	Freeze Magatama	
+551	Bolt Magatama	
+552	Homunculus	
+553	Removal Potion	
+554	Kouga Ball	
+555	Makouha Ball	
+556	Eiga Ball	
+557	Maeiga Ball	
+558	Psio Ball	
+559	Mapsi Ball	
+560	Freila Ball	
+561	Mafrei Ball	
+562	Nuke Magatama	
+563	Psy Magatama	
+564	Bless Magatama	
+565	Curse Magatama	
+566	Cooking	
+567	Snack	
+568	Shoes 1	
+569	Shoes 2	
+570	Shoes 3	
+571	Juice Bar 1	
+572	Juice Bar 2	
+573	Juice Bar 3	
+574	Juice Bar 4	
+575	Energy Drink 1	
+576	Energy Drink 2	
+577	Energy Drink 3	
+578	Soda 1	
+579	Soda 2	
+580	Soda 3	
+581	Soda 4	
+582	Ration 1 	
+583	Ration 2	
+584	Ration 3	
+585	Drug Store 1	
+586	Drug Store 2	
+587	Drug Store 3	
+588	Drug Store 4	
+589	Drug Store 5	
+590	Drug Store 6	
+591	Drug Store 7	
+592	Drug Store 8	
+593	Drug Store 9	
+594	Drug Store 10	
+595	Drug Store 11	
+596	Drug Store 12	
+597	Coffee 1	
+598	Coffee 2	
+599	BLANK	FLR
+600	Twins Down Attack	
+601	Caro Rod	
+602	Caro Attack	
+603	Megidolaon	
+604	Rays of Control	
+605	Rays of Control	
+606	Rays of Control	
+607	Rays of Control	
+608	Arrow of Light	
+609	Diffraction Arrow	
+610	Light Edge	
+611	Gathering Light	
+612	Eternal Light	
+613	Holy Change	
+614	Distortion Wave	
+615	Tough Law	
+616	Frail Law	
+617	New Creation	
+618	Distortion Surge	
+619	Arrow of Light	
+620	Manifest Sword	
+621	Manifest Gun	
+622	Manifest Bell	
+623	Sword of Judgment	
+624	Capital Punishment	
+625	Manifest Book	
+626	Distorted Lust	
+627	Gospel	
+628	Distorted Wrath	
+629	Distorted Vanity	
+630	Song of Salvation	
+631	Wrath of God	
+632	Distorted Gluttony	
+633	Distorted Envy	
+634	Song of Placation	
+635	Divine Apex	
+636	Rays of Control	
+637	Distorted Avarice	
+638	Will of the People	
+639	Rays of Control	
+640	Moral Support	
+641	Active Support	
+642	Mental Hack	
+643	Emergency Shift	
+644	Final Guard	
+645	Position Hack	
+646	High Analyze	
+647	Treasure Skimmer	
+648	Subrecover HP EX	PRT
+649	Subrecover SP EX	PRT
+650	BLANK	FLR
+651	BLANK	FLR
+652	BLANK	FLR
+653	BLANK	FLR
+654	Big Bang Order	
+655	Roulette Time	
+656	Trip-Upper	
+657	Lust Sphere	
+658	Down Shot 2	
+659	Down Shot 3	
+660	Down Shot 4	
+661	Electro Attack	
+662	Sinful Shell	
+663	Follow Black	
+664	BLANK	FLR
+665	Madara-Megido	
+666	Curry Raku	
+667	Enemy Benefit	
+668	Diarahan	
+669	Curry Suku	
+670	Decoy Ball	
+671	Super Decoy Ball	
+672	Metabolic Wave	
+673	Laevateinn	
+674	Desperation	
+675	Call of Chaos	
+676	Big Bang Challenge	
+677	Grail Light 2	
+678	Megidola	
+679	Rage Transmission	
+680	Hundred Slaps	
+681	Distorted Pride	
+682	Divine Punishment	
+683	Will of the People	
+684	Wind Cutter	
+685	Shoot Up	
+686	Executive Punch	
+687	Megidolaon	
+688	Vorpal Blade	
+689	Megidolaon	
+690	Big Bang Burger	
+691	Earth Burger	
+692	Mars Burger	
+693	Moon Burger	
+694	Saturn Burger	
+695	Justine Attack	
+696	Caroline Attack	
+697	Curry Makara	
+698	Curry Tetra	
+699	Curry Endure	
+700	Curry Charge	
+701	Curry Concentrate	
+702	Curry Heat Riser	
+703	BLANK	FLR
+704	Cadenza	Orpheus+P
+705	Cross Slash	Izanagi+P
+706	Door of Hades	Thanatos+P
+707	Magatsu Mandala	M. Izanagi+P
+708	Shining Arrows	Kaguya+P
+709	Beast Weaver	Ariadne+P
+710	Titanomachia	Asterius+P
+711	Abyssal Wings	Tsukiyomi+P
+712	Oratario	Messiah+P
+713	BLANK	FLR
+714	BLANK	FLR
+715	BLANK	FLR
+716	BLANK	FLR
+717	BLANK	FLR
+718	BLANK	FLR
+719	BLANK	FLR
+720	Megido	
+721	Megidola	
+722	Megidolaon	
+723	Slam	
+724	Megaton Raid	
+725	One-shot Kill	
+726	Inferno	
+727	Diamond Dust	
+728	BLANK	FLR
+729	BLANK	FLR
+730	Curry 1	
+731	Curry 2	
+732	Reviv-All	
+733	Reviv-All Z	
+734	BLANK	FLR
+735	BLANK	FLR
+736	Wild Talk	
+737	Baton Pass	
+738	Punk Talk	
+739	Pickpocket	
+740	Harisen Recovery	
+741	Protect	
+742	Girl Talk	
+743	Crocodile Tears	
+744	Sexy Technique	
+745	Detective Talk	
+746	Artist Talk	
+747	Negotiating	
+748	Fundraising	
+749	Manipulation	
+750	Mind Control	
+751	Charisma Speech	
+752	Brainiac Talk	
+753	Sabaki	
+754	Kakoi Kuzushi 	
+755	Touryou	
+756	Togo System	
+757	Bullet Hail	
+758	Warning Shot	
+759	Celeb Talk	
+760	Kitty Talk	
+761	BLANK	FLR
+762	BLANK	FLR
+763	BLANK	FLR
+764	BLANK	FLR
+765	BLANK	FLR
+766	BLANK	FLR
+767	BLANK	FLR
+768	Brave Blade	
+769	Assault Dive	
+770	Terror Claw	
+771	Bufudyne	
+772	Psiodyne	
+773	Mazionga	
+774	Maziodyne	
+775	Maeiga	
+776	Maeigaon	
+777	BLANK	FLR
+778	BLANK	FLR
+779	BLANK	FLR
+780	BLANK	FLR
+781	BLANK	FLR
+782	BLANK	FLR
+783	BLANK	FLR
+784	BLANK	FLR
+785	BLANK	FLR
+786	BLANK	FLR
+787	BLANK	FLR
+788	BLANK	FLR
+789	BLANK	FLR
+790	BLANK	FLR
+791	BLANK	FLR
+792	BLANK	FLR
+793	BLANK	FLR
+794	BLANK	FLR
+795	BLANK	FLR
+796	BLANK	FLR
+797	BLANK	FLR
+798	BLANK	FLR
+799	BLANK	FLR
+800	Counter	LRN
+801	Counterstrike	LRN
+802	High Counter	LRN
+803	BLANK	FLR
+804	BLANK	FLR
+805	Endure	LRN
+806	Enduring Soul	LRN
+807	BLANK	FLR
+808	BLANK	FLR
+809	Survival Trick	LRN
+810	Dodge Fire	LRN
+811	Evade Fire	LRN
+812	Dodge Ice	LRN
+813	Evade Ice	LRN
+814	Dodge Wind	LRN
+815	Evade Wind	LRN
+816	Dodge Elec	LRN
+817	Evade Elec	LRN
+818	Dodge Phys	LRN
+819	Evade Phys	LRN
+820	Fire Boost	LRN
+821	Fire Amp	LRN
+822	Ice Boost	LRN
+823	Ice Amp	LRN
+824	Wind Boost	LRN
+825	Wind Amp	LRN
+826	Elec Boost	LRN
+827	Elec Amp	LRN
+828	Angelic Grace	LRN
+829	Divine Grace	LRN
+830	Regenerate 1	LRN
+831	Regenerate 2	LRN
+832	Regenerate 3	LRN
+833	Dodge Bless	LRN
+834	Dodge Curse	LRN
+835	Invigorate 1	LRN
+836	Invigorate 2	LRN
+837	Invigorate 3	LRN
+838	Evade Bless	LRN
+839	Evade Curse	LRN
+840	Attack Master	LRN
+841	Auto-Mataru	LRN
+842	BLANK	FLR
+843	Defense Master	LRN
+844	Auto-Maraku	LRN
+845	BLANK	FLR
+846	Speed Master	LRN
+847	Auto-Masuku	LRN
+848	BLANK	FLR
+849	BLANK	FLR
+850	Fast Heal	LRN
+851	Insta-Heal	LRN
+852	Arms Master	LRN
+853	Spell Master	LRN
+854	BLANK	FLR
+855	Sharp Student	LRN
+856	Apt Pupil	LRN
+857	Ali Dance	LRN
+858	Firm Stance	LRN
+859	BLANK	FLR
+860	Life Aid	LRN
+861	Victory Cry	LRN
+862	Growth 1	LRN
+863	Growth 2	LRN
+864	Growth 3	LRN
+865	Unshaken Will	LRN
+866	BLANK	FLR
+867	Baton Pass	
+868	Soul Touch	
+869	Kakoi Kuzushi	
+870	Resist Fire	
+871	Null Fire	LRN
+872	Repel Fire	LRN
+873	Drain Fire	LRN
+874	BLANK	FLR
+875	Resist Ice	
+876	Null Ice	
+877	Repel Ice	LRN
+878	Drain Ice	LRN
+879	BLANK	FLR
+880	Resist Wind	
+881	Null Wind	LRN
+882	Repel Wind	
+883	Drain Wind	LRN
+884	BLANK	FLR
+885	Resist Elec	
+886	Null Elec	LRN
+887	Repel Elec	LRN
+888	Drain Elec	
+889	BLANK	FLR
+890	Resist Bless	LRN
+891	Null Bless	LRN
+892	Repel Bless	
+893	Drain Bless	LRN
+894	BLANK	FLR
+895	Resist Curse	
+896	Null Curse	LRN
+897	Repel Curse	LRN
+898	Drain Curse	LRN
+899	BLANK	FLR
+900	Resist Phys	
+901	Null Phys	LRN
+902	Repel Phys	LRN
+903	Drain Phys	LRN
+904	BLANK	FLR
+905	Ailment Boost	LRN
+906	Hama Boost	LRN
+907	Mudo Boost	LRN
+908	BLANK	FLR
+909	BLANK	FLR
+910	Dizzy Boost	LRN
+911	Confuse Boost	LRN
+912	Fear Boost	LRN
+913	Forget Boost	LRN
+914	Sleep Boost	LRN
+915	Rage Boost	LRN
+916	Despair Boost	LRN
+917	BLANK	FLR
+918	Brainwash Boost	LRN
+919	BLANK	FLR
+920	Resist Dizzy	LRN
+921	Resist Confuse	LRN
+922	Resist Fear	LRN
+923	Resist Forget	LRN
+924	Resist Sleep	LRN
+925	Resist Rage	
+926	Resist Despair	LRN
+927	BLANK	FLR
+928	Resist Brainwash	LRN
+929	BLANK	FLR
+930	Null Dizzy	LRN
+931	Null Confuse	
+932	Null Fear	LRN
+933	Null Forget	LRN
+934	Null Sleep	LRN
+935	Null Rage	LRN
+936	Null Despair	LRN
+937	BLANK	FLR
+938	Null Brainwash	LRN
+939	BLANK	FLR
+940	Burn Boost	LRN
+941	Freeze Boost	LRN
+942	Shock Boost	LRN
+943	BLANK	FLR
+944	Fortified Moxy	LRN
+945	Adverse Resolve	LRN
+946	Last Stand	LRN
+947	Heat Up	LRN
+948	BLANK	FLR
+949	Touch n' Go	LRN
+950	Climate Decorum	LRN
+951	Ambient Aid	LRN
+952	RESERVE	FLR
+953	Snipe	LRN
+954	Cripple	LRN
+955	Trigger Happy	LRN
+956	Resist Nuke	
+957	Null Nuke	LRN
+958	Repel Nuke	LRN
+959	Drain Nuke	LRN
+960	RESERVE	FLR
+961	Resist Psy	LRN
+962	Null Psy	
+963	Repel Psy	
+964	Drain Psy	LRN
+965	RESERVE	FLR
+966	Nuke Boost	LRN
+967	Nuke Amp	LRN
+968	RESERVE	FLR
+969	Psy Boost	LRN
+970	Psy Amp	LRN
+971	RESERVE	FLR
+972	Dodge Nuke	LRN
+973	Evade Nuke	LRN
+974	RESERVE	FLR
+975	Dodge Psy	LRN
+976	Evade Psy	LRN
+977	RESERVE	FLR
+978	Bless Boost	LRN
+979	Bless Amp	LRN
+980	RESERVE	FLR
+981	Curse Boost	LRN
+982	Curse Amp	LRN
+983	RESERVE	FLR
+984	Magic Ability	NET
+985	Fortify Spirit	LRN
+986	Almighty Boost	NET
+987	Almighty Amp	NET
+988	Zenith Defense	
+989	Soul Chain	NET
+990	Vanity Copy	
+991	Gluttonous Snuff	
+992	Sloth Defense	
+993	BLANK	FLR
+994	BLANK	FLR
+995	BLANK	FLR
+996	BLANK	FLR
+997	BLANK	FLR
+998	BLANK	FLR
+999	BLANK	FLR

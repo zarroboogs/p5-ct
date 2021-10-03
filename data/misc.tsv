@@ -1,0 +1,513 @@
+id	name	tag
+0	Blank	BLN
+1	Devil Fruit	
+2	Recov-R: 50 mg	
+3	Recov-R: 100 mg	
+4	Takemedic	
+5	Life Stone	
+6	Bead	
+7	Takemedic-All	
+8	Takemedic-All V	
+9	Takemedic-All Z	
+10	Bead Chain	
+11	Soul Drop	
+12	Snuff Soul	
+13	Chewing Soul	
+14	Soul Food	
+15	Revival Bead	
+16	Balm of Life	
+17	RESERVE	FLR
+18	Nohar-M	
+19	Relax Gel	
+20	Alert Capsule	
+21	RESERVE	FLR
+22	RESERVE	FLR
+23	Vanish Ball	
+24	Soma	
+25	Amrita Soda	
+26	Hiranya	
+27	Muscle Drink	
+28	Odd Morsel	
+29	Rancid Gravy	
+30	RESERVE	FLR
+31	Magic Ointment	
+32	Physical Ointment	
+33	Rasetsu Ofuda	
+34	Idaten Ofuda	
+35	Kongou Ofuda	
+36	Kajaclear-R	
+37	Kundaclear-R	
+38	Molotov Cocktail	
+39	Blowtorch	
+40	Freeze Spray	
+41	Dry Ice	
+42	Air Cannon	
+43	Vacuum Cutter	
+44	Stun Gun	
+45	Tesla Coil	
+46	Megido Bomb	
+47	Sacramental Bread	
+48	Straw Doll	
+49	Hell Magatama	
+50	Cyclone Magatama	
+51	Frost Magatama	
+52	Arc Magatama	
+53	Psycho Bomb	
+54	Zener Cards	
+55	Atom Match	
+56	Kagutsuchi Orb	
+57	Happy Bomb	
+58	Segaki Rice	
+59	Curse Bomb	
+60	Five-inch Nail	
+61	Revivadrin	
+62	Medicine	
+63	Life Ointment	
+64	Homunculus	
+65	RESERVE	FLR
+66	Reviv-All	
+67	Renew-All	
+68	Recover Oil	
+69	RESERVE	FLR
+70	DVD Player	
+71	Garden Energy	
+72	Bio Nutrients	
+73	Mega Fertilizer	
+74	Psy Magatama	
+75	Nuclear Magatama	
+76	Bless Magatama	
+77	Curse Magatama	
+78	RESERVE	FLR
+79	RESERVE	FLR
+80	PC Tool Set	
+81	RESERVE	FLR
+82	Glass Vase	
+83	Star Mirror	
+84	Snack Pack	
+85	Musty Pages	
+86	Homemaker Hero	
+87	Heart Ring	
+88	Heart Necklace	
+89	Designer Perfume	
+90	Incense Set	
+91	Mini Cactus	
+92	Flower Basket	
+93	Rose Bouquet	
+94	Black Mug	
+95	Sakura Fan	
+96	Fountain Pen	
+97	Robot Vacuum	
+98	Motorbike Figure	
+99	Local Mascot Set	
+100	Spotlight	
+101	Goho-M	
+102	RESERVE	FLR
+103	Smokescreen	
+104	RESERVE	FLR
+105	Hypno Mist	
+106	Stealthanol	
+107	Covertizer	
+108	RESERVE	FLR
+109	Silk Yarn	
+110	Thick Parchment	
+111	Tin Clasp	
+112	Plant Balm	
+113	Cork Bark	
+114	Iron Sand	
+115	Condenser Lens	
+116	Aluminum Sheet	
+117	Tanned Leather	
+118	Red Phosphorus	
+119	Liquid Mercury	
+120	RESERVE	FLR
+121	Wise Men's Words	
+122	Ghost Encounters	
+123	Tidying the Heart	
+124	Buchiko's Story	
+125	Scarlet Lipstick	
+126	RESERVE	FLR
+127	Punch Ouch	
+128	Starvicks	
+129	Udagawa Water	
+130	CRT Television	
+131	RESERVE	FLR
+132	Teen's Life	
+133	Master Swordsman	
+134	Flowerpedia	
+135	New Choju-Giga	
+136	PT Bible	
+137	Phan-Sightings	
+138	Annals of Greatness	
+139	Call Me Chief	
+140	How to Karakuri	
+141	Reckless Casanova	
+142	RESERVE	FLR
+143	Junk	
+144	Money Distributor	
+145	Item Distributor	
+146	RESERVE	FLR
+147	Jagariko	
+148	Broken Rock Salt	
+149	Movie Ticket	
+150	Movie 02 Ticket	
+151	Movie 03 Ticket	
+152	Movie 04 Ticket	
+153	RESERVE	FLR
+154	RESERVE	FLR
+155	Summer Lotto S	
+156	Autumn Bread	
+157	Element Set	
+158	Forces Set	
+159	Shitamachi Reborn	
+160	Star Forneus	
+161	Weekend Parks	
+162	Train of Life	
+163	Power Intuition	
+164	Bonehead	
+165	Crime Lab Squad	
+166	Not-so-hot Betsy	
+167	Bubbly Hills, 90210	
+168	ICU	
+169	RESERVE	FLR
+170	Drizzled Natto	
+171	Squid Splurge	
+172	Idol Pins	
+173	Cheongsam	
+174	Gee Shock	
+175	RESERVE	FLR
+176	Tokyo Shrines	
+177	Fishpond Spotter	
+178	Yoncha Wanderer	
+179	Museum of Stars	
+180	Jack Frost Doll	
+181	Burger-kun Doll	
+182	Wanna-kun Doll	
+183	Lexy Doll	
+184	Uji Matcha Flan	
+185	Chocolate Truffles	
+186	Potted Succulents	
+187	Limelight	
+188	Amateur Coffee	
+189	Harsh Coffee	
+190	Baptismal Water	
+191	Exorcism Water	
+192	Sacramental Wine	
+193	Repentance Ashes	
+194	Moist Katsu Bun	
+195	Book Cover	
+196	Castella	
+197	Crimson Lipstick	
+198	RESERVE	FLR
+199	RESERVE	FLR
+200	Tetra Hammer	
+201	Makara Hammer	
+202	Macadamia Choco	
+203	Macadamia Nuts	
+204	Hawaiian Cookie	
+205	Taiyaki Caramel	
+206	Yakisoba Candy	
+207	Jewel Shard	
+208	RESERVE	FLR
+209	RESERVE	FLR
+210	Casual Rod	
+211	Powerful Rod	
+212	Miracle Rod	
+213	Arginade	
+214	Dr. Salt NEO	
+215	Joylent	
+216	MRE Ration	
+217	Oatmeal Ration	
+218	Torimeshi Ration	
+219	Fruit Ration	
+220	Seafood Aojiru	
+221	Beauty Aojiru	
+222	Vitality Aojiru	
+223	Nasty Aojiru	
+224	Onsen Aojiru	
+225	RESERVE	FLR
+226	Fulfiller	
+227	Summer Lotto R	
+228	Happy Pop	
+229	Thaw Stone	
+230	Extinguish Orb	
+231	Discharge Crystal	
+232	Second Maid	
+233	RESERVE	FLR
+234	Sandwich	
+235	Fruit Danish	
+236	Chewy Anpan	
+237	Yakisoba Pan	
+238	Creature	
+239	Earl Green	
+240	Mad Bull	
+241	Muscle Tea	
+242	Manta	
+243	Nastea	
+244	1UP	
+245	Gambla Goemon	
+246	Golfer Sarutahiko	
+247	Calling Postcard	
+248	Refresh Aroma	
+249	Protein	
+250	Moist Protein	
+251	Fried Bread	
+252	RESERVE	FLR
+253	RESERVE	FLR
+254	RESERVE	FLR
+255	RESERVE	FLR
+256	RESERVE	FLR
+257	RESERVE	FLR
+258	RESERVE	FLR
+259	RESERVE	FLR
+260	RESERVE	FLR
+261	RESERVE	FLR
+262	RESERVE	FLR
+263	RESERVE	FLR
+264	RESERVE	FLR
+265	RESERVE	FLR
+266	RESERVE	FLR
+267	RESERVE	FLR
+268	Beginner	
+269	Intermediate	
+270	Advanced	
+271	Hot Coffee	
+272	Nostalgic Steak	
+273	Frui-Tea	
+274	Totem Pole	
+275	Relaxing Coffee	
+276	Oo-hot Tea	
+277	Love★Pancake	
+278	Sincere Omelette	
+279	Makoto's Present	
+280	Haru's Present	
+281	Ann's Present	
+282	Futaba's Present	
+283	Sadayo's Present	
+284	Takemi's Present	
+285	Chihaya's Present	
+286	Ohya's Present	
+287	Hifumi's Present	
+288	RESERVE	FLR
+289	RESERVE	FLR
+290	RESERVE	FLR
+291	RESERVE	FLR
+292	RESERVE	FLR
+293	RESERVE	FLR
+294	RESERVE	FLR
+295	RESERVE	FLR
+296	RESERVE	FLR
+297	RESERVE	FLR
+298	RESERVE	FLR
+299	RESERVE	FLR
+300	RESERVE	FLR
+301	RESERVE	FLR
+302	RESERVE	FLR
+303	RESERVE	FLR
+304	RESERVE	FLR
+305	RESERVE	FLR
+306	RESERVE	FLR
+307	Small Boilie	
+308	Medium Boilie	
+309	Large Boilie	
+310	Top-class Boilie	
+311	Guardian Boilie	
+312	Big Bang Burger	
+313	Saturn Fries	
+314	Earth Burger	
+315	RESERVE	FLR
+316	Moon Burger	
+317	Supernova Burger	
+318	Karaage King	
+319	Spring Fruit Pack	
+320	Foreign Nikuman	
+321	Phantom Wafers	
+322	Soothing Soba	
+323	Agodashi Oden	
+324	Party in a Can	
+325	Digital Camera	
+326	Face Beautifier	
+327	Laptop	
+328	RESERVE	FLR
+329	Mini Dominion	
+330	Die-soujou	
+331	Decked Decarabia	
+332	Gear Girimehkala	
+333	Kinky Kin-Ki	
+334	Mossy Mothman	
+335	Movie 16 Ticket	
+336	Lockpick	
+337	Eternal Lockpick	
+338	Reserve Ammo	
+339	RESERVE	FLR
+340	Treasure Trap	
+341	RESERVE	FLR
+342	Red Fish	
+343	Rough Carp	
+344	Tokyo Bitterling	
+345	Seven-color Trout	
+346	White Carp	
+347	Treasure Trout	
+348	Delish Bitterling	
+349	Peerless Carp	
+350	Ichigaya Guardian	
+351	Adhesive Bandage	
+352	RESERVE	FLR
+353	Rejuvenating IV	
+354	Leblanc Coffee	
+355	Soul Coffee	
+356	Awakening Coffee	
+357	Master Coffee	
+358	Decent Curry	
+359	Leblanc Curry	
+360	Master Curry	
+361	RESERVE	FLR
+362	Shooting Card	
+363	Healing IV	
+364	Railroad Card	
+365	Fighting Card	
+366	RESERVE	FLR
+367	Boxing Card	
+368	Gambling Card	
+369	Golf Card	
+370	The Okumura Way	
+371	Med. Tech for Teens	
+372	Guns of the World	
+373	Shogi World	
+374	Batting Science	
+375	Essence of Fishing	
+376	Speed Reading	
+377	Cinema Treasures	
+378	Pure Politics	
+379	Chinese Sweets	
+380	Theme Park Escort	
+381	The Great Thief	
+382	Pirate Legend	
+383	Zorro, the Outlaw	
+384	The Alluring Dancer	
+385	The Gallant Rogue	
+386	The Illusory Popess	
+387	Cry of Cthulhu	
+388	Woman in the Dark	
+389	The Hero with a Bow	
+390	Medjed Menace	
+391	Playing the Game	
+392	Game Secrets	
+393	Lotto Random	
+394	Lotto Series	
+395	Lotto Scratchcard	
+396	Rakugo Collection	
+397	Classical Hits	
+398	Best of KGB49	
+399	Wraith	
+400	Jail Break	
+401	Guy McVer	
+402	The Running Dead	
+403	The X Folders	
+404	RESERVE	FLR
+405	RESERVE	FLR
+406	RESERVE	FLR
+407	RESERVE	FLR
+408	RESERVE	FLR
+409	RESERVE	FLR
+410	RESERVE	FLR
+411	RESERVE	FLR
+412	Vague	
+413	Nightlife Hotspots	
+414	Coolifier Pad	
+415	Hand Warmalizer	
+416	Venus Salad	
+417	Sikkenine	
+418	Sikkenine A	
+419	Sikkenine EX	
+420	Wide Eye Drops	
+421	Donut-Worry	
+422	Mental Floss	
+423	Hot and Sour Tea	
+424	Balloons	
+425	Kommissbrot	
+426	Beef Patty Ration	
+427	D Ration	
+428	Veg. Stew Ration	
+429	RESERVE	FLR
+430	RESERVE	FLR
+431	Durian-au-Lait	
+432	Oh! Shiruko	
+433	Chunky Potage	
+434	Ultimate Amazake	
+435	Udagawa Soda	
+436	Water of Rebirth	
+437	RESERVE	FLR
+438	RESERVE	FLR
+439	RESERVE	FLR
+440	RESERVE	FLR
+441	Strawberry Curry	
+442	Mayo Locust	
+443	Miso Starfish	
+444	Mystery Stew	
+445	Bitter Coffee	
+446	Acidic Coffee	
+447	Fire Curry	
+448	Blaze Curry	
+449	Inferno Curry	
+450	Ramen Bowl	
+451	Night Pennant	
+452	Nude Statue	
+453	Swan Boat	
+454	Sky Tower Lamp	
+455	Giant Spatula	
+456	Idol Poster	
+457	Star Stickers	
+458	King Piece	
+459	Hero Figure	
+460	Hamaya	
+461	I <3 Tokyo Shirt	
+462	Non-Static Gum	
+463	RESERVE	FLR
+464	RESERVE	FLR
+465	RESERVE	FLR
+466	Sadayo's Chocolate	
+467	Takemi's Chocolate	
+468	Chihaya's Chocolate	
+469	Ohya's Chocolate	
+470	Hifumi's Chocolate	
+471	Makoto's Chocolate	
+472	Haru's Chocolate	
+473	Ann's Chocolate	
+474	Futaba's Chocolate	
+475	Ryuji's Chocolate	
+476	Sojiro's Chocolate	
+477	Kumade	
+478	Shumai Cushion	
+479	Gi-Nyant Doll	
+480	Sushi Mug	
+481	Choco Fountain	
+482	RESERVE	FLR
+483	RESERVE	FLR
+484	RESERVE	FLR
+485	Famidrive	
+486	RESERVE	FLR
+487	Sheep Man Doll	
+488	Jam Bread	
+489	Melon Pan	
+490	Angel Tart	
+491	Moon Dango	
+492	Mixed Nuts	
+493	Beni-Azuma	
+494	Legendary Yaki-Imo	
+495	RESERVE	FLR
+496	RESERVE	FLR
+497	RESERVE	FLR
+498	RESERVE	FLR
+499	Moonlight Carrot	
+500	Sun Tomato	
+501	RESERVE	FLR
+502	RESERVE	FLR
+503	RESERVE	FLR
+504	Ann Cream Puffs	
+505	Makoto Donuts	
+506	Sakura Amezaiku	
+507	Sadayo Taiyaki	
+508	Ryuji Dog	
+509	Amateur Curry	
+510	RESERVE	FLR
+511	Broken Laptop	

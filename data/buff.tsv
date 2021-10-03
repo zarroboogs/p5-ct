@@ -1,0 +1,33 @@
+id	name
+0	ATK
+1	ACC
+2	DEF
+3	EVA
+4	Critical
+5	Critical2
+6	Susceptibility
+7	AffFire
+8	AffIce
+9	AffWind
+10	AffElec
+11	AffNuke
+12	AffPsy
+13	ResFire
+14	ResIce
+15	ResElec
+16	ResWind
+17	ResNuke
+18	ResPsy
+19	
+20	ResPhys
+21	ResMagic
+22	Charge
+23	Concentrate
+24	
+25	
+26	ResInstaKill
+27	
+28	
+29	
+30	
+31	
