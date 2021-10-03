@@ -2451,14 +2451,18 @@ local function createBtlUnitRecord(recGroup, ptrUnit)
   local unitType = readBE2(ptrUnit + 4)
   local unitId = readBE4(ptrUnit + 8)
 
+  local unitData = { id = unitId, name = "Unknown" }
+
   if unitType == 1 then
     for _, x in pairs(mrGetChildren(recUnit, mrByDesc("%[Hero%]"))) do x.destroy() end
     for _, x in pairs(mrGetChildren(recUnit, mrByDesc("%[Enemy%]"))) do x.destroy() end
-    recUnit.Description = tab.party[unitId + 1].name
+    unitData = tableGet(tab.party, unitId + 1, unitData)
+    recUnit.Description = string.format("%02d. %s", unitData.id, unitData.name)
     addDDLRef(recUnit[2], false, "dlParty", nil)
   elseif unitType == 2 then
     for _, x in pairs(mrGetChildren(recUnit, mrByDesc("%[Hero%]"))) do x.destroy() end
-    recUnit.Description = tab.enemy[unitId + 1].name
+    unitData = tableGet(tab.enemy, unitId + 1, unitData)
+    recUnit.Description = string.format("%03d. %s", unitData.id, unitData.name)
     addDDLRef(recUnit[2], false, "dlEnemy", nil)
   else
     recUnit.Description = "Unit " .. unitId
@@ -2896,8 +2900,14 @@ end
 
 addCompactMenu()
 
-local function clearConsole()
+function clearConsole()
   GetLuaEngine().MenuItem5.doClick()
+end
+
+function tableGet(tbl, idx, default)
+  local ret = tbl[idx]
+  if not ret then return default end
+  return ret
 end
 
 </LuaScript>
